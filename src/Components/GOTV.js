@@ -6,7 +6,7 @@ function GOTV() {
 
         <div class="mx-auto lg:pt-20 flex flex-row wrapper">
             <div class="basis-1/2 py-20 text-left p-5 text-white">
-                <h1 class=" text-4xl font-bold"> 
+                <h1 class=" text-6xl font-bold"> 
                     <span class="text-rose-500">
                         Enjoy world-class entertainment 
                     </span> anytime, anywhere.

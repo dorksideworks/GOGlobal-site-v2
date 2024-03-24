@@ -18,6 +18,8 @@ function App() {
       <Hero></Hero>
       <GOLEARN></GOLEARN>
       <GOTV></GOTV>
+      <InfiniteMoney></InfiniteMoney>
+      <GOFoundation></GOFoundation>
 
 
       

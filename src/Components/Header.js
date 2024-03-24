@@ -20,10 +20,10 @@ function Header() {
             </button>
           </div>
           <div class="hidden lg:flex lg:gap-x-12">
-            <a href="#" class="text-sm font-semibold leading-6 text-white">Product</a>
-            <a href="#" class="text-sm font-semibold leading-6 text-white">Features</a>
-            <a href="#" class="text-sm font-semibold leading-6 text-white">Marketplace</a>
-            <a href="#" class="text-sm font-semibold leading-6 text-white">Company</a>
+            <a href="#" class="text-sm font-semibold leading-6 text-white">HOME</a>
+            <a href="#" class="text-sm font-semibold leading-6 text-white">PRODUCTS</a>
+            <a href="#" class="text-sm font-semibold leading-6 text-white">COMMUNITY</a>
+            <a href="#" class="text-sm font-semibold leading-6 text-white">CONTACT</a>
           </div>
           <div class="hidden lg:flex lg:flex-1 lg:justify-end">
             <a href="#" class="text-sm font-semibold leading-6 text-white">Log in <span aria-hidden="true">&rarr;</span></a>
