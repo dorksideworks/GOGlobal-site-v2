@@ -33,7 +33,7 @@ function GOLearn() {
                     <Timeline totalProgress={progress} paused>
                         
                         <Timeline
-                        target={<img class="w-1/4 left-1/4 absolute blur-md" src="Assets/golearn/golearn-004.png"/> }
+                        target={<img class="w-1/4 left-1/4 absolute blur-md" src="/Assets/golearn/golearn-004.png"/> }
                         >
                             <Tween from={{bottom: "-1000px"}} to={{bottom: "1000px"}} />
                         </Timeline>
@@ -44,7 +44,7 @@ function GOLearn() {
                     <Timeline totalProgress={progress} paused>
                         
                         <Timeline
-                        target={<img class="w-1/6 left-48 absolute" src="Assets/golearn/golearn-001.png"/> }
+                        target={<img class="w-1/6 left-48 absolute" src="/Assets/golearn/golearn-001.png"/> }
                         >
                             <Tween from={{bottom: "-1000px"}} to={{bottom: "200px"}} />
                         </Timeline>
@@ -55,7 +55,7 @@ function GOLearn() {
                     <Timeline totalProgress={progress} paused>
                         
                         <Timeline
-                        target={<img class="w-1/4 right-20 absolute blur-sm" src="Assets/golearn/golearn-002.png"/> }
+                        target={<img class="w-1/4 right-20 absolute blur-sm" src="/Assets/golearn/golearn-002.png"/> }
                         >
                             <Tween from={{bottom: "-1000px"}} to={{bottom: "300px"}} />
                         </Timeline>
@@ -66,7 +66,7 @@ function GOLearn() {
                     <Timeline totalProgress={progress} paused>
                         
                         <Timeline
-                        target={<img class="w-1/4 left-1/2 absolute" src="Assets/golearn/golearn-003.png"/> }
+                        target={<img class="w-1/4 left-1/2 absolute" src="/Assets/golearn/golearn-003.png"/> }
                         >
                             <Tween from={{bottom: "-1500px"}} to={{bottom: "500px"}} />
                         </Timeline>
