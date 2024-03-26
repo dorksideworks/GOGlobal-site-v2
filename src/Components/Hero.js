@@ -95,17 +95,20 @@ function Hero() {
         )}
       </Scene>
       </Controller>
-      <div class="flex flex-row font-bold py-20 justify-center text-white  mx-auto w-1/2">
-        <div class="px-5">
-          <h1 class="text-6xl">150k+</h1>
+      <div class="flex flex-row font-bold py-20 justify-center text-white  mx-auto w-1/2 justify-around">
+        <div class="px-5 basis-1/3 justify-center align-center items-center flex flex-col duration-500 hover:bg-slate-950">
+          <h1 class="text-5xl  text-cyan-500">150k+</h1>
           <span>Students Educated</span>
         </div>
-        <div class="px-5">
-          <h1 class="text-6xl">1M+</h1>
+        <div class="breaker"></div>
+        <div class="px-5 basis-1/3 justify-center align-center items-center flex flex-col  duration-500 hover:bg-gray-950">
+          <h1 class="text-5xl  text-cyan-500">1M+</h1>
           <span>Users Worldwide</span>
         </div>
-        <div class="px-5">
-          <h1 class="text-6xl">150k+</h1>
+
+        <div class="breaker "></div>
+        <div class="px-5 basis-1/3 justify-center align-center items-center flex flex-col  duration-500 hover:bg-gray-950" >
+          <h1 class="text-5xl text-cyan-500">150k+</h1>
           <span>Students Educated</span>
         </div>
       </div>
