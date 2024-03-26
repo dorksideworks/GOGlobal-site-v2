@@ -22,6 +22,7 @@ function App() {
       <GOFoundation></GOFoundation>
   
       <Community></Community>
+      <Footer></Footer>
 
       
       
