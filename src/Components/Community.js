@@ -10,8 +10,10 @@ function Community() {
          <span class="text-cyan-500">  Grow and thrive  </span> <br/> together as a community.
 
         </h1>
+
         <p class="text-gray-300 pt-5"> Collaboration and teamwork, are two powerful tools that the ever-growing GO community believes in. With over 200,000 active members<br/>  across 4 continents, GO Global provides opportunities for people around the world.</p>
 
+        <h1>hello</h1>
         
 
     </div>
