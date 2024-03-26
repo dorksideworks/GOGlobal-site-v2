@@ -7,8 +7,8 @@ import GOLEARN from './Components/GOLearn';
 import GOFoundation from './Components/GOFoundation';
 import GOTV from './Components/GOTV';
 import InfiniteMoney  from './Components/InfiniteMoney';
+import Community from './Components/Community'; 
 import Footer from './Components/Footer';
-
 function App() {
   return (
     <div className="App">
@@ -20,7 +20,8 @@ function App() {
       <GOTV></GOTV>
       <InfiniteMoney></InfiniteMoney>
       <GOFoundation></GOFoundation>
-
+  
+      <Community></Community>
 
       
       

@@ -56,3 +56,12 @@
   height: 300px;
   z-index: 99;
 }
+
+
+.cta-white {
+  min-height: 300px;
+}
+
+.cta-btn {
+  width: 200px;
+}
