@@ -22,7 +22,6 @@ function App() {
       <GOTV></GOTV>
       <InfiniteMoney></InfiniteMoney>
       <GOFoundation></GOFoundation>
-  
       <Community></Community>
       <Footer></Footer>
 

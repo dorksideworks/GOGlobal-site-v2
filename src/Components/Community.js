@@ -8,7 +8,7 @@ function Community() {
         <div class="mb-4 py-2 px-5 bg-slate-800 mx-auto text-gray-300 font-bold rounded-full">
            GO FOUNDATION
         </div>
-        <h1 class="text-white text-6xl font-bold"> 
+        <h1 class="text-white text-4xl md:text-5xl lg:text-6xl font-bold"> 
          <span class="text-cyan-500">  Grow and thrive  </span> <br/> together as a community.
 
         </h1>

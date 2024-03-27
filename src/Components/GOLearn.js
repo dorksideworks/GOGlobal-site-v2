@@ -16,10 +16,10 @@ function GOLearn() {
                         <Timeline
                         target={
                            <div class="">
-                                <h1 class="text-white text-6xl font-bold"> 
+                                <h1 class="text-white text-4xl md:text-5xl lg:text-6xl font-bold"> 
                                 <span class="text-cyan-500">Unlock your success </span> 
                                 and <br /> learn from industry experts.</h1>
-                                <p class="text-gray-300 pt-5"> Climb to success with courses ranging from business and leadership to personal development taught by world-class trainers.</p>
+                                <p class="text-gray-300 pt-5 px-5"> Climb to success with courses ranging from business and leadership to personal development taught by world-class trainers.</p>
                            </div>
                     
                         }
@@ -125,13 +125,13 @@ function GOLearn() {
         
         
 
-        <div class="cta-white bg-white  mx-auto mt-16 rounded-3xl overflow-hidden flex flex-row justify-center align-center relative overflow-hidden">
-            <div class="basis-1/2 py-3 px-10 text-left flex flex-col justify-center align-center justify-self-start">
+        <div class="cta-white bg-white w-3/4 mx-auto mt-16 rounded-3xl overflow-hidden flex flex-row justify-center align-center relative overflow-hidden">
+            <div class="basis-full md:basis-1/2 lg:basis-1/2 py-3 px-10 text-left flex flex-col justify-center align-center justify-self-start">
                 <h1 class="text-4xl font-bold"> Lorem ipsum dolor sit amet, consectetur </h1>
                 <p class="text-sm text-gray-500 mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pellentesque varius lacinia. Vestibulum blandit iaculis vehicula. Quisque a ullamcorper mauris, </p>
                 <button class="rounded-full bg-cyan-500 py-2 px-5 text-white text-sm font-bold mt-5 cta-btn"> LEARN MORE </button>
             </div>
-            <div class="basis-1/2 relative">
+            <div class="basis-1/2 absolute lg:relative md:relative">
                 <img class="absolute scale-125" src="/ASSETS/golearn/cta-image.png"/>
             </div>
         </div>

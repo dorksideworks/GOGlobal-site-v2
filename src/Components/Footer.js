@@ -3,7 +3,7 @@ import React from 'react'
 function Footer() {
   return (  
     <div class="bg-gray-950 pt-20 pb-5 mt-40">
-      <div class="wrapper mx-auto flex flex-row gap-5 content-around justify-around">
+      <div class="wrapper mx-auto flex  lg:flex-row md:flex-row flex-col gap-5 content-around justify-around">
 
           <div class="flex flex-col basis-1/3 justif-center align-center ">
 
@@ -38,7 +38,7 @@ function Footer() {
             </div>
           </div>
 
-          <div class="flex flex-col basis-1/3 gap-3 pl-20">
+          <div class="flex flex-col basis-1/3 gap-3 lg:pl-20 md:pl-20 pl-0">
             <h1 class="text-white text-left font-bold text-2xl mb-5">LINKS</h1>
             <a href="#">
               <h2 class="text-left text-white">HOME</h2>

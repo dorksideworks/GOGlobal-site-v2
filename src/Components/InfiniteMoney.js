@@ -62,11 +62,11 @@ function InfiniteMoney() {
            INFIN8 MONEY 
         </div>
 
-        <h1 class="text-white text-6xl font-bold isolate"> 
+        <h1 class="text-white text-4xl md:text-5xl lg:text-6xl font-bold isolate"> 
           Ultimate flexibility, <span class="text-cyan-500"> <br /> infinite possibilities. </span> 
         </h1>
         
-        <p class="text-gray-300 pt-5"> Experience the world of luxury and seamlessly spend your cryptocurrency in the real world without limits.</p>
+        <p class="text-gray-300 pt-5 px-5"> Experience the world of luxury and seamlessly spend your cryptocurrency in the real world without limits.</p>
 
     </div>
   )
