@@ -44,7 +44,19 @@ function GOLearn() {
                     <Timeline totalProgress={progress} paused>
                         
                         <Timeline
-                        target={<img class="w-1/6 left-48 absolute" src="/Assets/golearn/golearn-001.png"/> }
+                        target={<img class="w-1/2 -right-1/4 absolute blur-md" src="/Assets/golearn/golearn-008.png"/> }
+                        >
+                            <Tween from={{bottom: "-2000px"}} to={{bottom: "1500px"}} />
+                        </Timeline>
+
+                        
+                    </Timeline>
+
+
+                    <Timeline totalProgress={progress} paused>
+                        
+                        <Timeline
+                        target={<img class="w-1/6 left-48 absolute blur-sm" src="/Assets/golearn/golearn-001.png"/> }
                         >
                             <Tween from={{bottom: "-1000px"}} to={{bottom: "200px"}} />
                         </Timeline>
@@ -55,7 +67,7 @@ function GOLearn() {
                     <Timeline totalProgress={progress} paused>
                         
                         <Timeline
-                        target={<img class="w-1/4 right-20 absolute blur-sm" src="/Assets/golearn/golearn-002.png"/> }
+                        target={<img class="w-1/4 right-20 absolute " src="/Assets/golearn/golearn-002.png"/> }
                         >
                             <Tween from={{bottom: "-1000px"}} to={{bottom: "300px"}} />
                         </Timeline>
@@ -66,9 +78,40 @@ function GOLearn() {
                     <Timeline totalProgress={progress} paused>
                         
                         <Timeline
-                        target={<img class="w-1/4 left-1/2 absolute" src="/Assets/golearn/golearn-003.png"/> }
+                        target={<img class="w-1/4 left-1/2 absolute blur-sm" src="/Assets/golearn/golearn-003.png"/> }
                         >
                             <Tween from={{bottom: "-1500px"}} to={{bottom: "500px"}} />
+                        </Timeline>
+
+                        
+                    </Timeline>
+
+                    <Timeline totalProgress={progress} paused>
+                        
+                        <Timeline
+                        target={<img class="w-1/4 left-1/3 absolute" src="/Assets/golearn/golearn-005.png"/> }
+                        >
+                            <Tween from={{bottom: "-2000px"}} to={{bottom: "300px"}} />
+                        </Timeline>
+
+                        
+                    </Timeline>
+                    <Timeline totalProgress={progress} paused>
+                        
+                        <Timeline
+                        target={<img class="w-1/2 blur-md -left-1/4 absolute" src="/Assets/golearn/golearn-006.png"/> }
+                        >
+                            <Tween from={{bottom: "-2000px"}} to={{bottom: "-400px"}} />
+                        </Timeline>
+
+                        
+                    </Timeline>
+                    <Timeline totalProgress={progress} paused>
+                        
+                        <Timeline
+                        target={<img class="w-96 right-56 absolute" src="/Assets/golearn/golearn-009.png"/> }
+                        >
+                            <Tween from={{bottom: "-3000px"}} to={{bottom: "100px"}} />
                         </Timeline>
 
                         
