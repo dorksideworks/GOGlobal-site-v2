@@ -8,13 +8,13 @@ function InfiniteMoney() {
     
     <div class="flex flex-col align-center justify-center lg:pb-10 relative">
           <Controller class="overflow-hidden relative">
-            <Scene duration={1000} indicators={true} triggerHook={0.5} pin>
+            <Scene duration={600} indicators={true} triggerHook={0.75} pin>
               {(progress) => (
                 <div class=" flex flex-row justify-center align-center w-full py-5 mx-auto relative">
                   <Timeline totalProgress={progress} paused>
                     <Timeline 
                       target={
-                          <img class="mx-auto absolute left-auto right-auto w-96 z-50" src="/ASSETS/infin8/infin8-001.png"></img>
+                          <img class="mx-auto absolute left-auto right-auto w-72 z-50" src="/ASSETS/infin8/infin8-001.png"></img>
                  
                         
                       }>
@@ -25,19 +25,19 @@ function InfiniteMoney() {
                   <Timeline totalProgress={progress} paused>
                     <Timeline 
                       target={
-                          <img class="mx-auto absolute left-auto right-auto w-96 origin-bottom scale-90" src="/ASSETS/infin8/infin8-002.png"></img>
+                          <img class="mx-auto absolute left-auto right-auto w-72 origin-bottom scale-90" src="/ASSETS/infin8/infin8-002.png"></img>
                       }>
 
-                      <Tween from={{rotate: "0deg", bottom: "-1000px"}} to={{rotate: "45deg", bottom: "120px"}} />
+                      <Tween from={{rotate: "0deg", bottom: "-1000px"}} to={{rotate: "30deg", bottom: "50px"}} />
                     </Timeline>
                   </Timeline>
                   <Timeline totalProgress={progress} paused>
                     <Timeline 
                       target={
-                          <img class="mx-auto absolute left-auto right-auto w-96 origin-bottom scale-90" src="/ASSETS/infin8/infin8-003.png"></img>
+                          <img class="mx-auto absolute left-auto right-auto w-72 origin-bottom scale-90" src="/ASSETS/infin8/infin8-003.png"></img>
                       }>
 
-                      <Tween from={{rotate: "0deg", bottom: "-1000px"}} to={{rotate: "-45deg", bottom: "120px"}} />
+                      <Tween from={{rotate: "0deg", bottom: "-1000px"}} to={{rotate: "-30deg", bottom: "50px"}} />
                     </Timeline>
                   </Timeline>
                   

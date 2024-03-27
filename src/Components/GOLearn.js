@@ -11,11 +11,11 @@ function GOLearn() {
                 {(progress) => (
                     
                     <div>
-                    <Timeline totalProgress={progress} paused>
+                    <Timeline totalProgress={progress}   paused>
                         
                         <Timeline
                         target={
-                           <div>
+                           <div class="">
                                 <h1 class="text-white text-6xl font-bold"> 
                                 <span class="text-cyan-500">Unlock your success </span> 
                                 and <br /> learn from industry experts.</h1>
@@ -24,7 +24,7 @@ function GOLearn() {
                     
                         }
                         >
-                            <Tween from={{bottom: "-1000px", opacity: 0}} to={{bottom: "500px", opacity: 1}} />
+                            <Tween from={{bottom: "-1000px", opacity: 0}} to={{bottom: "000px", opacity: 1}} />
                         </Timeline>
 
                         
