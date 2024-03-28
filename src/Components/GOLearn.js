@@ -78,7 +78,7 @@ function GOLearn() {
                     <Timeline totalProgress={progress} paused>
                         
                         <Timeline
-                        target={<img class="w-1/4 left-1/2 absolute blur-sm" src="/Assets/golearn/golearn-003.png"/> }
+                        target={<img class="w-1/2 md:w-1/4 lg:w-1/4 left-3/4 md:left-1/2 lg:left-1/2 absolute blur-sm" src="/Assets/golearn/golearn-003.png"/> }
                         >
                             <Tween from={{bottom: "-1500px"}} to={{bottom: "500px"}} />
                         </Timeline>
