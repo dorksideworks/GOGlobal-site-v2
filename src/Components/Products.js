@@ -2,7 +2,7 @@ import React from 'react'
 
 function Products() {
   return (
-    <div class="wrapper mx-auto relative flex flex-col py-10">
+    <div id="ProductSection" class="wrapper mx-auto relative flex flex-col py-10 pt-40">
 
         <h1 class="text-white text-5xl font-bold"> Our <span class="text-cyan-500">Products</span> </h1>
         <p class="text-gray-500 mt-5"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ut arcu ut purus tincidunt ultrices ac at turpis. Quisque vel porttitor magna. Quisque malesuada rutrum tortor, et sodales urna varius vel.</p>

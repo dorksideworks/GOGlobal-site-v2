@@ -4,7 +4,7 @@ import {Timeline, Tween} from 'react-gsap';
 
 function Community() {
   return (
-    <div class="flex flex-col align-center justify-center lg:pb-10 mt-40 wrapper mx-auto" id="community-gallery" >
+    <div class="flex flex-col align-center justify-center lg:pb-10 mt-40 wrapper mx-auto" id="CommunitySection" >
         <div class="mb-4 py-2 px-5 bg-slate-800 mx-auto text-gray-300 font-bold rounded-full">
            GO FOUNDATION
         </div>
@@ -18,7 +18,7 @@ function Community() {
         <div class="flex flex-col gap-5 relative mt-10 rotate-3 ">
 
           <Controller>
-              <Scene duration={900} triggerHook={0.5}triggerElement="#community-gallery">
+              <Scene duration={900} triggerHook={0.5} triggerElement="#CommunitySection">
                   {(progress)=>(
                     <div class=" flex flex-col gap-5 relative wrapper">
                     <Timeline totalProgress={progress} paused >

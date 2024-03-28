@@ -2,7 +2,7 @@ import React from 'react'
 
 function GOFoundation() {
   return (
-    <div class="flex flex-col align-center justify-center lg:pb-10 mt-40">
+    <div id="FoundationSection" class="flex flex-col align-center justify-center lg:pb-10 mt-40">
         <div class="mb-4 py-2 px-5 bg-slate-800 mx-auto text-gray-300 font-bold rounded-full">
            GO FOUNDATION
         </div>

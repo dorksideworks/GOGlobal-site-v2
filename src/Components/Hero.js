@@ -26,7 +26,7 @@ function Hero() {
           
           
 
-          <div class="mx-auto max-w-2xl pt-20 sm:pt-20 lg:pt-40">
+          <div id="HeroSection" class="mx-auto max-w-2xl pt-20 sm:pt-20 lg:pt-40">
          
               <div class="hidden sm:mb-2 sm:flex sm:justify-center">
                 <div class="relative rounded-full px-3 text-sm leading-6 text-gray-400 ring-1 ring-gray-900/10 hover:ring-gray-900/20">

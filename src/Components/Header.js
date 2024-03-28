@@ -37,10 +37,10 @@ function Header() {
             </button>
           </div>
           <div class="hidden lg:flex lg:gap-x-12">
-            <a href="#" class="text-sm font-semibold leading-6 text-white">HOME</a>
-            <a href="#" class="text-sm font-semibold leading-6 text-white">PRODUCTS</a>
-            <a href="#" class="text-sm font-semibold leading-6 text-white">FOUNDATION</a>
-            <a href="#" class="text-sm font-semibold leading-6 text-white">COMMUNITY</a>
+            <a href="#HeroSection" class="text-sm font-semibold leading-6 text-white">HOME</a>
+            <a href="#ProductSection" class="text-sm font-semibold leading-6 text-white">PRODUCTS</a>
+            <a href="#FoundationSection" class="text-sm font-semibold leading-6 text-white">FOUNDATION</a>
+            <a href="#CommunitySection" class="text-sm font-semibold leading-6 text-white">COMMUNITY</a>
           </div>
           <div class="flex lg:flex lg:flex-1 lg:justify-end">
             <button data-collapse-toggle="mobile-nav" aria-controls="navbar-default" aria-expanded="false" type="button" class="relative  lg:hidden md:hidden tham tham-e-squeeze tham-w-6">
