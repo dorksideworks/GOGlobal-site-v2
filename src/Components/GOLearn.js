@@ -15,8 +15,8 @@ function GOLearn() {
                         
                         <Timeline
                         target={
-                           <div class="">
-                                <h1 class="text-white text-4xl md:text-5xl lg:text-6xl font-bold"> 
+                           <div class="relative">
+                                <h1 class="text-white text-3xl md:text-5xl lg:text-6xl font-bold"> 
                                 <span class="text-cyan-500">Unlock your success </span> 
                                 and <br /> learn from industry experts.</h1>
                                 <p class="text-gray-300 pt-5 px-5"> Climb to success with courses ranging from business and leadership to personal development taught by world-class trainers.</p>
@@ -24,7 +24,7 @@ function GOLearn() {
                     
                         }
                         >
-                            <Tween from={{bottom: "-1000px", opacity: 0}} to={{bottom: "000px", opacity: 1}} />
+                            <Tween from={{top: "-250px", opacity: 0}} to={{top: "0px", opacity: 1}} />
                         </Timeline>
 
                         
@@ -33,7 +33,7 @@ function GOLearn() {
                     <Timeline totalProgress={progress} paused>
                         
                         <Timeline
-                        target={<img class="w-1/4 left-1/4 absolute blur-md" src="/Assets/golearn/golearn-004.png"/> }
+                        target={<img class=" w-full md:w-1/4 lg:w-1/4 -left-1/2 md:left-1/4 lg:left-1/4 absolute blur-md" src="/Assets/golearn/golearn-004.png"/> }
                         >
                             <Tween from={{bottom: "-1000px"}} to={{bottom: "1000px"}} />
                         </Timeline>
@@ -44,7 +44,7 @@ function GOLearn() {
                     <Timeline totalProgress={progress} paused>
                         
                         <Timeline
-                        target={<img class="w-1/2 -right-1/4 absolute blur-md" src="/Assets/golearn/golearn-008.png"/> }
+                        target={<img class="w-full md:w-1/2 lg:w-1/2 -right-1/2 md:-right-1/4 lg:-right-1/4 absolute blur-md" src="/Assets/golearn/golearn-008.png"/> }
                         >
                             <Tween from={{bottom: "-2000px"}} to={{bottom: "1500px"}} />
                         </Timeline>
@@ -56,7 +56,7 @@ function GOLearn() {
                     <Timeline totalProgress={progress} paused>
                         
                         <Timeline
-                        target={<img class="w-1/6 left-48 absolute blur-sm" src="/Assets/golearn/golearn-001.png"/> }
+                        target={<img class="absolute w-1/2 md:w-1/6 lg:w-1/6 left-48  blur-sm" src="/Assets/golearn/golearn-001.png"/> }
                         >
                             <Tween from={{bottom: "-1000px"}} to={{bottom: "200px"}} />
                         </Timeline>
@@ -67,9 +67,9 @@ function GOLearn() {
                     <Timeline totalProgress={progress} paused>
                         
                         <Timeline
-                        target={<img class="w-1/4 right-20 absolute " src="/Assets/golearn/golearn-002.png"/> }
+                        target={<img class="w-1/2 md:w-1/4 lg:w-1/4 right-20 absolute " src="/Assets/golearn/golearn-002.png"/> }
                         >
-                            <Tween from={{bottom: "-1000px"}} to={{bottom: "300px"}} />
+                            <Tween from={{bottom: "-1000px"}} to={{bottom: "-200px"}} />
                         </Timeline>
 
                         
