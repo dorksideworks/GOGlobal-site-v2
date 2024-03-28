@@ -9,7 +9,7 @@ function GOFoundation() {
         <h1 class="text-white text-4xl md:text-5xl lg:text-6xl font-bold px-5"> 
          <span class="text-cyan-500">  Changing Lives  </span> by Giving Back
         </h1>
-        <p class="text-gray-300 pt-5"> Contribute to a greater cause and help those in need. Together, we can change lives</p>
+        <p class="text-gray-300 pt-5"> With over 200,000 active members across 4 continents, GO Global provides opportunities for people worldwide.</p>
 
         <div class="wrapper flex flex-col md:flex-row lg:flex-row mx-auto gap-10 md:gap-3 lg:gap-3 mt-20">
           <div class="relative group  hover:bg-slate-700 duration-500 basis-1/2 bg-slate-800 rounded-xl overflow-hidden">

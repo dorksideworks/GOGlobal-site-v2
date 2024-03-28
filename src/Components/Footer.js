@@ -10,7 +10,8 @@ function Footer() {
             <img class="w-20" src="/ASSETS/go-logo.png"></img>
 
             <p class="text-left text-gray-300 mt-5">
-            We believe that everyone has the right to live their dreams and make a life of their choosing. A world-class entertainment platform with a plethora of content to enjoy. Cutting-edge innovations that are future-proof and also a cause that changes lives.
+            GO Global is a trailblazer in the network marketing industry. Dubbed the fastest-growing brand in the industry, GO Global amassed over 200,000 active members within a year. And with their future-proof products and platforms, GO Global is set to help their members achieve success. 
+
             </p>
 
             <div class="flex flex-row gap-5 mt-5">
@@ -62,7 +63,7 @@ function Footer() {
             <img src="/ASSETS/footer/intersect.png"/>
           </div>
       </div>
-      <h2 class="text-gray-200">Copyright © 2012 - 2024 TermsFeed®. All rights reserved.</h2>
+      <h2 class="text-gray-200">Copyright © 2023 GO Global. All rights reserved.</h2>
       
     </div>
   )
