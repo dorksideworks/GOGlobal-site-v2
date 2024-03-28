@@ -15,7 +15,7 @@ function Hero() {
   return (
     <div>
       <Controller>
-      <Scene duration={600} indicators={true} triggerHook={0} pin>
+      <Scene duration={600} triggerHook={0} pin>
 
       {(progress) => (
         

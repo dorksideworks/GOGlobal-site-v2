@@ -5,6 +5,7 @@ function Products() {
     <div class="wrapper mx-auto relative flex flex-col py-10">
 
         <h1 class="text-white text-5xl font-bold"> Our <span class="text-cyan-500">Products</span> </h1>
+        <p class="text-gray-500 mt-5"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ut arcu ut purus tincidunt ultrices ac at turpis. Quisque vel porttitor magna. Quisque malesuada rutrum tortor, et sodales urna varius vel.</p>
         <div class="flex flex-col md:flex-row lg:flex-row gap-5 wrapper mx-auto mt-12">
             <a class="group p-5 basis-1/4 flex justify-center">
                 <img class="w-40 object-contain duration-500 brightness-50 group-hover:brightness-100" src="/ASSETS/logos/go-learn.png"></img>

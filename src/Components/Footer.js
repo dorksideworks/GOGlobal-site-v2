@@ -10,7 +10,7 @@ function Footer() {
             <img class="w-20" src="/ASSETS/go-logo.png"></img>
 
             <p class="text-left text-gray-300 mt-5">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi et eleifend arcu. Praesent sem urna, dignissim nec est a, placerat venenatis nisl. Suspendisse tincidunt interduam massa, vel tincidunt magna sollicitudin eu.
+            We believe that everyone has the right to live their dreams and make a life of their choosing. A world-class entertainment platform with a plethora of content to enjoy. Cutting-edge innovations that are future-proof and also a cause that changes lives.
             </p>
 
             <div class="flex flex-row gap-5 mt-5">

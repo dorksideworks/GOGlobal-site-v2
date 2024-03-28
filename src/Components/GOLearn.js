@@ -7,7 +7,7 @@ function GOLearn() {
   return (
     <div id="golearn-cards" class="flex flex-col align-center justify-center lg:pb-10 relative">
         <Controller>
-            <Scene duration={1500} indicators={true} triggerHook={0.5} triggerElement="#golearn-cards" pin>
+            <Scene duration={1500} triggerHook={0.5} triggerElement="#golearn-cards" pin>
                 {(progress) => (
                     
                     <div>
@@ -127,8 +127,8 @@ function GOLearn() {
 
         <div class="cta-white bg-white w-3/4 mx-auto mt-16 rounded-3xl overflow-hidden flex flex-row justify-center align-center relative overflow-hidden">
             <div class="basis-full md:basis-1/2 lg:basis-1/2 py-3 px-10 text-left flex flex-col justify-center align-center justify-self-start">
-                <h1 class="text-4xl font-bold"> Lorem ipsum dolor sit amet, consectetur </h1>
-                <p class="text-sm text-gray-500 mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pellentesque varius lacinia. Vestibulum blandit iaculis vehicula. Quisque a ullamcorper mauris, </p>
+                <h1 class=" text-2xl md:text-4xl lg:text-4xl font-bold"> Start Your Online <br/> Learning Journey Today</h1>
+                <p class="text-sm text-gray-500 mt-2">Learn from the best in the industry and be the leader of your future.<br/> Join our ever-growing community of learners and achievers.</p>
                 <button class="rounded-full bg-cyan-500 py-2 px-5 text-white text-sm font-bold mt-5 cta-btn"> LEARN MORE </button>
             </div>
             <div class="basis-1/2 absolute lg:relative md:relative">

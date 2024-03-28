@@ -11,7 +11,7 @@ function GOFoundation() {
         </h1>
         <p class="text-gray-300 pt-5"> Contribute to a greater cause and help those in need. Together, we can change lives</p>
 
-        <div class="wrapper flex flex-col md:flex-row lg:flex-row mx-auto gap-3 mt-20">
+        <div class="wrapper flex flex-col md:flex-row lg:flex-row mx-auto gap-10 md:gap-3 lg:gap-3 mt-20">
           <div class="relative group  hover:bg-slate-700 duration-500 basis-1/2 bg-slate-800 rounded-xl overflow-hidden">
             <img class="grayscale  duration-500 group-hover:grayscale-0 group-hover:scale-110" src="/ASSETS/gofoundation/foundation-001.png"></img>
             <div class="absolute w-full duration-500 p-5 -bottom-full text-left isolate group-hover:bottom-0"> 

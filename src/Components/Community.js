@@ -18,7 +18,7 @@ function Community() {
         <div class="flex flex-col gap-5 relative mt-10 rotate-3 ">
 
           <Controller>
-              <Scene duration={900} triggerHook={0.5} indicators={true} triggerElement="#community-gallery">
+              <Scene duration={900} triggerHook={0.5}triggerElement="#community-gallery">
                   {(progress)=>(
                     <div class=" flex flex-col gap-5 relative wrapper">
                     <Timeline totalProgress={progress} paused >
