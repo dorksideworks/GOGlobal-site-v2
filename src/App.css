@@ -75,3 +75,13 @@ html {
   height: 100px;
   background: rgba(255, 255, 255, 0.5);
 }
+
+.navModal {
+  top: -300px;
+  opacity: 0;
+}
+
+.open {
+  top: 100px;
+  opacity: 1;
+}

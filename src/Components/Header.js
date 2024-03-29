@@ -1,11 +1,25 @@
-import React, {useState, useEffect} from 'react'
+import React, {useState, useEffect, useRef} from 'react'
 
 
 function Header() {
 
+  let burger = useRef(null);
+  let nav_modal = useRef(null);
   const [scrolltopdata, setscrolltopdata] = useState(false);
+  const [mobileNav, setMobileNav] = useState(false);
+
+
+  function handleClick(e) {
+    if(nav_modal) nav_modal.classList.toggle('open');
+  }
 
   useEffect(() => {
+    
+    // burger.addEventListener('click', () => {
+    //   if(nav_modal) nav_modal.classList.toggle('open');
+    // });
+
+
     window.addEventListener('scroll', () =>{
       if(window.scrollY < 15 ) {
         setscrolltopdata(false);
@@ -14,6 +28,8 @@ function Header() {
       }
       console.log(window.scrollY);
     })
+
+    
   }, []);
   return (
     <div>
@@ -43,7 +59,7 @@ function Header() {
             <a href="#CommunitySection" class="text-sm font-semibold leading-6 text-white">COMMUNITY</a>
           </div>
           <div class="flex lg:flex lg:flex-1 lg:justify-end">
-            <button data-collapse-toggle="mobile-nav" aria-controls="navbar-default" aria-expanded="false" type="button" class="relative  lg:hidden md:hidden tham tham-e-squeeze tham-w-6">
+            <button data-collapse-toggle="mobile-nav" onClick={handleClick} type="button" class="relative  lg:hidden md:hidden tham tham-e-squeeze tham-w-6">
                 <div class="tham-box">
                   <div class="tham-inner bg-white" />
                 </div>
@@ -51,7 +67,15 @@ function Header() {
             <a href="#" class="hidden md:relative lg:relative text-sm font-semibold leading-6 text-white">Log in <span aria-hidden="true">&rarr;</span></a>
 
           </div>
+          
         </nav>
+
+          <div ref = { el => {nav_modal = el}} class="open navModal sm:hidden md:hidden lg:hidden mx-auto text-white font-bold left-0 right-0 w-4/6 p-10 bg-slate-900 absolute duration-500 rounded-xl top-20 isolate flex flex-col gap-5 ">
+              <a class="modalNavInner" onClick={handleClick} href="#HeroSection"> HOME </a>
+              <a class="modalNavInner" onClick={handleClick} href="#ProductSection"> PRODUCTS </a>
+              <a class="modalNavInner" onClick={handleClick} href="#FoundationSection"> FOUNDATION </a>
+              <a class="modalNavInner" onClick={handleClick} href="#CommunitySection"> COMMUNITY </a>
+          </div>
         
       </header>
     </div>
