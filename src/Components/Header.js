@@ -70,7 +70,7 @@ function Header() {
           
         </nav>
 
-          <div ref = { el => {nav_modal = el}} class="open navModal sm:hidden md:hidden lg:hidden mx-auto text-white font-bold left-0 right-0 w-4/6 p-10 bg-slate-900 absolute duration-500 rounded-xl top-20 isolate flex flex-col gap-5 ">
+          <div ref = { el => {nav_modal = el}} class="navModal sm:hidden md:hidden lg:hidden mx-auto text-white font-bold left-0 right-0 w-4/6 p-10 bg-slate-900 absolute duration-500 rounded-xl top-20 isolate flex flex-col gap-5 ">
               <a class="modalNavInner" onClick={handleClick} href="#HeroSection"> HOME </a>
               <a class="modalNavInner" onClick={handleClick} href="#ProductSection"> PRODUCTS </a>
               <a class="modalNavInner" onClick={handleClick} href="#FoundationSection"> FOUNDATION </a>
