@@ -93,11 +93,29 @@ function Hero() {
           {/* <div class="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]" aria-hidden="true">
             <div class="relative left-[calc(50%+3rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%+36rem)] sm:w-[72.1875rem]" ></div>
           </div> */}
+          <Timeline totalProgress={progress} paused>
+            <Timeline 
+              target={
+                <div class="isolate mx-auto relative py-2 duration-500 animate-bounce">
+                  <div class="scroll isolate absolute bottom-20 mx-auto left-0 right-0 rounded-full border-2 border-gray-100" >
+                    <div class="scroll-wheel duration-500 rounded-full bg-white mx-auto relative">
+                    </div>
+                  </div>
+
+                  <h1 class="scroll-text absolute left-0 right-0 text-white font-bold text-sm"> SCROLL DOWN </h1>
+                </div>
+              }>
+                <Tween from={{ opacity: "1" }} to={{ opacity: "0"}} />
+              </Timeline>
+          </Timeline>
+
+
         </div>
 
         )}
       </Scene>
       </Controller>
+
       <div class="flex flex-col md:flex-row lg:flex-row font-bold py-20 lg:gap-0 gap-10 justify-center text-white mx-auto w-2/3 mg:w-1/2 lg:w-1/2 justify-around">
         <div class="px-5 basis-1/3 justify-center align-center items-center flex flex-col duration-500 hover:bg-slate-950">
           <h1 class="text-5xl  text-cyan-500">200k+</h1>
