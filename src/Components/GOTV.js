@@ -1,7 +1,10 @@
 import React from 'react'
 import { Controller } from 'react-scrollmagic'
-
+import { useTranslation } from 'react-i18next'
 function GOTV() {
+
+  const [t, i18n] = useTranslation("global");
+
   return (
     <div>
         
@@ -9,14 +12,14 @@ function GOTV() {
             
             <div class="basis-1/2 py-20 text-left p-5 text-white">
                 <div class="mb-4 mx-auto md:mx-0 lg:mx-0 py-2 px-5 bg-slate-800 text-gray-300 font-bold rounded-full w-40 text-center">
-                    GOTV 
+                    {t("gotv.tag")}
                 </div>
-                <h1 class=" text-center md:text-left lg:text-left text-4xl md:text-5xl lg:text-6xl font-bold"> 
-                    <span class="text-rose-500">
-                        Enjoy world-class entertainment 
-                    </span> anytime, anywhere.
+                <h1 class=" text-center md:text-left lg:text-left text-4xl md:text-5xl lg:text-5xl font-bold"> 
+                    <span class="text-white">
+                        {t("gotv.title")}
+                    </span> 
                 </h1>
-                <p class="pt-5 text-center md:text-left lg:text-left">Stream showstopping titles and get rewarded for your subscription.</p>
+                <p class="pt-5 text-center md:text-left lg:text-left"> {t("gotv.description")} </p>
             </div>
 
             <div class="basis-1/2 p-5 relative">

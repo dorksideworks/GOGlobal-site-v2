@@ -1,19 +1,21 @@
 import React from 'react'
 import {Controller, Scene} from 'react-scrollmagic';
 import {Timeline, Tween} from 'react-gsap';
-
+import { useTranslation } from 'react-i18next';
 function Community() {
+  const [t, i18n] = useTranslation("global");
   return (
     <div class="flex flex-col align-center justify-center lg:pb-10 mt-40 wrapper mx-auto" id="CommunitySection" >
         <div class="mb-4 py-2 px-5 bg-slate-800 mx-auto text-gray-300 font-bold rounded-full">
-           GO FOUNDATION
+        {t("gocommunity.tag")}
         </div>
         <h1 class="text-white text-4xl md:text-5xl lg:text-6xl font-bold"> 
-         <span class="text-cyan-500">  Grow and thrive  </span> <br/> together as a community.
+         {/* <span class="text-cyan-500">  Grow and thrive  </span> <br/> together as a community. */}
+         {t("gocommunity.title")}
 
         </h1>
 
-        <p class="text-gray-300 pt-5"> Collaboration and teamwork, are two powerful tools that the ever-growing GO community believes in. With over 200,000 active members<br/>  across 4 continents, GO Global provides opportunities for people around the world.</p>
+        <p class="text-gray-300 pt-5"> {t("gocommunity.description")}</p>
 
         <div class="flex flex-col gap-5 relative mt-10 rotate-3 ">
 

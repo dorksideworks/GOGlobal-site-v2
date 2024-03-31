@@ -19,6 +19,8 @@ function Home() {
         
         if(lang =='/es') {
             i18n.changeLanguage("es");
+        } else if(lang == "/kr") {
+            i18n.changeLanguage("kr")
         }
 
     }, []);

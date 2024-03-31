@@ -2,8 +2,13 @@ import React from 'react'
 import {Controller, Scene} from 'react-scrollmagic';
 import {Tween, Timeline} from 'react-gsap';
 
+import { useTranslation } from 'react-i18next';
+
 
 function GOLearn() {
+
+  const [t, i18n] = useTranslation("global");
+
   return (
     <div id="golearn-cards" class="flex flex-col align-center justify-center lg:pb-10 relative">
         <Controller>
@@ -17,9 +22,11 @@ function GOLearn() {
                         target={
                            <div class="relative">
                                 <h1 class="text-white text-3xl md:text-5xl lg:text-6xl font-bold"> 
-                                <span class="text-cyan-500">Unlock your success </span> 
-                                and <br /> learn from industry experts.</h1>
-                                <p class="text-gray-300 pt-5 px-5"> Climb to success with courses ranging from business and leadership to personal development taught by world-class trainers.</p>
+                                {/* <span class="text-cyan-500">Unlock your success </span> 
+                                and <br /> learn from industry experts. */}
+                                {t("golearn.title")}
+                                </h1>
+                                <p class="text-gray-300 pt-5 px-5"> {t("golearn.description")}</p>
                            </div>
                     
                         }

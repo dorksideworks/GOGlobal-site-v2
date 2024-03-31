@@ -5,6 +5,7 @@ import App from './App';
 
 import home_en from './Translations/en/Home.json';
 import home_es from './Translations/es/Home.json';
+import home_kr from './Translations/kr/Home.json';
 import i18next from 'i18next';
 import { I18nextProvider } from 'react-i18next';
 
@@ -17,6 +18,9 @@ i18next.init({
     },
     es : {
       global: home_es
+    },
+    kr : {
+      global: home_kr
     }
   }
 })

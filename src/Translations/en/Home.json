@@ -1,6 +1,89 @@
 {
     "Hero" : {
         "sub-title" : "Global Digital Solutions ",
-        "title" : "Welcome to GO Global "
+        "title" : "Welcome to GO Global ",
+        "stats" : [
+            {
+                "data" : "200",
+                "suffix" : "k+",
+                "description" : "Active Members"
+            }, 
+            {
+                "data" : "1000",
+                "suffix" : "+",
+                "description" : "Educational and Entertainment Content"
+            },
+            {
+                "data" : "140",
+                "suffix" : "+",
+                "description" : "Countries Reached"
+            }
+        ]
+    },
+    "nav" : [
+        "HOME",
+        "PRODUCTS",
+        "FOUNDATION",
+        "COMMUNITY",
+        "L"
+    ],
+    "products" : {
+        "title" : "Our Products",
+        "description" : "Unlock your networking success through top-tier education, world-class entertainment, and cutting-edge innovations."
+    },
+
+    "golearn" : {
+        "title" : "Unlock your success and learn from industry experts.",
+        "descrption" : "Climb to success with courses ranging from business and leadership to personal development taught by world-class trainers.",
+
+        "cta" : {
+            "title" : "Start Your Online Learning Journey Today",
+            "description" : "Learn from the best in the industry and be the leader of your future. Join our ever-growing community of learners and achievers.",
+            "button" : "LEARN MORE"
+        }
+    },
+    "gotv" : {
+        "tag" : "GOTV",
+        "title" : "Enjoy world-class entertainment anytime, anywhere.", 
+        "description" : "Get rewarded for your subscription and stream showstopping titles from top-rated actors such as Robert De Niro, Kevin Hart, and Robin Williams among many others."
+    },
+    "infin8" : {
+        "tag" : "INFIN8 MONEY",
+        "title" : "Ultimate flexibility, Infinite Possibilities",
+        "description" : "Experience the world of luxury and seamlessly spend your cryptocurrency in the real world without limits."
+    },
+    "gofoundation" : {
+        "tag" : "GO FOUNDATION",
+        "title" : "Changing Lives by Giving Back",
+        "descrption" : "Contribute to a greater cause and help those in need. Together, we can change lives With providing an educational platform as one of GO Global’s services, helping non-profit organizations who share the same values is the goal of the GO Foundation.",
+        "foundations" : [
+            {
+                "name" : "The Good Shepherd Sisters",
+                "descrption" : "It is a non-profit organization dedicated to developing the quality of life of all those in need regardless of their religious affiliation.",
+                "button" : "LEARN MORE",
+                "link" : "",
+
+                "image" : "/ASSETS/gofoundation/foundation-001.png"
+            },
+            {
+                "name" : "Boğaziçi Özel Eğitim",
+                "descrption" : "It is a non-profit organization dedicated to developing the quality of life of all those in need regardless of their religious affiliation.",
+                "button" : "LEARN MORE",
+                "link" : "",
+
+                "image" : "/ASSETS/gofoundation/foundation-002.png"
+            }
+        ]
+    },
+    
+    "gocommunity" : {
+        "tag" : "GO COMMUNITY",
+        "title" : "Grow and thrivetogether as a community.",
+        "description" : "Collaboration and teamwork, are two powerful tools that the ever-growing GO community believes in. With over 200,000 active members across 4 continents, GO Global provides opportunities for people around the world."
+    },
+
+    "footer" : {
+        "descrption" : "GO Global is a trailblazer in the network marketing industry. Dubbed the fastest-growing brand in the industry, GO Global amassed over 200,000 active members within a year. And with their future-proof products and platforms, GO Global is set to help their members achieve success."
     }
+    
 }

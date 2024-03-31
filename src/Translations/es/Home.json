@@ -1,6 +1,87 @@
 {
     "Hero" : {
-        "sub-title" : "Soluciones digitales globales",
-        "title" : "Bienvenido a Globalizarse"
+        "sub-title" : "solucionesDigitalesGlobales",
+        "title" : "bienvenidoAGoGlobal ",
+        "stats" : [
+            {
+                "data" : "200",
+                "suffix" : "K+",
+                "description" : "Miembros activos"
+            }, 
+            {
+                "data" : "1000",
+                "suffix" : "+",
+                "description" : "Contenido educativo y de entretenimiento"
+            },
+            {
+                "data" : "140",
+                "suffix" : "+",
+                "description" : "Los países llegaron"
+            }
+        ]
+    },
+    "nav" : [
+        "HOGAR",
+        "Productos",
+        "BASE",
+        "COMUNIDAD",
+        "ACCESO"
+    ],
+    "products" : {
+        "title" : "Nuestros productos",
+        "description" : "Desbloquee su éxito de redes a través de la educación de primer nivel, el entretenimiento de clase mundial e innovaciones de vanguardia"
+    },
+
+    "golearn" : {
+        "title" : "Desbloquee su éxito y aprenda de los expertos de la industria",
+        "descrption" : "Sube al éxito con cursos que van desde negocios y liderazgo hasta desarrollo personal impartido por entrenadores de clase mundial",
+
+        "cta" : {
+            "title" : "Comienza tu viaje de aprendizaje en línea hoy",
+            "description" : "Aprenda de los mejores de la industria y sea el líder de su futuro, Únase a nuestra comunidad cada vez mayor de alumnos y triunfadores",
+            "button" : "APRENDE MÁS"
+        }
+    },
+    "gotv" : {
+        "tag" : "Gotv",
+        "title" : "Disfrute del entretenimiento de clase mundial en cualquier momento, en cualquier lugar",
+        "description" : "Obtenga recompensado por su suscripción y transmisión de títulos de exhibición de actores mejor calificados como Robert de Niro, Kevin Hart y Robin Williams entre muchos otros"
+    },
+    "infin8" : {
+        "tag" : "Infin8 Money",
+        "title" : "Flexibilidad definitiva, infinitas posibilidades",
+        "description" : "Experimente el mundo del lujo y gaste sin problemas su criptomoneda en el mundo real sin límites"
+    },
+    "gofoundation" : {
+        "tag" : "GO Foundation",
+        "title" : "Cambiar vidas devolviendo",
+        "description" : "Contribuir a una causa mayor y ayudar a los necesitados, Juntos, podemos cambiar vidas al proporcionar una plataforma educativa como uno de los servicios de GO Global, ayudando a las organizaciones sin fines de lucro que comparten los mismos valores es el objetivo de la Fundación GO",
+        "foundations" : [
+            {
+                "name" : "Las buenas hermanas",
+                "description" : "Es una organización sin fines de lucro dedicada a desarrollar la calidad de vida de todos los necesitados, independientemente de su afiliación religiosa",
+                "button" : "APRENDE MÁS",
+                "link" : "",
+                "image" : "/ASSETS/gofoundation/foundation-001.png"
+            },
+            {
+                "name" : "Educación especial de Bosphorus",
+                "description" : "Es una organización sin fines de lucro dedicada a desarrollar la calidad de vida de todos los necesitados, independientemente de su afiliación religiosa",
+                "button" : "APRENDE MÁS",
+                "link" : "",
+                "image" : "/ASSETS/gofoundation/foundation-002.png"
+            }
+        ]
+    },
+    
+    "gocommunity" : {
+        "tag" : "Comunidad de GO",
+        "title" : "Crecer y prosperar juntos como comunidad",
+        "description" : "La colaboración y el trabajo en equipo son dos herramientas poderosas en las que la comunidad de GO cada vez cree, Con más de 200,000 miembros activos en 4 continentes, GO Global brinda oportunidades para personas de todo el mundo"
+    },
+
+    "footer" : {
+        "description" : "Go Global es un pionero en la industria de la mercadeo en red, Apodada la marca de más rápido crecimiento en la industria, GO Global acumuló más de 200,000 miembros activos en un año, Y con sus productos y plataformas a prueba de futuro, Go Global está listo para ayudarsus miembros logran el éxito "
     }
+    
 }

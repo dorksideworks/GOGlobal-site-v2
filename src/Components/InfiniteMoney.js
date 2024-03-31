@@ -3,7 +3,11 @@ import React from 'react'
 import {Controller, Scene} from 'react-scrollmagic';
 import {Timeline, Tween} from 'react-gsap';
 
+import { useTranslation } from 'react-i18next';
 function InfiniteMoney() {
+
+  const [t, i18n] = useTranslation("global");
+
   return (
     
     <div class="flex flex-col align-center justify-center lg:pb-10 relative">
@@ -59,14 +63,15 @@ function InfiniteMoney() {
           </Controller>
           
         <div class="mb-4 mt-5 py-2 px-5 bg-slate-800 mx-auto text-gray-300 font-bold rounded-full isolate">
-           INFIN8 MONEY 
+           {t("infin8.tag")}
         </div>
 
         <h1 class="text-white text-4xl md:text-5xl lg:text-6xl font-bold isolate"> 
-          Ultimate flexibility, <span class="text-cyan-500"> <br /> infinite possibilities. </span> 
+          {/* Ultimate flexibility, <span class="text-cyan-500"> <br /> infinite possibilities. </span>  */}
+          {t("infin8.title")}
         </h1>
         
-        <p class="text-gray-300 pt-5 px-5"> Experience the world of luxury and seamlessly spend your cryptocurrency in the real world without limits.</p>
+        <p class="text-gray-300 pt-5 px-5"> {t("infin8.description")}</p>
 
     </div>
   )

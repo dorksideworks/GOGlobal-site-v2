@@ -1,6 +1,10 @@
 import React from 'react'
+import { useTranslation } from 'react-i18next'
 
 function Footer() {
+
+  const [t, i18n] = useTranslation("global");
+
   return (  
     <div class="bg-gray-950 pt-20 pb-5 mt-40">
       <div class="wrapper mx-auto flex  lg:flex-row md:flex-row flex-col gap-5 content-around justify-around">
@@ -10,7 +14,7 @@ function Footer() {
             <img class="w-20" src="/ASSETS/go-logo.png"></img>
 
             <p class="text-left text-gray-300 mt-5">
-            GO Global is a trailblazer in the network marketing industry. Dubbed the fastest-growing brand in the industry, GO Global amassed over 200,000 active members within a year. And with their future-proof products and platforms, GO Global is set to help their members achieve success. 
+              {t("footer.description")}
 
             </p>
 
