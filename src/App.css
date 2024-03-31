@@ -108,3 +108,14 @@ html {
 .scroll-text {
   bottom: 50px;
 }
+
+.laptop {
+  width: 900px;
+}
+.laptop-video {
+  position: absolute;
+  z-index: 50;
+  top: 20px;
+  width: 440px;
+  left: 118px;
+}

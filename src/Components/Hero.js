@@ -9,9 +9,14 @@ function Hero() {
   const [t, i18n] = useTranslation("global");
 
   let laptopItem = useRef(null);
+  let laptopVideo = useRef(null);
 
   useEffect (() => {
     console.log(laptopItem);
+    setTimeout(() => {
+      
+      laptopVideo.play();
+    }, 500);
   });
 
 
@@ -62,11 +67,12 @@ function Hero() {
                     
                     <Timeline
                       target={
-                        <img
-                        ref={el => {laptopItem = el}}
-                        class=" w-100 relative" src='/ASSETS/hero/hero-laptop.png'
-                      
-                        ></img>
+                        <div class="relative">
+                          <video ref={e => {laptopVideo = e}} class="laptop-video" autoplay muted playsinline>
+                            <source src="/ASSETS/t.mp4" type="video/mp4"/>
+                          </video>
+                          <img ref={el => {laptopItem = el}} class="laptop w-100 relative" src='/ASSETS/hero/hero-laptop.png'></img>
+                        </div>
                       }
                     >
                       <Tween from={{ scale: 7 , bottom: "-300px"}} to={{ scale: 1 ,bottom:"0px"}} />

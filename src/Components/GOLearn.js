@@ -24,7 +24,17 @@ function GOLearn() {
                                 <h1 class="text-white text-3xl md:text-5xl lg:text-6xl font-bold"> 
                                 {/* <span class="text-cyan-500">Unlock your success </span> 
                                 and <br /> learn from industry experts. */}
-                                {t("golearn.title")}
+                                {t("golearn.title", {returnObjects:true}).map(function(o,i) {
+                                    if(o.startsWith("/s")) {
+                                        return <span class="text-cyan-500"> {o.split("/s")[1]}</span>
+                                    }
+                                    if(o.startsWith("/br")) {
+                                        return <span><br/> {o.split("/br")[1]}</span>
+                                    }
+                                    else {  
+                                        return <span> {o} </span> 
+                                    }
+                                })}
                                 </h1>
                                 <p class="text-gray-300 pt-5 px-5"> {t("golearn.description")}</p>
                            </div>

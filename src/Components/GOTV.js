@@ -15,9 +15,14 @@ function GOTV() {
                     {t("gotv.tag")}
                 </div>
                 <h1 class=" text-center md:text-left lg:text-left text-4xl md:text-5xl lg:text-5xl font-bold"> 
-                    <span class="text-white">
-                        {t("gotv.title")}
-                    </span> 
+                    {t("gotv.title", {returnObjects:true}).map(function(o,i) {
+                        if(o.startsWith("/s")) {
+                            return <span class="text-cyan-500"> {o.split("/s")[1]}</span>
+                        }
+                        else {  
+                            return <span> {o} </span> 
+                        }
+                    })}
                 </h1>
                 <p class="pt-5 text-center md:text-left lg:text-left"> {t("gotv.description")} </p>
             </div>

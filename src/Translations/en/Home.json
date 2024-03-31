@@ -25,7 +25,7 @@
         "PRODUCTS",
         "FOUNDATION",
         "COMMUNITY",
-        "L"
+        "LOGIN"
     ],
     "products" : {
         "title" : "Our Products",
@@ -33,8 +33,9 @@
     },
 
     "golearn" : {
-        "title" : "Unlock your success and learn from industry experts.",
-        "descrption" : "Climb to success with courses ranging from business and leadership to personal development taught by world-class trainers.",
+        "title" : ["/s Unlock your success", "/br and learn from industry experts."],
+
+        "description" : "Climb to success with courses ranging from business and leadership to personal development taught by world-class trainers.",
 
         "cta" : {
             "title" : "Start Your Online Learning Journey Today",
@@ -44,18 +45,18 @@
     },
     "gotv" : {
         "tag" : "GOTV",
-        "title" : "Enjoy world-class entertainment anytime, anywhere.", 
+        "title" :["/s Enjoy world-class entertainment", "anytime, anywhere."],
         "description" : "Get rewarded for your subscription and stream showstopping titles from top-rated actors such as Robert De Niro, Kevin Hart, and Robin Williams among many others."
     },
     "infin8" : {
         "tag" : "INFIN8 MONEY",
-        "title" : "Ultimate flexibility, Infinite Possibilities",
+        "title" : ["Ultimate Flexibility", "/s Infinite Possibilities"],
         "description" : "Experience the world of luxury and seamlessly spend your cryptocurrency in the real world without limits."
     },
     "gofoundation" : {
         "tag" : "GO FOUNDATION",
         "title" : "Changing Lives by Giving Back",
-        "descrption" : "Contribute to a greater cause and help those in need. Together, we can change lives With providing an educational platform as one of GO Global’s services, helping non-profit organizations who share the same values is the goal of the GO Foundation.",
+        "description" : "Contribute to a greater cause and help those in need. Together, we can change lives With providing an educational platform as one of GO Global’s services, helping non-profit organizations who share the same values is the goal of the GO Foundation.",
         "foundations" : [
             {
                 "name" : "The Good Shepherd Sisters",

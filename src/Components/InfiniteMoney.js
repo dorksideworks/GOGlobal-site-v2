@@ -3,7 +3,7 @@ import React from 'react'
 import {Controller, Scene} from 'react-scrollmagic';
 import {Timeline, Tween} from 'react-gsap';
 
-import { useTranslation } from 'react-i18next';
+import { Trans, useTranslation } from 'react-i18next';
 function InfiniteMoney() {
 
   const [t, i18n] = useTranslation("global");
@@ -67,8 +67,16 @@ function InfiniteMoney() {
         </div>
 
         <h1 class="text-white text-4xl md:text-5xl lg:text-6xl font-bold isolate"> 
-          {/* Ultimate flexibility, <span class="text-cyan-500"> <br /> infinite possibilities. </span>  */}
-          {t("infin8.title")}
+          {/* Ultimate flexibility, <span class="text-cyan-500"> <break /> infinite possibilities. </span>  */}
+          {/* {t("infin8.title")} */}
+          {t("infin8.title", {returnObjects:true}).map(function(o,i) {
+            if(o.startsWith("/s")) {
+              return <div><span class="text-cyan-500"> {o.split("/s")[1]}</span></div>
+            }
+            else {  
+              return <div> <br/> <span> {o} </span> </div>
+            }
+          })}
         </h1>
         
         <p class="text-gray-300 pt-5 px-5"> {t("infin8.description")}</p>
