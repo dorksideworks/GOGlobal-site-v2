@@ -86,6 +86,16 @@ html {
   opacity: 1;
 }
 
+.langSelect {
+  top: -300px;
+  opacity: 0;
+}
+
+.drop {
+  top: 100px;
+  opacity: 1;
+}
+
 @keyframes scrollwheels {
   from {bottom: -10px; opacity: 1;}
   to {bottom: -35px; opacity: 0;}

@@ -5,12 +5,18 @@ function Header() {
 
   let burger = useRef(null);
   let nav_modal = useRef(null);
+  let lang_modal = useRef(null);
   const [scrolltopdata, setscrolltopdata] = useState(false);
   const [mobileNav, setMobileNav] = useState(false);
+  const [languageDrop, setLanguageDrop] = useState(false);
 
 
   function handleClick(e) {
     if(nav_modal) nav_modal.classList.toggle('open');
+  }
+
+  function toggleLanguage(e) {
+    if(lang_modal) lang_modal.classList.toggle('drop');
   }
 
   useEffect(() => {
@@ -36,8 +42,8 @@ function Header() {
       <header class="fixed inset-x-0 top-0 z-50">
         <nav 
         class={`flex items-center justify-between p-4 duration-500 lg:px-8 ${scrolltopdata? 'bg-slate-900 py-6' : ''}`}
-        
         aria-label="Global">
+          
           <div class="flex lg:flex-1">
             <a href="#" class="-m-1.5 p-1.5">
               {/* <span class="sr-only">Your Company</span> */}
@@ -52,6 +58,7 @@ function Header() {
               </svg>
             </button>
           </div>
+
           <div class="hidden lg:flex lg:gap-x-12">
             <a href="#HeroSection" class="text-sm font-semibold leading-6 text-white">HOME</a>
             <a href="#ProductSection" class="text-sm font-semibold leading-6 text-white">PRODUCTS</a>
@@ -65,11 +72,11 @@ function Header() {
                   <div class="tham-inner bg-white" />
                 </div>
             </button>
-            <a href="https://dashboard.goglobal.network/user/login" target="_blank" class="bg-cyan-500 py-3 px-10 rounded-full md:relative lg:relative text-sm font-semibold leading-6 text-white">Log in <span aria-hidden="true">&rarr;</span></a>
-            <div class="text-white flex flex-col justify-center align-center items-center px-10 rounded-xl ml-5 hover:bg-slate-800 duration-500">
-              <div> ENGLISH </div>
+            <a href="https://dashboard.goglobal.network/user/login" target="_blank" class="hidden bg-cyan-500 py-3 px-10 rounded-full md:relative lg:relative lg:block md:block text-sm font-semibold leading-6 text-white">Log in <span aria-hidden="true">&rarr;</span></a>
+            <div class="hidden md:flex lg:flex text-white flex flex-col justify-center align-center items-center px-10 rounded-xl ml-5 hover:bg-slate-800 duration-500 font-bold text-sm">
+              <div onClick={toggleLanguage}> ENGLISH </div>
               
-              <div class="drop hidden absolute top-24 flex flex-col bg-slate-800 rounded-xl overflow-hidden justify-stretch align-stretch items-stretch">
+              <div ref= { a => {lang_modal = a}} class="langSelect absolute top-24 flex flex-col bg-slate-800 rounded-xl overflow-hidden justify-stretch align-stretch items-stretch duration-500">
                 <div class="duration-500 hover:bg-slate-900 bg-slate-800 basis-1/3 py-3 px-10"> SPANISH </div>
                 <div class="duration-500 hover:bg-slate-900 bg-slate-800 basis-1/3 py-3 px-10"> KOREAN </div>
                 <div class="duration-500 hover:bg-slate-900 bg-slate-800 basis-1/3 py-3 px-10"> ARABIC </div>
@@ -87,6 +94,10 @@ function Header() {
               <a class="modalNavInner" onClick={handleClick} href="#ProductSection"> PRODUCTS </a>
               <a class="modalNavInner" onClick={handleClick} href="#FoundationSection"> FOUNDATION </a>
               <a class="modalNavInner" onClick={handleClick} href="#CommunitySection"> COMMUNITY </a>
+              <a class="modalNavInner" onClick={handleClick} href="https://dashboard.goglobal.network/users/login">LOG IN</a>
+              <div>
+                  English
+              </div>
           </div>
         
       </header>
