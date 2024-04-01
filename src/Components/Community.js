@@ -11,11 +11,18 @@ function Community() {
         </div>
         <h1 class="text-white text-4xl md:text-5xl lg:text-6xl font-bold"> 
          {/* <span class="text-cyan-500">  Grow and thrive  </span> <br/> together as a community. */}
-         {t("gocommunity.title")}
+         {t("gocommunity.title", {returnObjects:true}).map(function(o,i) {
+            if(o.startsWith("/s")) {
+              return <div><span class="text-cyan-500"> {o.split("/s")[1]}</span></div>
+            }
+            else {  
+              return <div> <span> {o} </span> </div>
+            }
+          })}
 
         </h1>
 
-        <p class="text-gray-300 pt-5"> {t("gocommunity.description")}</p>
+        <p class="text-gray-300 pt-5 w-full lg:w-1/2 mx-auto"> {t("gocommunity.description")}</p>
 
         <div class="flex flex-col gap-5 relative mt-10 rotate-3 ">
 

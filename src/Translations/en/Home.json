@@ -55,7 +55,10 @@
     },
     "gofoundation" : {
         "tag" : "GO FOUNDATION",
-        "title" : "Changing Lives by Giving Back",
+        "title" : [
+            "/sChanging Lives",
+            "by Giving Back"
+        ],
         "description" : "Contribute to a greater cause and help those in need. Together, we can change lives With providing an educational platform as one of GO Global’s services, helping non-profit organizations who share the same values is the goal of the GO Foundation.",
         "foundations" : [
             {
@@ -79,7 +82,7 @@
     
     "gocommunity" : {
         "tag" : "GO COMMUNITY",
-        "title" : "Grow and thrivetogether as a community.",
+        "title" : ["/sGrow and thrive", "together as a community."],
         "description" : "Collaboration and teamwork, are two powerful tools that the ever-growing GO community believes in. With over 200,000 active members across 4 continents, GO Global provides opportunities for people around the world."
     },
 

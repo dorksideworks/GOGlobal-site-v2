@@ -12,9 +12,16 @@ function GOFoundation() {
         </div>
         <h1 class="text-white text-4xl md:text-5xl lg:text-6xl font-bold px-5"> 
          {/* <span class="text-cyan-500">  Changing Lives  </span> by Giving Back */}
-         {t("gofoundation.title")}
+         {t("gofoundation.title", {returnObjects:true}).map(function(o,i) {
+            if(o.startsWith("/s")) {
+              return <div><span class="text-cyan-500"> {o.split("/s")[1]}</span></div>
+            }
+            else {  
+              return <div> <span> {o} </span> </div>
+            }
+          })}
         </h1>
-        <p class="text-gray-300 pt-5 wrapper mx-auto"> {t("gofoundation.description")}</p>
+        <p class="text-gray-300 pt-5 mx-auto md:w-1/2 lg:w-1/2"> {t("gofoundation.description")}</p>
 
 
         

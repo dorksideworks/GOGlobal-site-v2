@@ -13,10 +13,12 @@ function Hero() {
 
   useEffect (() => {
     console.log(laptopItem);
-    setTimeout(() => {
-      
-      laptopVideo.play();
-    }, 500);
+    
+      setTimeout(() => {
+        if(laptopVideo) {
+          laptopVideo.play();
+        }
+      }, 1000);
   });
 
 
@@ -115,12 +117,13 @@ function Hero() {
               </Timeline>
           </Timeline>
 
-
         </div>
 
         )}
       </Scene>
       </Controller>
+
+      <a href="https://dashboard.goglobal.network/users/login" target="_blank"><button class="heroLogin relative -top-1  hover:-top-2 duration-500 cursor-pointer px-10 py-2 bg-cyan-500 text-white rounded-full font-bold text-xl tracking-wider z-50 isolate"> LOGIN </button> </a>
 
       <div class="flex flex-col md:flex-row lg:flex-row font-bold py-20 lg:gap-0 gap-10 justify-center text-white mx-auto w-2/3 mg:w-1/2 lg:w-1/2 justify-around">
         <div class="px-5 basis-1/3 justify-center align-center items-center flex flex-col duration-500 hover:bg-slate-950">

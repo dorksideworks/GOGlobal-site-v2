@@ -58,13 +58,25 @@ function Header() {
             <a href="#FoundationSection" class="text-sm font-semibold leading-6 text-white">FOUNDATION</a>
             <a href="#CommunitySection" class="text-sm font-semibold leading-6 text-white">COMMUNITY</a>
           </div>
+          
           <div class="flex lg:flex lg:flex-1 lg:justify-end">
             <button data-collapse-toggle="mobile-nav" onClick={handleClick} type="button" class="relative  lg:hidden md:hidden tham tham-e-squeeze tham-w-6">
                 <div class="tham-box">
                   <div class="tham-inner bg-white" />
                 </div>
             </button>
-            <a href="#" class="hidden md:relative lg:relative text-sm font-semibold leading-6 text-white">Log in <span aria-hidden="true">&rarr;</span></a>
+            <a href="https://dashboard.goglobal.network/user/login" target="_blank" class="bg-cyan-500 py-3 px-10 rounded-full md:relative lg:relative text-sm font-semibold leading-6 text-white">Log in <span aria-hidden="true">&rarr;</span></a>
+            <div class="text-white flex flex-col justify-center align-center items-center px-10 rounded-xl ml-5 hover:bg-slate-800 duration-500">
+              <div> ENGLISH </div>
+              
+              <div class="drop hidden absolute top-24 flex flex-col bg-slate-800 rounded-xl overflow-hidden justify-stretch align-stretch items-stretch">
+                <div class="duration-500 hover:bg-slate-900 bg-slate-800 basis-1/3 py-3 px-10"> SPANISH </div>
+                <div class="duration-500 hover:bg-slate-900 bg-slate-800 basis-1/3 py-3 px-10"> KOREAN </div>
+                <div class="duration-500 hover:bg-slate-900 bg-slate-800 basis-1/3 py-3 px-10"> ARABIC </div>
+              </div>
+
+            </div>
+
 
           </div>
           
