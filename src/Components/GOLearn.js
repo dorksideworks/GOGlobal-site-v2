@@ -144,9 +144,9 @@ function GOLearn() {
 
         <div class="cta-white bg-white w-3/4 mx-auto mt-16 rounded-3xl overflow-hidden flex flex-row justify-center align-center relative overflow-hidden">
             <div class="basis-full md:basis-1/2 lg:basis-1/2 py-3 px-10 text-left flex flex-col justify-center align-center justify-self-start">
-                <h1 class=" text-2xl md:text-4xl lg:text-4xl font-bold"> Start Your Online <br/> Learning Journey Today</h1>
-                <p class="text-sm text-gray-500 mt-2">Learn from the best in the industry and be the leader of your future.<br/> Join our ever-growing community of learners and achievers.</p>
-                <button class="rounded-full bg-cyan-500 py-2 px-5 text-white text-sm font-bold mt-5 cta-btn"> LEARN MORE </button>
+                <h1 class=" text-2xl md:text-4xl lg:text-4xl font-bold"> {t("golearn.cta.title")}</h1>
+                <p class="text-sm text-gray-500 mt-2">{t("golearn.cta.description")}</p>
+                <button class="rounded-full bg-cyan-500 py-2 px-5 text-white text-sm font-bold mt-5 cta-btn"> {t("golearn.cta.button")}</button>
             </div>
             <div class="basis-1/2 absolute lg:relative md:relative">
                 <img class="absolute scale-125" src="/ASSETS/golearn/cta-image.png"/>

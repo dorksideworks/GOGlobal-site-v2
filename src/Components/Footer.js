@@ -16,8 +16,10 @@ function Footer() {
             <p class="text-left text-gray-300 mt-5">
               {t("footer.description")}
 
-            </p>
+              {i18n.language}
 
+            </p>
+ 
             <div class="flex flex-row gap-5 mt-5">
 
               <a href="#">

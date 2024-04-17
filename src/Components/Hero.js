@@ -127,9 +127,16 @@ function Hero() {
       <a href="https://dashboard.goglobal.network/user/login" target="_blank" class="bg-cyan-500 py-3 px-10 rounded-full md:relative lg:relative text-sm font-semibold leading-6 text-white">Log in <span aria-hidden="true">&rarr;</span></a>
 
       <div class="flex flex-col md:flex-row lg:flex-row font-bold py-20 lg:gap-0 gap-10 justify-center text-white mx-auto w-2/3 mg:w-1/2 lg:w-1/2 justify-around">
-        <div class="px-5 basis-1/3 justify-center align-center items-center flex flex-col duration-500 hover:bg-slate-950">
+
+      {t("Hero.stats", {returnObjects:true}).map(function(o,i) {
+            return (<div class="px-5 basis-1/3 justify-center align-center items-center flex flex-col duration-500 hover:bg-slate-950">
+              <h1 class="text-5xl  text-cyan-500">{o.data} {o.suffix}</h1>
+              <span>{o.description}</span>
+            </div>)
+          })}
+        {/* <div class="px-5 basis-1/3 justify-center align-center items-center flex flex-col duration-500 hover:bg-slate-950">
           <h1 class="text-5xl  text-cyan-500">200k+</h1>
-          <span>Active Memebers</span>
+          <span>{t("Hero.stats")}</span>
         </div>
         <div class="breaker hidden md:relative lg:relative "></div>
         <div class="px-5 basis-1/3 justify-center align-center items-center flex flex-col  duration-500 hover:bg-gray-950">
@@ -141,7 +148,7 @@ function Hero() {
         <div class="px-5 basis-1/3 justify-center align-center items-center flex flex-col  duration-500 hover:bg-gray-950" >
           <h1 class="text-5xl text-cyan-500">140+</h1>
           <span>Countries Reached</span>
-        </div>
+        </div> */}
       </div>
       
     </div>

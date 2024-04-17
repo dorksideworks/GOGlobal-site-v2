@@ -1,7 +1,9 @@
 import React, {useState, useEffect, useRef} from 'react'
+import { useTranslation } from 'react-i18next'
 
 
 function Header() {
+  const [t, i18n] = useTranslation("global");
 
   let burger = useRef(null);
   let nav_modal = useRef(null);
@@ -19,12 +21,13 @@ function Header() {
     if(lang_modal) lang_modal.classList.toggle('drop');
   }
 
+
   useEffect(() => {
     
     // burger.addEventListener('click', () => {
     //   if(nav_modal) nav_modal.classList.toggle('open');
     // });
-
+  
 
     window.addEventListener('scroll', () =>{
       if(window.scrollY < 15 ) {
@@ -36,7 +39,7 @@ function Header() {
     })
 
     
-  }, []);
+  },[]);
   return (
     <div>
       <header class="fixed inset-x-0 top-0 z-50">
@@ -74,12 +77,14 @@ function Header() {
             </button>
             <a href="https://dashboard.goglobal.network/user/login" target="_blank" class="hidden bg-cyan-500 py-3 px-10 rounded-full md:relative lg:relative lg:block md:block text-sm font-semibold leading-6 text-white">Log in <span aria-hidden="true">&rarr;</span></a>
             <div class="hidden md:flex lg:flex text-white cursor-pointer flex flex-col justify-center align-center items-center px-10 rounded-xl ml-5 hover:bg-slate-800 duration-500 font-bold text-sm">
-              <div onClick={toggleLanguage}> ENGLISH </div>
+              <div onClick={toggleLanguage}> {i18n.language.toUpperCase()}</div>
               
               <div ref= { a => {lang_modal = a}} class="langSelect absolute top-24 flex flex-col bg-slate-800 rounded-xl overflow-hidden justify-stretch align-stretch items-stretch duration-500">
-                <a href="/en" class="duration-500 hover:bg-slate-900 bg-slate-800 basis-1/3 py-3 px-10"> SPANISH </a >
-                <a href="/kr" class="duration-500 hover:bg-slate-900 bg-slate-800 basis-1/3 py-3 px-10"> KOREAN </a>
-                <a href="/ar" class="duration-500 hover:bg-slate-900 bg-slate-800 basis-1/3 py-3 px-10"> ARABIC </a>
+                
+                {i18n.language != 'en'? <a href="/en" class="duration-500 hover:bg-slate-900 bg-slate-800 basis-1/3 py-3 px-10"> EN </a >: ""} 
+                {i18n.language != 'es'? <a href="/es" class="duration-500 hover:bg-slate-900 bg-slate-800 basis-1/3 py-3 px-10"> ES </a > : ""}
+                {i18n.language != 'kr' ? <a href="/kr" class="duration-500 hover:bg-slate-900 bg-slate-800 basis-1/3 py-3 px-10"> KR </a> : ""}
+                {i18n.language != 'ar' ? <a href="/ar" class="duration-500 hover:bg-slate-900 bg-slate-800 basis-1/3 py-3 px-10"> AR </a> : ""}
               </div>
 
             </div>
