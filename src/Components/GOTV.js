@@ -49,23 +49,23 @@ function GOTV() {
                                     <div class="flex flex-col flex-wrap wrapper mx-auto">
                                         <ul class="flex-row gap-20 items-center justify-center flex flex-wrap mx-auto pt-20 text-left">
                                             <li class="flex flex-row text-white justify-center items-center gap-5">
-                                                <div class="w-16 h-16 bg-red-500 rounded-full"></div>
+                                                <div class="icon bg-red-500 rounded-full"></div>
                                                 <p class="text-xl">Annual subscription for  just 500 GO credits</p>
                                             </li>
                                             <li class="flex flex-row text-white justify-center items-center gap-5">
-                                                <div class="w-16 h-16 bg-red-500 rounded-full"></div>
+                                                <div class="icon bg-red-500 rounded-full"></div>
                                                 <p class="text-xl">Available in multiple Languages</p>
                                             </li>
                                             <li class="flex flex-row text-white justify-center items-center gap-5 ">
-                                                <div class="w-16 h-16 bg-red-500 rounded-full"></div>
+                                                <div class="icon bg-red-500 rounded-full"></div>
                                                 <p class="text-xl">Download from the <br/>App and Play Store today</p>
                                             </li>
                                             <li class="flex flex-row text-white justify-center items-center gap-5 ">
-                                                <div class="w-16 h-16 bg-red-500 rounded-full"></div>
+                                                <div class="icon bg-red-500 rounded-full"></div>
                                                 <p class="text-xl">A-List <br/>Blockbusters and TV Shows.</p>
                                             </li>
                                             <li class="flex flex-row text-white justify-center items-center gap-5 ">
-                                                <div class="w-16 h-16 bg-red-500 rounded-full"></div>
+                                                <div class="icon bg-red-500 rounded-full"></div>
                                                 <p class="text-xl">Brand new <br/>content every week</p>
                                             </li>
                                         </ul>

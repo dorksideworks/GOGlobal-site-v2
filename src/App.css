@@ -130,6 +130,10 @@ html {
   left: 118px;
 }
 
+.icon {
+  width: 50px !important;
+  height: 50px;
+}
 
 /* .gotv-head {
   background: url(../public/ASSETS/gotv/bg.png);
@@ -137,3 +141,7 @@ html {
   background-repeat: no-repeat;
   background-position: center;
 } */
+
+#gogames-items li{
+  width: 30%;
+}

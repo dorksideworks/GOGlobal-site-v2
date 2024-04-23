@@ -12,7 +12,7 @@ function InfiniteMoney() {
     
     <div class="flex flex-col align-center justify-center lg:pb-10 relative">
           <Controller class="overflow-hidden relative">
-            <Scene duration={600}  triggerHook={0.75} pin>
+            <Scene duration={1500}  triggerHook={0.75} pin>
               {(progress) => (
                 <div class=" flex flex-row justify-center align-center w-full py-5 mx-auto relative">
                   <Timeline totalProgress={progress} paused>
@@ -23,7 +23,7 @@ function InfiniteMoney() {
                         
                       }>
 
-                      <Tween from={{bottom: "-1000px"}} to={{bottom: "0px"}} />
+                      <Tween from={{bottom: "-700px"}} to={{bottom: "0px"}} />
                     </Timeline>
                   </Timeline>
                   <Timeline totalProgress={progress} paused>
@@ -32,7 +32,7 @@ function InfiniteMoney() {
                           <img class="mx-auto absolute left-auto right-auto w-72 origin-bottom scale-90" src="/ASSETS/infin8/infin8-002.png"></img>
                       }>
 
-                      <Tween from={{rotate: "0deg", bottom: "-1000px"}} to={{rotate: "30deg", bottom: "50px"}} />
+                      <Tween from={{rotate: "0deg", bottom: "-700px"}} to={{rotate: "30deg", bottom: "50px"}} />
                     </Timeline>
                   </Timeline>
                   <Timeline totalProgress={progress} paused>
@@ -41,7 +41,7 @@ function InfiniteMoney() {
                           <img class="mx-auto absolute left-auto right-auto w-72 origin-bottom scale-90" src="/ASSETS/infin8/infin8-003.png"></img>
                       }>
 
-                      <Tween from={{rotate: "0deg", bottom: "-1000px"}} to={{rotate: "-30deg", bottom: "50px"}} />
+                      <Tween from={{rotate: "0deg", bottom: "-700px"}} to={{rotate: "-30deg", bottom: "50px"}} />
                     </Timeline>
                   </Timeline>
                   
