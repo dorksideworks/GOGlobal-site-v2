@@ -6,7 +6,12 @@ import GOFoundation from '../Components/GOFoundation';
 import GOTV from '../Components/GOTV';
 import InfiniteMoney  from '../Components/InfiniteMoney';
 import Community from '../Components/Community'; 
+import SayHello from '../Components/SayHello';
+import GoGames from '../Components/GOGames';
+
 import {useLocation, useMatch} from 'react-router-dom';
+
+
 
 import { useTranslation } from 'react-i18next';
 function Home() {
@@ -26,11 +31,12 @@ function Home() {
     }, []);
 
   return (
-    <div>
+    <div class="bg-slate-50 dark:bg-slate-900 duration-500">
         <Hero/>
-        <Products/>
+        <SayHello />
         <GOLEARN/>
         <GOTV/>
+        <GoGames/>
         <InfiniteMoney/>
         <GOFoundation/>
         <Community/>

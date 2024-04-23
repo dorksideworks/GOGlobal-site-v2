@@ -10,7 +10,7 @@ function GOLearn() {
   const [t, i18n] = useTranslation("global");
 
   return (
-    <div id="golearn-cards" class="flex flex-col align-center justify-center lg:pb-10 relative">
+    <div id="golearn-cards" class="flex flex-col align-center justify-center lg:pb-40 relative">
         <Controller>
             <Scene duration={1500} triggerHook={0.5} triggerElement="#golearn-cards" pin>
                 {(progress) => (
@@ -21,7 +21,7 @@ function GOLearn() {
                         <Timeline
                         target={
                            <div class="relative">
-                                <h1 class="text-white text-3xl md:text-5xl lg:text-6xl font-bold"> 
+                                <h1 class="text-slate-900 dark:text-white text-3xl md:text-5xl lg:text-6xl font-bold"> 
                                 {/* <span class="text-cyan-500">Unlock your success </span> 
                                 and <br /> learn from industry experts. */}
                                 {t("golearn.title", {returnObjects:true}).map(function(o,i) {
@@ -36,7 +36,7 @@ function GOLearn() {
                                     }
                                 })}
                                 </h1>
-                                <p class="text-gray-300 pt-5 px-5"> {t("golearn.description")}</p>
+                                <p class="text-slate-900 dark:text-gray-300 pt-5 px-5"> {t("golearn.description")}</p>
                            </div>
                     
                         }

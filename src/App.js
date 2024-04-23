@@ -17,7 +17,7 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <div class="bg-gray-900 overflow-hidden">
+        <div class=" overflow-hidden">
           
           <Header/> 
 

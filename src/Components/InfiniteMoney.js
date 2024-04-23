@@ -48,7 +48,7 @@ function InfiniteMoney() {
                   <Timeline totalProgress={progress} paused>
                     <Timeline
                       target={
-                        <div class="hero-gradient absolute z-50 bg-gradient-to-t from-slate-900 left-0 w-full h-32 isolate"></div>
+                        <div class="hero-gradient absolute z-50 bg-gradient-to-t from-slate-50 dark:from-slate-900 left-0 w-full h-32 isolate"></div>
                       }>
 
                       <Tween from={{bottom: "-1000px"}} to={{bottom: "-20px"}} />
@@ -66,7 +66,7 @@ function InfiniteMoney() {
            {t("infin8.tag")}
         </div>
 
-        <h1 class="text-white text-4xl md:text-5xl lg:text-6xl font-bold isolate"> 
+        <h1 class="text-slate-900 dark:text-white text-4xl md:text-5xl lg:text-6xl font-bold isolate"> 
           {/* Ultimate flexibility, <span class="text-cyan-500"> <break /> infinite possibilities. </span>  */}
           {/* {t("infin8.title")} */}
           {t("infin8.title", {returnObjects:true}).map(function(o,i) {
@@ -79,7 +79,7 @@ function InfiniteMoney() {
           })}
         </h1>
         
-        <p class="text-gray-300 pt-5 px-5"> {t("infin8.description")}</p>
+        <p class="text-slate-900 dark:text-gray-300 pt-5 px-5"> {t("infin8.description")}</p>
 
     </div>
   )

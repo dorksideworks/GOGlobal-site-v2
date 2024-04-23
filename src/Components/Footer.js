@@ -6,7 +6,7 @@ function Footer() {
   const [t, i18n] = useTranslation("global");
 
   return (  
-    <div class="bg-gray-950 pt-20 pb-5 mt-40">
+    <div class="bg-gray-950 pt-20 pb-5">
       <div class="wrapper mx-auto flex  lg:flex-row md:flex-row flex-col gap-5 content-around justify-around">
 
           <div class="flex flex-col basis-1/3 justif-center align-center ">

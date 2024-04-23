@@ -18,7 +18,7 @@ html {
 }
 
 .App-header {
-  background-color: #282c34;
+  /* background-color: #282c34; */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -129,3 +129,11 @@ html {
   width: 440px;
   left: 118px;
 }
+
+
+/* .gotv-head {
+  background: url(../public/ASSETS/gotv/bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+} */

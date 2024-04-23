@@ -32,6 +32,34 @@
         "description" : "Unlock your networking success through top-tier education, world-class entertainment, and cutting-edge innovations."
     },
 
+    "sayhello" : [
+        {
+            "title" : "GO Learn",
+            "desc" : "One stop shop to learn new skills and unlock potential from industry experts.",
+            "image": ""
+        },
+        {
+            "title" : "GO TV",
+            "desc" : "GO TV is the ultimate streaming platform that offers a wide range of on-demand content including blockbusters and A-List titles from around the world.",
+            "image": ""
+        },
+        {
+            "title" : "INFIN8 Money",
+            "desc" : "Seamlessly convert cryptocurrency into cash and enjoy the freedom to use digital assets everywhere major credit cards are accepted.",
+            "image": ""
+        },
+        {
+            "title" : "GO Games",
+            "desc" : "GO Games is your Gateway to earning rewards while playing the games that you love.",
+            "image": ""
+        },
+        {
+            "title" : "GO Foundation",
+            "desc" : "Our mission is to make a meaningful impact wherever we go, ensuring our efforts are both far-reaching and lasting.",
+            "image": ""
+        }
+    ],
+
     "golearn" : {
         "title" : ["/s Unlock your success", "/br and learn from industry experts."],
 
@@ -63,7 +91,7 @@
         "foundations" : [
             {
                 "name" : "The Good Shepherd Sisters",
-                "descrption" : "It is a non-profit organization dedicated to developing the quality of life of all those in need regardless of their religious affiliation.",
+                "description" : "It is a non-profit organization dedicated to developing the quality of life of all those in need regardless of their religious affiliation.",
                 "button" : "LEARN MORE",
                 "link" : "",
 
@@ -71,7 +99,7 @@
             },
             {
                 "name" : "Boğaziçi Özel Eğitim",
-                "descrption" : "It is a non-profit organization dedicated to developing the quality of life of all those in need regardless of their religious affiliation.",
+                "description" : "It is a non-profit organization dedicated to developing the quality of life of all those in need regardless of their religious affiliation.",
                 "button" : "LEARN MORE",
                 "link" : "",
 

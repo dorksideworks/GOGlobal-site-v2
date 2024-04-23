@@ -10,7 +10,7 @@ function GOFoundation() {
         <div class="mb-4 py-2 px-5 bg-slate-800 mx-auto text-gray-300 font-bold rounded-full">
            {t("gofoundation.tag")}
         </div>
-        <h1 class="text-white text-4xl md:text-5xl lg:text-6xl font-bold px-5"> 
+        <h1 class="text-slate-900 dark:text-white text-4xl md:text-5xl lg:text-6xl font-bold px-5"> 
          {/* <span class="text-cyan-500">  Changing Lives  </span> by Giving Back */}
          {t("gofoundation.title", {returnObjects:true}).map(function(o,i) {
             if(o.startsWith("/s")) {
@@ -21,7 +21,7 @@ function GOFoundation() {
             }
           })}
         </h1>
-        <p class="text-gray-300 pt-5 mx-auto md:w-1/2 lg:w-1/2"> {t("gofoundation.description")}</p>
+        <p class="text-slate-900 dark:text-gray-300 pt-5 mx-auto md:w-1/2 lg:w-1/2"> {t("gofoundation.description")}</p>
 
 
         

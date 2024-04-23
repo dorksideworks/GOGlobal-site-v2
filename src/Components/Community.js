@@ -9,7 +9,7 @@ function Community() {
         <div class="mb-4 py-2 px-5 bg-slate-800 mx-auto text-gray-300 font-bold rounded-full">
         {t("gocommunity.tag")}
         </div>
-        <h1 class="text-white text-4xl md:text-5xl lg:text-6xl font-bold"> 
+        <h1 class="text-slate-900 dark:text-white text-4xl md:text-5xl lg:text-6xl font-bold"> 
          {/* <span class="text-cyan-500">  Grow and thrive  </span> <br/> together as a community. */}
          {t("gocommunity.title", {returnObjects:true}).map(function(o,i) {
             if(o.startsWith("/s")) {
@@ -22,7 +22,7 @@ function Community() {
 
         </h1>
 
-        <p class="text-gray-300 pt-5 w-full lg:w-1/2 mx-auto"> {t("gocommunity.description")}</p>
+        <p class="text-slate-900 dark:text-gray-300 pt-5 w-full lg:w-1/2 mx-auto"> {t("gocommunity.description")}</p>
 
         <div class="flex flex-col gap-5 relative mt-10 rotate-3 ">
 

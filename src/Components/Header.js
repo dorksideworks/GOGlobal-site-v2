@@ -12,6 +12,8 @@ function Header() {
   const [mobileNav, setMobileNav] = useState(false);
   const [languageDrop, setLanguageDrop] = useState(false);
 
+  const [theme, setTheme] = useState("light");
+
 
   function handleClick(e) {
     if(nav_modal) nav_modal.classList.toggle('open');
@@ -27,6 +29,12 @@ function Header() {
     // burger.addEventListener('click', () => {
     //   if(nav_modal) nav_modal.classList.toggle('open');
     // });
+
+    if(theme === "dark") {
+      document.documentElement.classList.add("dark");
+    } else {
+      document.documentElement.classList.remove("dark");
+    }
   
 
     window.addEventListener('scroll', () =>{
@@ -39,7 +47,15 @@ function Header() {
     })
 
     
-  },[]);
+
+    
+  },[theme]);
+
+
+  const handleThemeSwitch = () => {
+    setTheme(theme==="dark" ? "light" : "dark");
+  }
+
   return (
     <div>
       <header class="fixed inset-x-0 top-0 z-50">
@@ -90,6 +106,14 @@ function Header() {
             </div>
 
 
+
+
+          </div>
+
+          <div>
+            <button class="text-white font-2xl" onClick={handleThemeSwitch}>
+              {theme === "dark" ? "DRK" : "LGHT"}
+            </button>
           </div>
           
         </nav>
