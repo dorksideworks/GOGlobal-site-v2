@@ -3,6 +3,7 @@ import Hero from '../Components/Hero';
 import Products from '../Components/Products';
 import GOLEARN from '../Components/GOLearn';
 import GOFoundation from '../Components/GOFoundation';
+import GOCharity from '../Components/GOCharity';
 import GOTV from '../Components/GOTV';
 import InfiniteMoney  from '../Components/InfiniteMoney';
 import Community from '../Components/Community'; 
@@ -38,7 +39,8 @@ function Home() {
         <GOTV/>
         <GoGames/>
         <InfiniteMoney/>
-        <GOFoundation/>
+        <GOCharity />
+        {/* <GOFoundation/> */}
         <Community/>
       
     </div>
