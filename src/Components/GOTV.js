@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useRef, useEffect} from 'react'
 import { Controller, Scene} from 'react-scrollmagic';
 import { useTranslation } from 'react-i18next';
 
@@ -7,6 +7,18 @@ import {Tween, Timeline} from 'react-gsap';
 function GOTV() {
 
   const [t, i18n] = useTranslation("global");
+
+  let gotvVideo = useRef(null);
+
+  useEffect (() => {
+    
+      setTimeout(() => {
+        if(gotvVideo) {
+            gotvVideo.play();
+        }
+      }, 1000);
+  });
+
 
   return (
     <div class="bg-black overflow-hidden" id="gotv-container">
@@ -19,9 +31,17 @@ function GOTV() {
                             <div class="gotv-head relative" pin>
                                 <img src="/ASSETS/gotv/bg.png" class="mx-auto"/>
                                 <Timeline
-                                    target={<img class="top-0 left-0 mx-auto right-0 scale-75 absolute" src="/ASSETS/gotv/gotv-001.png" />}
+                                    target={
+                                    <div class="relative gotv-tv-container bg-white">
+                                        <img class="top-0 left-0 mx-auto right-0 gotv-screen absolute" src="/ASSETS/gotv/gotv-001.png" />
+
+                                        <video ref={e => {gotvVideo = e}} class="absolute gotv-video" autoplay muted loop playsinline>
+                                            <source src="/ASSETS/gotv.mp4" type="video/mp4"/>
+                                        </video>
+                                    </div>
+                                    }
                                 >
-                                    <Tween from={{top: "-1000px", rotate: "45deg"}} to={{top:"-100px", rotate: "0deg"}}/>
+                                    <Tween from={{top: "-3000px", rotate: "45deg"}} to={{top:"-1280px", rotate: "0deg"}}/>
                                 </Timeline>
                             </div>
                            

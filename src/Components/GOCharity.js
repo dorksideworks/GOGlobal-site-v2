@@ -36,7 +36,7 @@ function GOCharity() {
                                         <img class="country-pin korea absolute" src="/ASSETS/gofoundation/sk-pin.png" />
                                     }
                                 >
-                                    <Tween delay={1000} from={{opacity: 0, bottom:"120%"}} to={{opacity: 1, bottom: "48.5%"}} />
+                                    <Tween from={{opacity: 0, bottom:"120%"}} to={{opacity: 1, bottom: "48.5%"}} />
                                 </Timeline>
 
                                 <Timeline totalProgress={progress} paused
@@ -129,19 +129,34 @@ function GOCharity() {
                         </div>
                         <Timeline totalProgress={progress} paused
                             target={
-                                <img class="right-20 scale-70 absolute" src="/ASSETS/gofoundation/charity-02.png" />
+                                <img class="absolute right-96 scale-50" src="/ASSETS/gofoundation/charity-03.png" />
                             }
                         >
-                            <Tween from={{bottom: "-2000px"}} to={{bottom: "1500px"}} />
+                            <Tween from={{bottom: "-100%"}} to={{bottom: "70%"}} />
+                        </Timeline>
+                        <Timeline totalProgress={progress} paused
+                            target={
+                                <img class="absolute left-96 scale-50" src="/ASSETS/gofoundation/charity-04.png" />
+                            }
+                        >
+                            <Tween from={{bottom: "-100%"}} to={{bottom: "75%"}} />
+                        </Timeline>
+                        <Timeline totalProgress={progress} paused
+                            target={
+                                <img class="-right-10 scale-75 blur-sm absolute" src="/ASSETS/gofoundation/charity-02.png" />
+                            }
+                        >
+                            <Tween from={{bottom: "-100%"}} to={{bottom: "50%"}} />
                         </Timeline>
 
                         <Timeline totalProgress={progress} paused
                             target={
-                                <img class="absolute" src="/ASSETS/gofoundation/charity-01.png" />
+                                <img class="absolute -left-20 scale-75" src="/ASSETS/gofoundation/charity-05.png" />
                             }
                         >
-                            <Tween from={{bottom: "-1500px"}} to={{bottom: "1000px"}} />
+                            <Tween from={{bottom: "-100%"}} to={{bottom: "30%"}} />
                         </Timeline>
+                        
                     </div>
 
 
