@@ -78,7 +78,7 @@ function GOTV() {
                                             </li>
                                             <li class="flex flex-row text-white justify-center items-center gap-5 ">
                                                 <div class="icon bg-red-500 rounded-full"></div>
-                                                <p class="text-xl">Earn rewards from your subscription and sharing with others</p>
+                                                <p class="text-xl">Earn rewards from your subscription <br/> and sharing with others</p>
                                             </li>
                                             <li class="flex flex-row text-white justify-center items-center gap-5 ">
                                                 <div class="icon bg-red-500 rounded-full"></div>
