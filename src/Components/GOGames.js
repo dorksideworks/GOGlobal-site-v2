@@ -19,7 +19,7 @@ function GOGames() {
             </div>
             <div class="wrapper relative -top-60 flex-col flex lg:pt-20 mx-auto ">
                                 
-                <div class="mb-4 relative mx-auto p-10 bg-slate-900 text-white font-bold rounded-xl w-40 text-center">
+                <div class="mb-4 relative mx-auto p-3 py-10 bg-slate-900 text-white font-bold rounded-xl w-40 text-center">
                     <img src="/ASSETS/logos/color/gogames.png"/>
                 </div>
                 <h1 class=" text-center text-4xl md:text-5xl lg:text-5xl font-bold text-white"> 

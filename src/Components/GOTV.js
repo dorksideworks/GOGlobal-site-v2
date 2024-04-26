@@ -42,7 +42,7 @@ function GOTV() {
                                     }
                                 >
                                     <Tween from={{top: "-2000px", rotate: "45deg"}} to={{top:"-800px", rotate: "0deg"}}/>
-                                </Timeline>
+                                </Timeline  >
                             </div>
                            
                         </Timeline>

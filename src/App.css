@@ -245,3 +245,24 @@ html {
   width: 800px;
 
 }
+
+.comp-card{
+  background: #ededed;
+}
+.comp-circ {
+  width: 70px;
+  height: 70px;
+  
+}
+
+.inner-circ{
+  transform: scale(1.5);
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  left: -100%;
+  top: -100%;
+  /* transform: translateX(-50%);
+  transform: translateY(-50%); */
+  opacity: .2;
+}

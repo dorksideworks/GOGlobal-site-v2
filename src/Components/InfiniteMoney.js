@@ -62,19 +62,19 @@ function InfiniteMoney() {
             </Scene>
           </Controller>
           
-        <div class="mb-4 mt-5 py-2 px-5 bg-slate-800 mx-auto text-gray-300 font-bold rounded-full isolate">
-           {t("infin8.tag")}
-        </div>
+          <div class="mb-4 z-50 mt-10 relative mx-auto py-10 px-3 bg-white shadow-xl mb-20 text-white font-bold rounded-xl w-40 text-center">
+              <img src="/ASSETS/logos/color/infin8.png"/>
+          </div>
 
         <h1 class="text-slate-900 dark:text-white text-4xl md:text-5xl lg:text-6xl font-bold isolate"> 
           {/* Ultimate flexibility, <span class="text-cyan-500"> <break /> infinite possibilities. </span>  */}
           {/* {t("infin8.title")} */}
           {t("infin8.title", {returnObjects:true}).map(function(o,i) {
             if(o.startsWith("/s")) {
-              return <div><span class="text-cyan-500"> {o.split("/s")[1]}</span></div>
+              return <span class="text-yellow-600"> {o.split("/s")[1]}</span>
             }
             else {  
-              return <div> <br/> <span> {o} </span> </div>
+              return <span><br/> {o} </span> 
             }
           })}
         </h1>
