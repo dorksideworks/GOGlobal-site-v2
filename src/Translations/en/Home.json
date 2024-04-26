@@ -36,27 +36,27 @@
         {
             "title" : "GO Learn",
             "desc" : "One stop shop to learn new skills and unlock potential from industry experts.",
-            "image": ""
+            "image": "/ASSETS/logos/go-learn.png"
         },
         {
             "title" : "GO TV",
             "desc" : "GO TV is the ultimate streaming platform that offers a wide range of on-demand content including blockbusters and A-List titles from around the world.",
-            "image": ""
+            "image": "/ASSETS/logos/go-tv.png"
         },
         {
             "title" : "INFIN8 Money",
             "desc" : "Seamlessly convert cryptocurrency into cash and enjoy the freedom to use digital assets everywhere major credit cards are accepted.",
-            "image": ""
+            "image": "/ASSETS/logos/infin8-icon.png"
         },
         {
             "title" : "GO Games",
             "desc" : "GO Games is your Gateway to earning rewards while playing the games that you love.",
-            "image": ""
+            "image": "/ASSETS/logos/gogames.png"
         },
         {
             "title" : "GO Foundation",
             "desc" : "Our mission is to make a meaningful impact wherever we go, ensuring our efforts are both far-reaching and lasting.",
-            "image": ""
+            "image": "/ASSETS/logos/go-foundation.png"
         }
     ],
 

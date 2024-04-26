@@ -8,16 +8,16 @@ function GOTV() {
 
   const [t, i18n] = useTranslation("global");
 
-  let gotvVideo = useRef(null);
+//   let gotvVideo = useRef(null);
 
-  useEffect (() => {
+//   useEffect (() => {
     
-      setTimeout(() => {
-        if(gotvVideo) {
-            gotvVideo.play();
-        }
-      }, 1000);
-  });
+//       setTimeout(() => {
+//         if(gotvVideo) {
+//             gotvVideo.play();
+//         }
+//       }, 1000);
+//   });
 
 
   return (
@@ -35,13 +35,13 @@ function GOTV() {
                                     <div class="relative gotv-tv-container bg-white">
                                         <img class="top-0 left-0 mx-auto right-0 gotv-screen absolute" src="/ASSETS/gotv/gotv-001.png" />
 
-                                        <video ref={e => {gotvVideo = e}} class="absolute gotv-video" autoplay muted loop playsinline>
+                                        {/* <video ref={e => {gotvVideo = e}} class="absolute gotv-video" autoplay muted loop playsinline>
                                             <source src="/ASSETS/gotv.mp4" type="video/mp4"/>
-                                        </video>
+                                        </video> */}
                                     </div>
                                     }
                                 >
-                                    <Tween from={{top: "-3000px", rotate: "45deg"}} to={{top:"-1280px", rotate: "0deg"}}/>
+                                    <Tween from={{top: "-2000px", rotate: "45deg"}} to={{top:"-800px", rotate: "0deg"}}/>
                                 </Timeline>
                             </div>
                            
@@ -51,14 +51,14 @@ function GOTV() {
                             <div class="wrapper relative -top-60 flex-col flex lg:pt-20 mx-auto ">
                                 
                                 <div class="mb-4 relative mx-auto p-10 bg-slate-900 text-white font-bold rounded-xl w-40 text-center">
-                                    <img src="/ASSETS/logos/go-tv.png"/>
+                                    <img src="/ASSETS/logos/color/gotv.png"/>
                                 </div>
                                 <h1 class=" text-center text-4xl md:text-5xl lg:text-5xl font-bold text-white"> 
                                     {t("gotv.title", {returnObjects:true}).map(function(o,i) {
                                         if(o.startsWith("/s")) {
                                             return <span class="text-red-500"> {o.split("/s")[1]}</span>
                                         }
-                                        else {  
+                                        else {      
                                             return <span> {o} </span> 
                                         }
                                     })}
@@ -70,7 +70,7 @@ function GOTV() {
                                         <ul class="flex-row gap-20 items-center justify-center flex flex-wrap mx-auto pt-20 text-left">
                                             <li class="flex flex-row text-white justify-center items-center gap-5">
                                                 <div class="icon bg-red-500 rounded-full"></div>
-                                                <p class="text-xl">Annual subscription for  just 500 GO credits</p>
+                                                <p class="text-xl">Annual subscription for <br/> just 500 GO credits</p>
                                             </li>
                                             <li class="flex flex-row text-white justify-center items-center gap-5">
                                                 <div class="icon bg-red-500 rounded-full"></div>
@@ -78,7 +78,7 @@ function GOTV() {
                                             </li>
                                             <li class="flex flex-row text-white justify-center items-center gap-5 ">
                                                 <div class="icon bg-red-500 rounded-full"></div>
-                                                <p class="text-xl">Download from the <br/>App and Play Store today</p>
+                                                <p class="text-xl">Earn rewards from your subscription and sharing with others</p>
                                             </li>
                                             <li class="flex flex-row text-white justify-center items-center gap-5 ">
                                                 <div class="icon bg-red-500 rounded-full"></div>

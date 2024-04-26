@@ -230,3 +230,18 @@ html {
 .thailand:hover img {
   transform: scale(1.1);
 }
+
+.gotv-video {
+  margin: 0 auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top:5px;
+  width: 900px;
+  /* height: 690px; */
+}
+
+.gotv-screen {
+  width: 800px;
+
+}
