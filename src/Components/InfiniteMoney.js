@@ -48,7 +48,7 @@ function InfiniteMoney() {
                   <Timeline totalProgress={progress} paused>
                     <Timeline
                       target={
-                        <div class="hero-gradient absolute z-50 bg-gradient-to-t from-slate-50 dark:from-slate-900 left-0 w-full h-32 isolate"></div>
+                        <div class="hero-gradient absolute z-30 bg-gradient-to-t from-slate-50 dark:from-slate-900 left-0 w-full h-32 "></div>
                       }>
 
                       <Tween from={{bottom: "-1000px"}} to={{bottom: "-20px"}} />
@@ -62,7 +62,7 @@ function InfiniteMoney() {
             </Scene>
           </Controller>
           
-          <div class="mb-4 z-50 mt-10 relative mx-auto py-10 px-3 bg-white shadow-xl mb-20 text-white font-bold rounded-xl w-40 text-center">
+          <div class="mb-4 z-40 mt-10 relative mx-auto py-10 px-3 bg-white shadow-xl mb-20 text-white font-bold rounded-xl w-40 text-center">
               <img src="/ASSETS/logos/color/infin8.png"/>
           </div>
 

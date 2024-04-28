@@ -57,7 +57,6 @@ function Header() {
   }
 
   return (
-    <div>
       <header class="fixed inset-x-0 top-0 z-50">
         <nav 
         class={`flex items-center justify-between p-4 duration-500 lg:px-8 ${scrolltopdata? 'bg-slate-900 py-6' : ''}`}
@@ -130,7 +129,6 @@ function Header() {
           </div>
         
       </header>
-    </div>
   )
 }
 
