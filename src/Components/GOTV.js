@@ -4,6 +4,8 @@ import { useTranslation } from 'react-i18next';
 
 import {Tween, Timeline} from 'react-gsap';
 
+import { UilAwardAlt, UilEnglishToChinese,UilFilm, UilClapperBoard, UilCoins } from '@iconscout/react-unicons'
+
 function GOTV() {
 
   const [t, i18n] = useTranslation("global");
@@ -69,23 +71,32 @@ function GOTV() {
                                     <div class="flex flex-col flex-wrap wrapper mx-auto">
                                         <ul class="flex-row gap-20 items-center justify-center flex flex-wrap mx-auto pt-20 text-left">
                                             <li class="flex flex-row text-white justify-center items-center gap-5">
-                                                <div class="icon bg-red-500 rounded-full"></div>
+                                                <div class="icon bg-red-500 rounded-full  relative flex flex-row items-center justify-center text-white">
+                                                    <UilCoins color="#000000"/>
+                                                </div>
                                                 <p class="text-xl">Annual subscription for <br/> just 500 GO credits</p>
                                             </li>
                                             <li class="flex flex-row text-white justify-center items-center gap-5">
-                                                <div class="icon bg-red-500 rounded-full"></div>
+                                                <div class="icon bg-red-500 rounded-full relative flex flex-row items-center justify-center text-white">
+                                                    <UilEnglishToChinese color="#000000" /> </div>
                                                 <p class="text-xl">Available in multiple Languages</p>
                                             </li>
                                             <li class="flex flex-row text-white justify-center items-center gap-5 ">
-                                                <div class="icon bg-red-500 rounded-full"></div>
+                                                <div class="icon bg-red-500 rounded-full relative flex flex-row items-center justify-center text-white">
+                                                    <UilAwardAlt color="#000000" /> 
+                                                </div>
                                                 <p class="text-xl">Earn rewards from your subscription <br/> and sharing with others</p>
                                             </li>
                                             <li class="flex flex-row text-white justify-center items-center gap-5 ">
-                                                <div class="icon bg-red-500 rounded-full"></div>
+                                                <div class="icon bg-red-500 rounded-full relative flex flex-row items-center justify-center text-white">
+                                                    <UilFilm color="#000000" />
+                                                </div>
                                                 <p class="text-xl">A-List <br/>Blockbusters and TV Shows.</p>
                                             </li>
                                             <li class="flex flex-row text-white justify-center items-center gap-5 ">
-                                                <div class="icon bg-red-500 rounded-full"></div>
+                                                <div class="icon bg-red-500 rounded-full relative flex flex-row items-center justify-center text-white">
+                                                    <UilClapperBoard color="#000000"/>
+                                                </div>
                                                 <p class="text-xl">Brand new <br/>content every week</p>
                                             </li>
                                         </ul>

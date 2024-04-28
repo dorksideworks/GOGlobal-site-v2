@@ -18,7 +18,7 @@ function SayHello () {
                 <p class="pt-3 dark:text-white text-slate-900" >Providing global digital experiences with our wide range of innovative products.</p>
 
                 <div class="pt-5"> 
-                    <ul class="flex flex-row pt-10 items-start justify-center gap-5 text-slate-900 dark:text-white">
+                    <ul class="flex sm:flex-col md: flex-col lg:flex-row pt-10 items-start justify-center gap-5 text-slate-900 dark:text-white">
                         {t("sayhello", {returnObjects:true}).map(function(o, i) {
                             return (
                                 <li class="flex flex-col w-23 basis-1/5  flex flex-col items-center justify-center"> 

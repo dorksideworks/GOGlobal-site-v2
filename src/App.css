@@ -125,9 +125,12 @@ html {
 .laptop-video {
   position: absolute;
   z-index: 50;
-  top: 20px;
+  /* top: 20px;
   width: 440px;
-  left: 118px;
+  left: 118px; */
+  width: 65%;
+  left: 17.5%;
+  top: 5%;
 }
 
 .icon {
