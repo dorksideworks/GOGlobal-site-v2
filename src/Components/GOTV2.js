@@ -47,20 +47,30 @@ function GOTV2() {
     }, [slider])
 
     return(
-        <div class="bg-black pt-20z">
-            <main class="grid-item main wrapper mx-auto">
-            <div class="items" ref={slider}>
-            
-                <img class="item"src="/ASSETS/gotv/posters/spiderman1.jpg" />
-                <img class="item"src="/ASSETS/gotv/posters/karatekid3.jpg" />
-                <img class="item"src="/ASSETS/gotv/posters/ghostbusters1.jpg" />
-                <img class="item"src="/ASSETS/gotv/posters/ghostbusters2.jpg" />
-                <img class="item"src="/ASSETS/gotv/posters/flatliners.jpg" />
-                <img class="item"src="/ASSETS/gotv/posters/fewgoodmen.jpg" />
-                <img class="item"src="/ASSETS/gotv/posters/mygirl.jpg" />
-               
-                </div>
-            </main>
+        <div class="bg-black pt-52 relative">
+            <div class="flex flex-row justify-center items-center">
+                <img class="mx-auto absolute" src="/ASSETS/gotv/bg.png" />
+                <main class="grid-item main mx-auto top-27">
+                    <div class="items" ref={slider}>
+                
+                        <img class="item"src="/ASSETS/gotv/posters/spiderman1.jpg" />
+                        <img class="item"src="/ASSETS/gotv/posters/karatekid3.jpg" />
+                        <img class="item"src="/ASSETS/gotv/posters/ghostbusters1.jpg" />
+                        <img class="item"src="/ASSETS/gotv/posters/ghostbusters2.jpg" />
+                        <img class="item"src="/ASSETS/gotv/posters/flatliners.jpg" />
+                        <img class="item"src="/ASSETS/gotv/posters/fewgoodmen.jpg" />
+                        <img class="item"src="/ASSETS/gotv/posters/mygirl.jpg" />
+                        <img class="item"src="/ASSETS/gotv/posters/spiderman1.jpg" />
+                        <img class="item"src="/ASSETS/gotv/posters/karatekid3.jpg" />
+                        <img class="item"src="/ASSETS/gotv/posters/ghostbusters1.jpg" />
+                        <img class="item"src="/ASSETS/gotv/posters/ghostbusters2.jpg" />
+                        <img class="item"src="/ASSETS/gotv/posters/flatliners.jpg" />
+                        <img class="item"src="/ASSETS/gotv/posters/fewgoodmen.jpg" />
+                        <img class="item"src="/ASSETS/gotv/posters/mygirl.jpg" />
+                    
+                    </div>
+                </main>
+            </div>
             <div class="wrapper relative flex-col flex lg:pt-20 mx-auto ">
                                 
                                 <div class="mb-4 relative mx-auto p-10 bg-slate-900 text-white font-bold rounded-xl w-40 text-center">
