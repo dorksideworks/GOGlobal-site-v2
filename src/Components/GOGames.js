@@ -46,7 +46,7 @@ function GOGames() {
                             <li class="flex flex-row text-white justify-center items-center gap-5 box-border	 ">
                                 <div class="icon bg-cyan-500 rounded-full"></div>
                                 <p class="text-l basis-2/3">The opportunity to be an executive producer in future games and participate in the revenue share of game sales</p>
-                            </li>
+                        </li>
                             <li class="flex flex-row text-white justify-center items-center gap-5 box-border	 ">
                                 <div class="icon bg-cyan-500 rounded-full"></div>
                                 <p class="text-l basis-2/3">Multiplayer Games</p>
@@ -58,7 +58,7 @@ function GOGames() {
                         </ul>
                     </div>
                 </div>
-                
+                 
             </div>
 
         </div>

@@ -1,5 +1,6 @@
 import React, {useState, useEffect, useRef} from 'react'
 import { useTranslation } from 'react-i18next'
+import {UilMoon, UilSun} from '@iconscout/react-unicons';
 
 
 function Header() {
@@ -111,7 +112,7 @@ function Header() {
 
           <div>
             <button class="text-white font-2xl" onClick={handleThemeSwitch}>
-              {theme === "dark" ? "DRK" : "LGHT"}
+              {theme === "dark" ? <UilMoon color="#ffffff"/> : <UilSun color="#ffffff"/>}
             </button>
           </div>
           

@@ -9,6 +9,8 @@ import InfiniteMoney  from '../Components/InfiniteMoney';
 import Community from '../Components/Community'; 
 import SayHello from '../Components/SayHello';
 import GoGames from '../Components/GOGames';
+
+import GOTV2 from '../Components/GOTV2';
 import Compensation from '../Components/Compensation';
 
 import {useLocation, useMatch} from 'react-router-dom';
@@ -37,7 +39,8 @@ function Home() {
         <Hero/>
         <SayHello />
         <GOLEARN/>
-        <GOTV/>
+        {/* <GOTV/> */}
+        <GOTV2 />
         <GoGames/>
         <InfiniteMoney/>
         <GOCharity />
