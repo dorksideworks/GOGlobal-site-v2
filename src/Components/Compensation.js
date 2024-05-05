@@ -35,24 +35,24 @@ function Compensation() {
 
                     </div>
 
-                    <div class="basis-1/3 text-left comp-card p-5 rounded-xl overflow-hidden">
+                    <div class="basis-1/3 text-left comp-card p-5 rounded-xl overflow-hidden relative">
                         <div class="flex flex-row items-start justify-between pb-20 pt-5">
-
-                        <div class="comp-circ bg-cyan-500 relative rounded-full flex flex-row items-center justify-center">
+                        {/* <img class="absolute -top-5 scale-150 -right-32" src="/ASSETS/compensation/target-bg.png"/> */}
+                        <div class="comp-circ bg-cyan-500 relative rounded-full flex flex-row items-center justify-center z-30">
 
                             <img class="p-5" src="/ASSETS/compensation/target.png"/>
                             <div class="absolute inner-circ bg-cyan-500 rounded-full">
                             </div>
                         </div>
 
-                        <div class="label rounded-full bg-cyan-500 py-1 px-5 text-white font-bold flex flex-col items-center justify-center text-center">
+                        <div class="label rounded-full bg-cyan-500 py-1 px-5 text-white font-bold flex flex-col items-center justify-center text-center z-30">
                             WEEKLY
                         </div>
 
                         </div>
                         <h1 class="font-bold text-4xl z-50 ">GO <br/><span class="text-cyan-500"> Target</span></h1>
-                        <p class="mt-5">Earn a percentage of the <br/> company’s weekly global revenue.</p>
-    
+                        <p class="mt-5 z-50">Earn a percentage of the <br/> company’s weekly global revenue.</p>
+                        
                     </div>
 
                     <div class="basis-1/3 text-left comp-card p-5 rounded-xl overflow-hidden">
