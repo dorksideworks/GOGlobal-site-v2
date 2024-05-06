@@ -29,7 +29,7 @@ function InfiniteMoney() {
                   <Timeline totalProgress={progress} paused>
                     <Timeline 
                       target={
-                          <img class="mx-auto absolute left-auto right-auto w-72 origin-bottom scale-110" src="/ASSETS/infin8/infin8-002.png"></img>
+                          <img class="z-20 mx-auto absolute left-auto right-auto w-72 origin-bottom scale-110" src="/ASSETS/infin8/infin8-002.png"></img>
                       }>
 
                       <Tween from={{rotate: "0deg", bottom: "-700px"}} to={{rotate: "30deg", bottom: "50px"}} />
