@@ -71,7 +71,7 @@ function InfiniteMoney() {
           {/* {t("infin8.title")} */}
           {t("infin8.title", {returnObjects:true}).map(function(o,i) {
             if(o.startsWith("/s")) {
-              return <span class="text-yellow-600"> {o.split("/s")[1]}</span>
+              return <span class=""> {o.split("/s")[1]}</span>
             }
             else {  
               return <span><br/> {o} </span> 
