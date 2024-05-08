@@ -17,7 +17,7 @@ function GOwin() {
         
         const gs = new Glide('.glide-gowin', {
             type: 'carousel',
-            perView: 3,
+            perView: 12,
             autoplay: true,
             swipeThreshold: false,
             dragThreshold: false,
@@ -28,7 +28,23 @@ function GOwin() {
             animationTimingFunc: "linear"
         }).mount();
 
-        
+        const handleResize = () => {
+            if(window.innerWidth <= 500) {
+                gs.update({perView:2})
+            }
+            else if(window.innerWidth > 500 && window.innerWidth <= 900) {
+                gs.update({perView: 3})
+            }
+            else if(window.innerWidth > 900 && window.innerWidth <= 1300) {
+                gs.update({perView: 6})
+            }
+            else if(window.innerWidth > 1300 && window.innerWidth <= 1800) {
+                gs.update({perView: 8})
+            }
+        }
+
+        window.addEventListener("load", handleResize);
+        window.addEventListener("resize", handleResize);
     }, )
 
     return(
@@ -46,8 +62,40 @@ function GOwin() {
                     </p>
 
                     <div class="self-start">
-                        <h1 class="text-lg text-gray-400 font-bold text-left pt-10 pb-5"> POWERED BY:</h1>
-                        <div class="gliders">
+                        
+                        {/* <div class="flex flex-row gap-5 gowin-dev">
+                            <div class="bg-slate-900 p-5 rounded-lg">
+                                <img class="duration-500 grayscale hover:grayscale-0 " src="/ASSETS/gowin/pragmatic.png"/>
+                            </div><div class="bg-slate-900 p-5 rounded-lg">
+                            <img class="duration-500 grayscale hover:grayscale-0 " src="/ASSETS/gowin/playngo.png"/>
+                            </div><div class="bg-slate-900 p-5 rounded-lg">
+                                <img class="duration-500 grayscale hover:grayscale-0 " src="/ASSETS/gowin/evolution.png"/>
+                            </div>
+                            
+                            
+                        </div> */}
+                    </div>
+                </div>
+                <div class="relative">
+                    <div>
+
+                        <img src="/ASSETS/gowin/gowin-phone-2.png" class="absolute phone-2 z-20"/>
+
+                        <img src="/ASSETS/gowin/coin-01.png" class="absolute scale-50 coin-1 z-20 " />
+                        <img src="/ASSETS/gowin/gowin-phone-1.png" class="absolute phone-1 z-20"/>
+
+                        <img src="/ASSETS/gowin/coin-2.png" class="absolute coin-2 z-20"/>
+                        <img src="/ASSETS/gowin/coin-3.png" class="absolute coin-3 z-20"/>
+                        <img src="/ASSETS/gowin/coin-4.png" class="absolute coin-4 z-20"/>
+                        <img src="/ASSETS/gowin/coin-5.png" class="absolute coin-5 z-20"/>
+                        <img src="/ASSETS/gowin/coin-6.png" class="absolute coin-6 z-20"/>
+                    </div>
+                    <img src="/ASSETS/gowin/gowin-bg.png" class="scale-100 z-1"/>
+                </div>
+            </div>
+            <div class="gliders">
+            <h1 class="text-lg text-gray-400 font-bold text-center pt-10 pb-5"> POWERED BY:</h1>
+                        
                             <div class="glide-gowin">
                                 <div class="glide__track text-white text-2xl" data-glide-el="track">
                                     <ul class="glide__slides">
@@ -109,36 +157,6 @@ function GOwin() {
                                 </div>
                             </div>
                         </div>
-                        {/* <div class="flex flex-row gap-5 gowin-dev">
-                            <div class="bg-slate-900 p-5 rounded-lg">
-                                <img class="duration-500 grayscale hover:grayscale-0 " src="/ASSETS/gowin/pragmatic.png"/>
-                            </div><div class="bg-slate-900 p-5 rounded-lg">
-                            <img class="duration-500 grayscale hover:grayscale-0 " src="/ASSETS/gowin/playngo.png"/>
-                            </div><div class="bg-slate-900 p-5 rounded-lg">
-                                <img class="duration-500 grayscale hover:grayscale-0 " src="/ASSETS/gowin/evolution.png"/>
-                            </div>
-                            
-                            
-                        </div> */}
-                    </div>
-                </div>
-                <div class="relative">
-                    <div>
-
-                        <img src="/ASSETS/gowin/gowin-phone-2.png" class="absolute phone-2 z-20"/>
-
-                        <img src="/ASSETS/gowin/coin-01.png" class="absolute scale-50 coin-1 z-20 " />
-                        <img src="/ASSETS/gowin/gowin-phone-1.png" class="absolute phone-1 z-20"/>
-
-                        <img src="/ASSETS/gowin/coin-2.png" class="absolute coin-2 z-20"/>
-                        <img src="/ASSETS/gowin/coin-3.png" class="absolute coin-3 z-20"/>
-                        <img src="/ASSETS/gowin/coin-4.png" class="absolute coin-4 z-20"/>
-                        <img src="/ASSETS/gowin/coin-5.png" class="absolute coin-5 z-20"/>
-                        <img src="/ASSETS/gowin/coin-6.png" class="absolute coin-6 z-20"/>
-                    </div>
-                    <img src="/ASSETS/gowin/gowin-bg.png" class="scale-150 z-1"/>
-                </div>
-            </div>
         </div>
     )
 }
