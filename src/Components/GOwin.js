@@ -4,7 +4,32 @@ import {useTranslation} from 'react-i18next';
 import {Tween, Timeline} from 'react-gsap';
 import {Controller, Scene} from 'react-scrollmagic';
 
+import "@glidejs/glide/dist/css/glide.core.min.css";
+import "@glidejs/glide/dist/css/glide.theme.min.css"
+import Glide from '@glidejs/glide'
+
 function GOwin() {
+
+    useEffect(() => {
+        let isDown = false;
+        let startX;
+        let scrollLeft;
+        
+        const gs = new Glide('.glide-gowin', {
+            type: 'carousel',
+            perView: 3,
+            autoplay: true,
+            swipeThreshold: false,
+            dragThreshold: false,
+            rewind: true,
+            gap: 10,
+            focusAt: 'center',
+            animationDuration: 5000,
+            animationTimingFunc: "linear"
+        }).mount();
+
+        
+    }, )
 
     return(
         <div class="bg-black py-52">
@@ -22,7 +47,69 @@ function GOwin() {
 
                     <div class="self-start">
                         <h1 class="text-lg text-gray-400 font-bold text-left pt-10 pb-5"> POWERED BY:</h1>
-                        <div class="flex flex-row gap-5 gowin-dev">
+                        <div class="gliders">
+                            <div class="glide-gowin">
+                                <div class="glide__track text-white text-2xl" data-glide-el="track">
+                                    <ul class="glide__slides">
+                                        <li class="glide__slide">
+                                            <div class="logo-box bg-slate-900 p-5 rounded-lg flex flex-col">
+                                                <img src="/ASSETS/gowin/pragmatic.png"/>
+                                                <h1 class="font-bold text-sm pt-5 text-white"> PRAGMATIC </h1>
+                                            </div>
+                                        </li>
+                                        <li class="glide__slide">
+                                            <div class="logo-box bg-slate-900 p-5 rounded-lg flex flex-col">
+                                                <img src="/ASSETS/gowin/playngo.png"/>
+                                                
+                                                <h1 class="font-bold text-sm pt-5 text-white"> PLAY N GO </h1>
+
+                                            </div>
+                                        </li>
+
+                                        <li class="glide__slide">
+                                            <div class="logo-box bg-slate-900 p-5 rounded-lg flex flex-col">
+                                                <img src="/ASSETS/gowin/evolution.png"/>
+                                                
+                                                <h1 class="font-bold text-sm pt-5 text-white"> EVOLUTION </h1>
+
+                                            </div>
+                                        </li>
+                                        <li class="glide__slide">
+                                            <div class="logo-box bg-slate-900 p-5 rounded-lg flex flex-col">
+                                                <img src="/ASSETS/gowin/betsolutions.png"/>
+                                                
+                                                <h1 class="font-bold text-sm pt-5 text-white"> BETSOLUIONS </h1>
+
+                                            </div>
+                                        </li><li class="glide__slide">
+                                            <div class="logo-box bg-slate-900 p-5 rounded-lg flex flex-col">
+                                                <img src="/ASSETS/gowin/reelplay.png"/>
+                                                
+                                                <h1 class="font-bold text-sm pt-5 text-white"> REELPLAY </h1>
+
+                                            </div>
+                                        </li><li class="glide__slide">
+                                            <div class="logo-box bg-slate-900 p-5 rounded-lg flex flex-col">
+                                                <img src="/ASSETS/gowin/readyplaygaming.png"/>
+                                                
+                                                <h1 class="font-bold text-xs pt-5 text-white"> READY PLAY </h1>
+
+                                            </div>
+                                        </li>
+                                        <li class="glide__slide">
+                                            <div class="logo-box bg-slate-900 p-5 rounded-lg flex flex-col">
+                                                <img src="/ASSETS/gowin/pateplay.png"/>
+                                                
+                                                <h1 class="font-bold text-xs pt-5 text-white"> PATEPLAY </h1>
+
+                                            </div>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        {/* <div class="flex flex-row gap-5 gowin-dev">
                             <div class="bg-slate-900 p-5 rounded-lg">
                                 <img class="duration-500 grayscale hover:grayscale-0 " src="/ASSETS/gowin/pragmatic.png"/>
                             </div><div class="bg-slate-900 p-5 rounded-lg">
@@ -32,7 +119,7 @@ function GOwin() {
                             </div>
                             
                             
-                        </div>
+                        </div> */}
                     </div>
                 </div>
                 <div class="relative">

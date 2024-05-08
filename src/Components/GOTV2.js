@@ -1,4 +1,4 @@
-import Reactm,{useEffect, useRef} from 'react'
+import React ,{useEffect, useRef} from 'react'
 
 
 import { useTranslation } from 'react-i18next';
@@ -22,7 +22,7 @@ function GOTV2() {
         
         const g = new Glide('.glide', {
             type: 'carousel',
-            perView: 7  ,
+            perView: 7,
             autoplay: true,
             swipeThreshold: false,
             dragThreshold: false,

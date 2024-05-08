@@ -357,13 +357,13 @@ html {
   max-width: 45%;
 }
 
-.glide__slide{
+.glide .glide__slide{
   flex-shrink: 1 !important;
   /* width: auto !important;
   object-fit: contain; */
 }
 
-.glide__slide img {
+.glide .glide__slide img {
   margin: 0;
   object-fit: contain;
 }
@@ -427,5 +427,21 @@ html {
 }
 
 .gowin-dev img {
-  width: 100px;
+  width: 0px;
+}
+
+.gliders {
+  width: 500px;
+  max-width: 500px;
+
+}
+
+.logo-box {
+  width: 150px;
+  height: 150px;
+}
+
+.logo-box img {
+  width: 80px;
+  margin: 0 auto;
 }
