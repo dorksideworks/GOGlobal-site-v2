@@ -372,3 +372,56 @@ html {
   height: 800px;
   width: 200px;
 }
+
+.phone-1 {
+  left: 50%;
+  transform:translateX();
+  height: 500px;
+  transform: translate(0%,-20%);
+}
+
+.phone-2 {
+  left: 50%;
+  height: 500px;
+  transform:translate(-70%,10%);
+}
+
+.coin-1 {
+  left: 50%;
+  transform: translate(-90%, 0%);
+  scale: .5;
+}
+.coin-2 {
+  top: -500px;
+  right: -600px;
+  scale: .4;
+}
+
+.coin-3 {
+  right: -200px;
+  scale: .3;
+  bottom: -100px;
+}
+
+.coin-4 {
+  scale: .4;
+  left: -300px;
+  top: -400px;
+}
+
+.coin-5 {
+  scale: .5;
+  left: 50%;
+  transform: translate(-360%, 80%);
+}
+
+.coin-6 {
+  scale: .4;
+  left: 50%;
+  transform: translate(-120%, -350%);
+
+}
+
+.gowin-highlight {
+  color: #f7e99a;
+}

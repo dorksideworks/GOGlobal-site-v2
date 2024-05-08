@@ -13,6 +13,7 @@ function GOTV2() {
     const [t, i18n] = useTranslation("global");
 
     const slider = useRef(null);
+    
     useEffect(() => {
 
         let isDown = false;
@@ -31,6 +32,7 @@ function GOTV2() {
             animationDuration: 5000,
             animationTimingFunc: "linear"
         }).mount();
+
         const handleResize = () => {
             if(window.innerWidth <= 500) {
                 g.update({perView:1})

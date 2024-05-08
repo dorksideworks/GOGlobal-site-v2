@@ -9,6 +9,7 @@ import InfiniteMoney  from '../Components/InfiniteMoney';
 import Community from '../Components/Community'; 
 import SayHello from '../Components/SayHello';
 import GoGames from '../Components/GOGames';
+import GOwin from '../Components/GOwin';
 
 import GOTV2 from '../Components/GOTV2';
 import Compensation from '../Components/Compensation';
@@ -42,6 +43,7 @@ function Home() {
         {/* <GOTV/> */}
         <GOTV2 />
         <GoGames/>
+        <GOwin/>
         <InfiniteMoney/>
         <GOCharity />
         <Compensation />
