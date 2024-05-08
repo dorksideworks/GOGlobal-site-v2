@@ -15,6 +15,21 @@ function GOwin() {
                     </div>
                     <h1 class="mt-8 text-5xl text-white font-bold text-left">Welcome to the <span class="gowin-highlight">Future of Affiliate Online Gaming</span></h1>
                     <p class="text-white text-left pt-8 sm:pr-0 lg:pr-52"> For the first time ever in the network marketing industry you can be part of a world-class online gaming platform that allows you to play LIVE games and tournaments with players from all over the world. Powered by some of the biggest regulated game developers in the world like Pragmatic Play, Evolution and Play’n GO, you can experience the thrill of winning big in games such as baccarat, poker, slots and roulette from the comfort of your own home.</p>
+
+                    <div class="self-start">
+                        <h1 class="text-lg text-gray-400 font-bold text-left pt-10 pb-5"> POWERED BY:</h1>
+                        <div class="flex flex-row gap-5 gowin-dev">
+                            <div class="bg-slate-900 p-5 rounded-lg">
+                                <img class="duration-500 grayscale hover:grayscale-0 " src="/ASSETS/gowin/pragmatic.png"/>
+                            </div><div class="bg-slate-900 p-5 rounded-lg">
+                                <img class="duration-500 grayscale hover:grayscale-0 " src="/ASSETS/gowin/playngo.png"/>
+                            </div><div class="bg-slate-900 p-5 rounded-lg">
+                                <img class="duration-500 grayscale hover:grayscale-0 " src="/ASSETS/gowin/evolution.png"/>
+                            </div>
+                            
+                            
+                        </div>
+                    </div>
                 </div>
                 <div class="relative">
                     <div>

@@ -425,3 +425,7 @@ html {
 .gowin-highlight {
   color: #f7e99a;
 }
+
+.gowin-dev img {
+  width: 100px;
+}
