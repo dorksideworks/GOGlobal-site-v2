@@ -17,7 +17,7 @@ function GOwin() {
         
         const gs = new Glide('.glide-gowin', {
             type: 'carousel',
-            perView: 12,
+            perView: 9,
             autoplay: true,
             swipeThreshold: false,
             dragThreshold: false,
@@ -36,10 +36,10 @@ function GOwin() {
                 gs.update({perView: 3})
             }
             else if(window.innerWidth > 900 && window.innerWidth <= 1300) {
-                gs.update({perView: 6})
+                gs.update({perView: 4})
             }
             else if(window.innerWidth > 1300 && window.innerWidth <= 1800) {
-                gs.update({perView: 8})
+                gs.update({perView: 6})
             }
         }
 
@@ -93,7 +93,10 @@ function GOwin() {
                     <img src="/ASSETS/gowin/gowin-bg.png" class="scale-100 z-1"/>
                 </div>
             </div>
-            <div class="gliders">
+            <div class="gliders wrapper mx-auto relative">
+            <div class="gowin-gradient absolute z-30 bg-gradient-to-r from-black left-0 top-0 gotv-gradient"></div>
+            <div class="gowin-gradient absolute z-30 bg-gradient-to-l from-black right-0 top-0 gotv-gradient"></div>
+            
             <h1 class="text-lg text-gray-400 font-bold text-center pt-10 pb-5"> POWERED BY:</h1>
                         
                             <div class="glide-gowin">
