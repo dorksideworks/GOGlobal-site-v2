@@ -11,8 +11,8 @@ function Compensation() {
         <div class="py-40   ">
 
             <div class="wrapper mx-auto flex flex-col ">
-                <h1 class="font-bold text-6xl" > <span class="text-cyan-500">The Most Powerful</span><br/> Opportunity in the world</h1>
-                <p class="mt-5">Unlimited earning potential with our affiliate program. Simple, powerful, limitless income potential!</p>
+                <h1 class="font-bold text-6xl dark:text-white text-slate-900" > <span class="text-cyan-500">The Most Powerful</span><br/> Opportunity in the world</h1>
+                <p class="mt-5 dark:text-white text-slate-900">Unlimited earning potential with our affiliate program. Simple, powerful, limitless income potential!</p>
                 <div class="flex flex-row mt-10 gap-10">
 
                     <div class="basis-1/3 text-left comp-card p-5 rounded-xl overflow-hidden">

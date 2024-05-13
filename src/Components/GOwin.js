@@ -48,7 +48,7 @@ function GOwin() {
     }, )
 
     return(
-        <div class="bg-black py-52">
+        <div class="bg-slate-900 py-52">
             <div class="wrapper flex sm:flex-col lg:flex-row mx-auto">
                 <div class="flex items-center flex-col justify-center md:mb-52 sm:mb-52">
                     <div class="self-start  mb-4 relative p-3 py-10 bg-slate-900 text-white font-bold rounded-xl w-40 text-left">
@@ -85,7 +85,7 @@ function GOwin() {
                         <img src="/ASSETS/gowin/gowin-phone-1.png" class="absolute phone-1 z-20"/>
 
                         <img src="/ASSETS/gowin/coin-2.png" class="absolute coin-2 z-20"/>
-                        <img src="/ASSETS/gowin/coin-3.png" class="absolute coin-3 z-20"/>
+                        <img src="/ASSETS/gowin/coin-3.png" class="absolute coin-3 z-40"/>
                         <img src="/ASSETS/gowin/coin-4.png" class="absolute coin-4 z-20"/>
                         <img src="/ASSETS/gowin/coin-5.png" class="absolute coin-5 z-20"/>
                         <img src="/ASSETS/gowin/coin-6.png" class="absolute coin-6 z-20"/>
@@ -93,9 +93,9 @@ function GOwin() {
                     <img src="/ASSETS/gowin/gowin-bg.png" class="scale-100 z-1"/>
                 </div>
             </div>
-            <div class="gliders wrapper mx-auto relative">
-            <div class="gowin-gradient absolute z-30 bg-gradient-to-r from-black left-0 top-0 gotv-gradient"></div>
-            <div class="gowin-gradient absolute z-30 bg-gradient-to-l from-black right-0 top-0 gotv-gradient"></div>
+            <div class="gliders wrapper mx-auto relative -top-52">
+            <div class="gowin-gradient absolute z-30 bg-gradient-to-r from-slate-900 left-0 top-0 gotv-gradient"></div>
+            <div class="gowin-gradient absolute z-30 bg-gradient-to-l from-slate-900 right-0 top-0 gotv-gradient"></div>
             
             <h1 class="text-lg text-gray-400 font-bold text-center pt-10 pb-5"> POWERED BY:</h1>
                         

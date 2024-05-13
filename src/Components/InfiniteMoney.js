@@ -51,10 +51,10 @@ function InfiniteMoney() {
                         <div class="hero-gradient absolute z-30 bg-gradient-to-t from-slate-50 dark:from-slate-900 left-0 w-full h-32 "></div>
                       }>
 
-                      <Tween from={{bottom: "-1000px"}} to={{bottom: "-170px"}} />
+                      <Tween from={{bottom: "-1000px"}} to={{bottom: "-180px"}} />
 
                     </Timeline>
-                  </Timeline>
+                </Timeline>
                   
                 </div>
               )}

@@ -8,7 +8,7 @@ function GOGames() {
     const [t, i18n] = useTranslation("global");
 
     return(
-        <div class="relative bg-black">
+        <div class="relative bg-slate-900">
 
             {/* <img class="absolute bottom-0 left-72" src="/ASSETS/gogames/gogames-console.png"/> */}
             <img class="absolute -right-52 top-24 scale-50" src="/ASSETS/gogames/gogames-controller.png"/>

@@ -80,9 +80,9 @@ function GOTV2() {
     }, [slider])
 
     return(
-        <div class="bg-black pt-52 relative">
-            <div class="hero-gradient absolute z-30 bg-gradient-to-r from-black left-0 top-0 gotv-gradient"></div>
-            <div class="hero-gradient absolute z-30 bg-gradient-to-l from-black right-0 top-0 gotv-gradient"></div>
+        <div class="bg-slate-900 pt-52 relative overflow-hidden">
+            <div class="hero-gradient absolute z-30 bg-gradient-to-r from-slate-900 left-0 top-0 gotv-gradient"></div>
+            <div class="hero-gradient absolute z-30 bg-gradient-to-l from-slate-900 right-0 top-0 gotv-gradient"></div>
             
             <div class="flex flex-row justify-center items-center pb-20">
                 <img class="mx-auto absolute" src="/ASSETS/gotv/bg.png" />
