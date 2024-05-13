@@ -132,9 +132,9 @@ function GOTV2() {
                 </h1>
                 <p class="pt-5 text-center text-white"> {t("gotv.description")} </p>
                 <div class="pt-20">
-                    <h1 class="text-white font-bold text-5xl">HOW IT WORKS</h1>
+                    {/* <h1 class="text-white font-bold text-5xl">HOW IT WORKS</h1> */}
                     <div class="flex flex-col flex-wrap wrapper mx-auto">
-                        <ul class="flex-row gap-20 items-center justify-center flex flex-wrap mx-auto pt-20 text-left">
+                        <ul class="flex-row gap-20 items-center justify-center flex flex-wrap mx-auto pt-0 pb-52 text-left">
                             <li class="flex flex-row text-white justify-center items-center gap-5">
                                 <div class="icon bg-red-500 rounded-full  relative flex flex-row items-center justify-center text-white">
                                     <UilCoins color="#000000"/>

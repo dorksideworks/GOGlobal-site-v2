@@ -10,7 +10,7 @@ function GOGames() {
     return(
         <div class="relative bg-black">
 
-            <img class="absolute bottom-0 left-72" src="/ASSETS/gogames/gogames-console.png"/>
+            {/* <img class="absolute bottom-0 left-72" src="/ASSETS/gogames/gogames-console.png"/> */}
             <img class="absolute -right-52 top-24 scale-50" src="/ASSETS/gogames/gogames-controller.png"/>
             <img class="absolute top-0 -left-52" src="/ASSETS/gogames/gogames-keyboard.png"/>
         

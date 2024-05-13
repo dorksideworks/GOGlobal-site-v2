@@ -23,25 +23,25 @@ function InfiniteMoney() {
                         
                       }>
 
-                      <Tween from={{bottom: "-700px"}} to={{bottom: "50px"}} />
+                      <Tween from={{bottom: "-700px"}} to={{bottom: "-120px"}} />
                     </Timeline>
                   </Timeline>
                   <Timeline totalProgress={progress} paused>
                     <Timeline 
                       target={
-                          <img class="z-20 mx-auto absolute left-auto right-auto w-72 origin-bottom scale-110" src="/ASSETS/infin8/infin8-002.png"></img>
+                          <img class="z-22 mx-auto absolute left-auto right-auto w-72 origin-bottom scale-100" src="/ASSETS/infin8/infin8-002.png"></img>
                       }>
 
-                      <Tween from={{rotate: "0deg", bottom: "-700px"}} to={{rotate: "30deg", bottom: "50px"}} />
+                      <Tween from={{rotate: "0deg", bottom: "-700px"}} to={{rotate: "30deg", bottom: "-100px"}} />
                     </Timeline>
                   </Timeline>
                   <Timeline totalProgress={progress} paused>
                     <Timeline 
                       target={
-                          <img class="mx-auto absolute left-auto right-auto w-72 origin-bottom scale-110" src="/ASSETS/infin8/infin8-003.png"></img>
+                          <img class="mx-auto absolute left-auto right-auto w-72 origin-bottom scale-100" src="/ASSETS/infin8/infin8-003.png"></img>
                       }>
 
-                      <Tween from={{rotate: "0deg", bottom: "-700px"}} to={{rotate: "-30deg", bottom: "50px"}} />
+                      <Tween from={{rotate: "0deg", bottom: "-700px"}} to={{rotate: "-30deg", bottom: "-100px"}} />
                     </Timeline>
                   </Timeline>
                   
@@ -51,7 +51,7 @@ function InfiniteMoney() {
                         <div class="hero-gradient absolute z-30 bg-gradient-to-t from-slate-50 dark:from-slate-900 left-0 w-full h-32 "></div>
                       }>
 
-                      <Tween from={{bottom: "-1000px"}} to={{bottom: "-20px"}} />
+                      <Tween from={{bottom: "-1000px"}} to={{bottom: "-170px"}} />
 
                     </Timeline>
                   </Timeline>
@@ -66,7 +66,7 @@ function InfiniteMoney() {
               <img src="/ASSETS/logos/color/infin8.png"/>
           </div>
 
-        <h1 class="text-slate-900 dark:text-white text-4xl md:text-5xl lg:text-6xl font-bold isolate"> 
+        <h1 class="text-slate-900 z-30 dark:text-white text-4xl md:text-5xl lg:text-6xl font-bold isolate"> 
           {/* Ultimate flexibility, <span class="text-cyan-500"> <break /> infinite possibilities. </span>  */}
           {/* {t("infin8.title")} */}
           {t("infin8.title", {returnObjects:true}).map(function(o,i) {
