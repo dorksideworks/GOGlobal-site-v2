@@ -76,8 +76,8 @@ function GOTV() {
                                                 </div>
                                                 <p class="text-xl">Annual subscription for <br/> just 500 GO credits</p>
                                             </li>
-                                            <li class="flex flex-row text-white justify-center items-center gap-5">
-                                                <div class="icon bg-red-500 rounded-full relative flex flex-row items-center justify-center text-white">
+                                            <li class="flex flex-row text-white shrink-0 justify-center items-center gap-5">
+                                                <div class="icon bg-red-500 rounded-full relative shrink-0 flex flex-row items-center justify-center text-white">
                                                     <UilEnglishToChinese color="#000000" /> </div>
                                                 <p class="text-xl">Available in multiple Languages</p>
                                             </li>
