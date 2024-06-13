@@ -10,6 +10,7 @@ import Header from './Components/Header';
 import Home from './Pages/Home';
 import Blogs from './Pages/Blogs';
 import Footer from './Components/Footer';
+import Downloads from './Pages/Downloads';
 
 function App() {
 
@@ -24,6 +25,7 @@ function App() {
           <Routes>
             <Route path="/*" element={ <Home /> } />
             <Route path="/blogs" element={ <Blogs/> } />
+            <Route path="/downloads" element={ <Downloads/> } />
 
           </Routes>
           <Footer/>

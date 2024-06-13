@@ -443,3 +443,14 @@ html {
 .gowin-gradient{
   height: 300px;
 }
+
+/* -- DOWNLOADS SECTION -- */
+
+#downloads-section {
+  min-height: 1080px;
+}
+
+.downloads-card {
+  /* width: 500px; */
+  background: #ededed;
+}
