@@ -28,7 +28,7 @@ function Hero() {
       <Scene duration={600} triggerHook={0} pin>
       {(progress) => (
         
-        <div class="relative isolate px-6 pt-5 md:pt-14 lg:pt-14 lg:px-8 ">
+        <div class="relative isolate px-6 pt-5 md:pt-14 lg:pt-14 lg:px-8 mb-20">
           <div class="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80" aria-hidden="true">
             <div class="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]" ></div>
           </div>
@@ -123,7 +123,8 @@ function Hero() {
       </Controller>
 
       {/* <a href="https://dashboard.goglobal.network/users/login" target="_blank"><button class="heroLogin relative -top-1  hover:-top-2 duration-500 cursor-pointer px-10 py-2 bg-cyan-500 text-white rounded-full font-bold text-xl tracking-wider z-50 isolate"> LOGIN </button> </a> */}
-      <a href="https://dashboard.goglobal.network/user/login" target="_blank" class="bg-cyan-500 py-3 px-10 m-0 xl:m=20 relative rounded-full md:relative lg:relative text-sm font-semibold leading-6 text-white">Log in <span aria-hidden="true">&rarr;</span></a>
+
+      <a href="https://dashboard.goglobal.network/user/login" target="_blank" class="bg-cyan-500 py-3 px-10 mt-42 xl:mt-42 relative rounded-full md:relative lg:relative text-sm font-semibold leading-6 text-white">Log in <span aria-hidden="true">&rarr;</span></a>
 
       <div class="flex flex-col md:flex-row lg:flex-row font-bold py-20 lg:gap-0 gap-10 justify-center text-white mx-auto w-2/3 mg:w-1/2 lg:w-1/2 justify-around">
 

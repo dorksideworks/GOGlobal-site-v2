@@ -5,7 +5,7 @@ import { useTranslation } from 'react-i18next';
 function Products() {
     const [t, i18n] = useTranslation("global");
   return (
-    <div id="ProductSection" class="wrapper mx-auto relative flex flex-col py-10 pt-40">
+    <div id="ProductSection" class="wrapper mx-auto relative flex flex-row xl:flex-col py-10 pt-40">
 
         <h1 class="text-white text-5xl font-bold"> {t("products.title")} <span class="text-cyan-500"></span> </h1>
         <p class="text-gray-500 mt-5"> {t("products.description")}</p>

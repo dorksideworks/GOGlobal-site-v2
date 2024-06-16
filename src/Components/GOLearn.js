@@ -142,7 +142,7 @@ function GOLearn() {
         
         
 
-        <div class="cta-white bg-white w-3/4 mx-auto mt-16 rounded-3xl overflow-hidden flex flex-row justify-center align-center relative overflow-hidden">
+        <div class="cta-white bg-white w-3/4 mx-auto mt-16 mb-20 rounded-3xl overflow-hidden flex flex-row justify-center align-center relative overflow-hidden">
             <div class="basis-full md:basis-1/2 lg:basis-1/2 py-3 px-10 text-left flex flex-col justify-center align-center justify-self-start">
                 <h1 class=" text-2xl md:text-4xl lg:text-4xl font-bold"> {t("golearn.cta.title")}</h1>
                 <p class="text-sm text-gray-500 mt-2">{t("golearn.cta.description")}</p>

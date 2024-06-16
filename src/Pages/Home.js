@@ -42,7 +42,7 @@ function Home() {
         <GOLEARN/>
         {/* <GOTV/> */}
         <GOTV2 />
-        <GoGames/>
+        {/* <GoGames/> */}
         <GOwin/>
         <InfiniteMoney/>
         <GOCharity />

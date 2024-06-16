@@ -14,35 +14,35 @@ function GOCharity() {
             <Scene duration="1000" triggerHook={0} triggerElement="#foudnation-container" indicators={true} pin>
                 {(progress) =>  (
                     <div>
-                        <Timeline totalProgress={progress} paused
-                            target={
-                                <img class="absolute right-96 scale-50" src="/ASSETS/gofoundation/charity-03.png" />
-                            }
-                        >
-                            <Tween from={{bottom: "30%", opacity: 0}} to={{bottom: "70%", opacity: 1}} />
-                        </Timeline>
-                        <Timeline totalProgress={progress} paused
-                            target={
-                                <img class="absolute left-96 scale-50" src="/ASSETS/gofoundation/charity-04.png" />
-                            }
-                        >
-                            <Tween from={{bottom: "30%", opacity: 0}} to={{bottom: "75%", opacity: 1}} />
-                        </Timeline>
-                        <Timeline totalProgress={progress} paused
-                            target={
-                                <img class="-right-10 scale-75 blur-sm absolute" src="/ASSETS/gofoundation/charity-02.png" />
-                            }
-                        >
-                            <Tween from={{bottom: "0%", opacity: 0}} to={{bottom: "50%", opacity: 1}} />
-                        </Timeline>
+                            <Timeline totalProgress={progress} paused
+                                target={
+                                    <img class="absolute right-96 scale-50" src="/ASSETS/gofoundation/charity-03.png" />
+                                }
+                            >
+                                <Tween from={{bottom: "30%", opacity: 0}} to={{bottom: "70%", opacity: 1}} />
+                            </Timeline>
+                            <Timeline totalProgress={progress} paused
+                                target={
+                                    <img class="absolute left-96 scale-50" src="/ASSETS/gofoundation/charity-04.png" />
+                                }
+                            >
+                                <Tween from={{bottom: "30%", opacity: 0}} to={{bottom: "75%", opacity: 1}} />
+                            </Timeline>
+                            <Timeline totalProgress={progress} paused
+                                target={
+                                    <img class="-right-10 sm:-right-72 scale-75 blur-sm absolute" src="/ASSETS/gofoundation/charity-02.png" />
+                                }
+                            >
+                                <Tween from={{bottom: "0%", opacity: 0}} to={{bottom: "50%", opacity: 1}} />
+                            </Timeline>
 
-                        <Timeline totalProgress={progress} paused
-                            target={
-                                <img class="absolute -left-20 scale-75" src="/ASSETS/gofoundation/charity-05.png" />
-                            }
-                        >
-                            <Tween from={{bottom: "0%", opacity: 0}} to={{bottom: "30%", opacity: 1}} />
-                        </Timeline>
+                            <Timeline totalProgress={progress} paused
+                                target={
+                                    <img class="absolute -left-20 scale-75" src="/ASSETS/gofoundation/charity-05.png" />
+                                }
+                            >
+                                <Tween from={{bottom: "0%", opacity: 0}} to={{bottom: "30%", opacity: 1}} />
+                            </Timeline>
                         <div class="wrapper mx-auto flex flex-col text-slate-900 dark:text-white z-40 relative">
                             <div class="mb-4 relative mx-auto p-10 bg-white shadow-xl mb-20 text-white font-bold rounded-xl w-40 text-center">
                                 <img src="/ASSETS/logos/color/foundation.png"/>

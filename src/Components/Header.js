@@ -91,7 +91,7 @@ function Header() {
                   <div class="tham-inner bg-white" />
                 </div>
             </button>
-            <a href="https://dashboard.goglobal.network/user/login" target="_blank" class="hidden bg-cyan-500 py-3 px-10 rounded-full md:relative lg:relative lg:block md:block text-sm font-semibold leading-6 text-white">Log in <span aria-hidden="true">&rarr;</span></a>
+            {/* <a href="https://dashboard.goglobal.network/user/login" target="_blank" class="hidden bg-cyan-500 py-3 px-10 rounded-full md:relative lg:relative lg:block md:block text-sm font-semibold leading-6 text-white">Log in <span aria-hidden="true">&rarr;</span></a>
             <div class="hidden md:flex lg:flex text-white cursor-pointer flex flex-col justify-center align-center items-center px-10 rounded-xl ml-5 hover:bg-slate-800 duration-500 font-bold text-sm">
               <div onClick={toggleLanguage}> {i18n.language.toUpperCase()}</div>
               
@@ -103,7 +103,7 @@ function Header() {
                 {i18n.language != 'ar' ? <a href="/ar" class="duration-500 hover:bg-slate-900 bg-slate-800 basis-1/3 py-3 px-10"> AR </a> : ""}
               </div>
 
-            </div>
+            </div> */}
 
 
 
@@ -124,9 +124,9 @@ function Header() {
               <a class="modalNavInner" onClick={handleClick} href="#FoundationSection"> FOUNDATION </a>
               <a class="modalNavInner" onClick={handleClick} href="#CommunitySection"> COMMUNITY </a>
               <a class="modalNavInner" onClick={handleClick} href="https://dashboard.goglobal.network/users/login">LOG IN</a>
-              <div>
+              {/* <div>
                   English
-              </div>
+              </div> */}
           </div>
         
       </header>
