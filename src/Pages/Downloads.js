@@ -68,12 +68,12 @@ function Downloads() {
 
 
     return (
-        <div class="pt-52 relative bg-slate-50 dark:bg-slate-900 duration-500">
+        <div class="pt-52 relative bg-slate-50 dark:bg-slate-900 duration-500 relative bg-komorebi-black">
 
-            <div id="downloads-section">
+            <div id="downloads-section" class="wrapper mx-auto">
 
-                <h1 class="text-6xl font-bold py-5  "> Lorem ipsum dolor sit amet, <br/> <span class="text-cyan-500">consectetur adipiscing elit.</span>  </h1>
-                <p class="mb-20"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquam nisl sit amet eros tristique, sed finibus nulla laoreet. <br/>Sed ultricies sapien eget erat iaculis molestie. Aenean leo elit, euismod a lorem eget, consequat facilisis erat.</p>
+                <h1 class="text-6xl font-bold py-5  "> DOWNLOADS CENTER<br/> <span class="text-cyan-500 text-3xl"> Downloads center is being updated</span>  </h1>
+                <p class="mb-20"> Download all the resources you need to start your journey with GO Global here. From various presentations, such as the opportunity presentation or the product presentation that you can download in different language to official GO tutorials that’ll walk you through every step you need to start the business.</p>
              
 
 

@@ -79,7 +79,7 @@ html {
 }
 
 .navModal {
-  top: -300px;
+  top: -500px;
   opacity: 0;
 }
 
@@ -453,4 +453,8 @@ html {
 .downloads-card {
   /* width: 500px; */
   background: #ededed;
+}
+
+#gotv-hero {
+  min-height: 100vh;
 }

@@ -124,7 +124,7 @@ function Hero() {
 
       {/* <a href="https://dashboard.goglobal.network/users/login" target="_blank"><button class="heroLogin relative -top-1  hover:-top-2 duration-500 cursor-pointer px-10 py-2 bg-cyan-500 text-white rounded-full font-bold text-xl tracking-wider z-50 isolate"> LOGIN </button> </a> */}
 
-      <a href="https://dashboard.goglobal.network/user/login" target="_blank" class="bg-cyan-500 py-3 px-10 mt-42 xl:mt-42 relative rounded-full md:relative lg:relative text-sm font-semibold leading-6 text-white">Log in <span aria-hidden="true">&rarr;</span></a>
+      <a href="https://dashboard.goglobal.network/users/login" target="_blank" class="bg-cyan-500 py-3 px-10 mt-42 xl:mt-42 relative rounded-full md:relative lg:relative text-sm font-semibold leading-6 text-white">Log in <span aria-hidden="true">&rarr;</span></a>
 
       <div class="flex flex-col md:flex-row lg:flex-row font-bold py-20 lg:gap-0 gap-10 justify-center text-white mx-auto w-2/3 mg:w-1/2 lg:w-1/2 justify-around">
 

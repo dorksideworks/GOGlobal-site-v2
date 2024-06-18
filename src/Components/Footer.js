@@ -16,8 +16,6 @@ function Footer() {
             <p class="text-left text-gray-300 mt-5">
               {t("footer.description")}
 
-              {i18n.language}
-
             </p>
  
             <div class="flex flex-row gap-5 mt-5">
@@ -47,19 +45,23 @@ function Footer() {
 
           <div class="flex flex-col basis-1/3 gap-3 lg:pl-20 md:pl-20 pl-0">
             <h1 class="text-white text-left font-bold text-2xl mb-5">LINKS</h1>
-            <a href="#">
+            <a href="#HeroSection">
               <h2 class="text-left text-white">HOME</h2>
             </a>
-            <a href="#">
+            <a href="#golearn-cards">
               <h2 class="text-left text-white">PRODUCTS</h2>
             </a>
-            <a href="#">
+            <a href="#foudnation-container">
               <h2 class="text-left text-white">FOUNDATION</h2>
             </a>
-            <a href="#">
+            <a href="#CommunitySection">
               <h2 class="text-left text-white">COMMUNITY</h2>
             </a>
-            <a href="#">
+
+            <a href="#CompensationSection">
+              <h2 class="text-left text-white">COMPENSATION</h2>
+            </a>
+            <a href="https://dashboard.goglobal.network/users/login">
               <h2 class="text-left text-white">LOGIN</h2>
             </a>
 
@@ -69,7 +71,7 @@ function Footer() {
             <img src="/ASSETS/footer/intersect.png"/>
           </div>
       </div>
-      <h2 class="text-gray-200">Copyright © 2023 GO Global. All rights reserved.</h2>
+      <h2 class="text-gray-200">Copyright © 2024 GO Global. All rights reserved.</h2>
       
     </div>
   )

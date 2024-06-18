@@ -8,7 +8,7 @@ import {Tween, Timeline} from 'react-gsap';
 function Compensation() {
 
     return(
-        <div class="py-40   ">
+        <div id="CompensationSection" class="py-40   ">
 
             <div class="wrapper mx-auto flex flex-col ">
                 <h1 class="font-bold text-6xl dark:text-white text-slate-900" > <span class="text-cyan-500">The Most Powerful</span><br/> Opportunity in the world</h1>
@@ -66,7 +66,7 @@ function Compensation() {
                         </div>
 
                         <div class="label rounded-full bg-cyan-500 py-1 px-5 text-white font-bold flex flex-col items-center justify-center text-center">
-                            WEEKLY
+                            MONTHLY
                         </div>
 
                         </div>

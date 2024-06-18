@@ -12,6 +12,7 @@ import GoGames from '../Components/GOGames';
 import GOwin from '../Components/GOwin';
 
 import GOTV2 from '../Components/GOTV2';
+import GOTV3 from '../Components/GOTV3';
 import Compensation from '../Components/Compensation';
 
 import {useLocation, useMatch} from 'react-router-dom';
@@ -20,6 +21,7 @@ import {useLocation, useMatch} from 'react-router-dom';
 
 import { useTranslation } from 'react-i18next';
 function Home() {
+
     let location = useLocation();
     let lang = location.pathname.slice(location.pathname.lastIndexOf("/"));
 
@@ -42,6 +44,7 @@ function Home() {
         <GOLEARN/>
         {/* <GOTV/> */}
         <GOTV2 />
+        {/* <GOTV3 /> */}
         {/* <GoGames/> */}
         <GOwin/>
         <InfiniteMoney/>

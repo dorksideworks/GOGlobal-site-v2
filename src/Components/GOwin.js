@@ -48,10 +48,10 @@ function GOwin() {
     }, )
 
     return(
-        <div class="bg-slate-900 pb-20 xl:pb-0">
+        <div class="bg-slate-900 pt-20 pb-20 xl:pb-0 relative z-10">
             <div class="wrapper flex flex-col-reverse sm:flex-col xl:flex-row mx-auto">
                 <div class="flex items-center flex-col justify-center md:mb-52 sm:mb-52">
-                    <div class="self-start  mb-4 relative p-3 py-10 bg-slate-900 text-white font-bold rounded-xl w-40 text-left">
+                    <div class="self-start  mb-4 relative p-3 py-10 bg-slate-800 text-white font-bold rounded-xl w-40 text-left">
                         <img src="/ASSETS/logos/color/gowin-logo.png"/>
                     </div>
                     

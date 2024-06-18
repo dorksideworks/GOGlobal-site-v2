@@ -12,7 +12,7 @@ function InfiniteMoney() {
     
     <div class="flex flex-col align-center justify-center lg:pb-10 relative">
           <Controller class="overflow-hidden relative">
-            <Scene duration={1500}  triggerHook={0.5} indicators pin>
+            <Scene duration={1500}  triggerHook={0.5}  pin>
               {(progress) => (
                 <div class=" flex flex-row justify-center align-center w-full py-5 mx-auto relative">
                   <Timeline totalProgress={progress} paused>

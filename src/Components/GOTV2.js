@@ -135,30 +135,30 @@ function GOTV2() {
                     {/* <h1 class="text-white font-bold text-5xl">HOW IT WORKS</h1> */}
                     <div class="flex flex-col flex-wrap mx-auto">
                         <ul class="flex-row  items-center justify-start sm:justify-start md:justify-start lg:justify-center xl:justify-center flex flex-wrap mx-auto pt-0 pb-52 text-left">
-                            <li class="flex flex-row text-white justify-center items-center gap-5 basis-auto xl:basis-1/3 p-5">
+                            <li class="flex flex-row text-white justify-center items-center gap-5 basis-auto xl:basis-1/4 p-5">
                                 <div class="icon bg-red-500 rounded-full shrink-0 relative flex flex-row items-center justify-center text-white">
                                     <UilCoins color="#000000"/>
                                 </div>
                                 <p class="text-md">Annual subscription fors just 500 GO credits</p>
                             </li>
-                            <li class="flex flex-row text-white justify-center items-center gap-5 basis-auto xl:basis-1/3 p-5">
+                            <li class="flex flex-row text-white justify-center items-center gap-5 basis-auto xl:basis-1/4 p-5">
                                 <div class="icon bg-red-500 rounded-full shrink-0 relative flex flex-row items-center justify-center text-white">
                                     <UilEnglishToChinese color="#000000" /> </div>
                                 <p class="text-md">Available in multiple Languages</p>
                             </li>
-                            <li class="flex flex-row text-white justify-center items-center gap-5 basis-auto xl:basis-1/3 p-5">
+                            {/* <li class="flex flex-row text-white justify-center items-center gap-5 basis-auto xl:basis-1/3 p-5">
                                 <div class="icon bg-red-500 rounded-full relative shrink-0 flex flex-row items-center justify-center text-white">
                                     <UilAwardAlt color="#000000" /> 
                                 </div>
                                 <p class="text-md">Earn rewards from your subscription and sharing with others</p>
-                            </li>
-                            <li class="flex flex-row text-white justify-center items-center gap-5 basis-auto xl:basis-1/3 p-5">
+                            </li> */}
+                            <li class="flex flex-row text-white justify-center items-center gap-5 basis-auto xl:basis-1/4 p-5">
                                 <div class="icon bg-red-500 rounded-full relative shrink-0 flex flex-row items-center justify-center text-white">
                                     <UilFilm color="#000000" />
                                 </div>
                                 <p class="text-md">A-List Blockbusters and TV Shows.</p>
                             </li>
-                            <li class="flex flex-row text-white justify-center items-center gap-5 basis-auto xl:basis-1/3 p-5">
+                            <li class="flex flex-row text-white justify-center items-center gap-5 basis-auto xl:basis-1/4 p-5">
                                 <div class="icon bg-red-500 rounded-full relative  shrink-0 flex flex-row items-center justify-center text-white">
                                     <UilClapperBoard color="#000000"/>
                                 </div>

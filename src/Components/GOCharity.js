@@ -11,7 +11,7 @@ function GOCharity() {
     return(
         <div class="pt-52 relative" id="foudnation-container">
            <Controller>
-            <Scene duration="1000" triggerHook={0} triggerElement="#foudnation-container" indicators={true} pin>
+            <Scene duration="1000" triggerHook={0} triggerElement="#foudnation-container" pin>
                 {(progress) =>  (
                     <div>
                             <Timeline totalProgress={progress} paused

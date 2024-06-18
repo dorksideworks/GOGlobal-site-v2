@@ -12,7 +12,7 @@ function SayHello () {
     const [t, i18n] = useTranslation("global");
 
     return(
-        <div class=" p-5">
+        <div id="sayhello" class="p-5">
             <div class="wrapper mx-auto">
                 <h1 class="text-cyan-500 text-6xl font-bold"> Say Hello To GO</h1>
                 <p class="pt-3 dark:text-white text-slate-900" >Providing global digital experiences with our wide range of innovative products.</p>
