@@ -70,7 +70,7 @@ function Hero() {
                       target={
                         <div class="relative">
                           <video ref={e => {laptopVideo = e}} class="laptop-video" autoplay muted loop playsinline>
-                            <source src="/ASSETS/hero.mp4" type="video/mp4"/>
+                            <source src="/ASSETS/hero2.mp4" type="video/mp4"/>
                           </video>
                           <img ref={el => {laptopItem = el}} class="laptop w-100 relative" src='/ASSETS/hero/hero-laptop.png'></img>
                         </div>

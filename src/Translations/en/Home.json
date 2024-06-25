@@ -20,6 +20,7 @@
             }
         ]
     },
+    
     "nav" : [
         "HOME",
         "PRODUCTS",
@@ -27,6 +28,7 @@
         "COMMUNITY",
         "LOGIN"
     ],
+
     "products" : {
         "title" : "Our Products",
         "description" : "Unlock your networking success through top-tier education, world-class entertainment, and cutting-edge innovations."

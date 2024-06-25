@@ -458,3 +458,7 @@ html {
 #gotv-hero {
   min-height: 100vh;
 }
+
+.bg-404 {
+  background-image: url('../public/ASSETS/404/404-bg.jpg');
+}

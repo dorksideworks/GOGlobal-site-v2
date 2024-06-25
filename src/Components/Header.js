@@ -27,8 +27,8 @@ function Header({th}) {
 
 
   useEffect(() => {
-    console.log(th);
-    
+    // console.log("header theme is: " + th);
+    setTheme(th);
     if(theme === "dark") {
       document.documentElement.classList.add("dark");
     } else {
@@ -47,7 +47,7 @@ function Header({th}) {
     
 
     
-  },[theme]);
+  },[theme, th]);
 
 
   const handleThemeSwitch = () => {
@@ -57,7 +57,7 @@ function Header({th}) {
   return (
       <header class="fixed inset-x-0 top-0 z-50">
         <nav 
-        class={`flex items-center justify-between p-4 duration-500 lg:px-8 ${scrolltopdata && theme!='light' ? 'bg-slate-900 py-6' : ''}`}
+        class={`flex items-center justify-between p-4 duration-500 lg:px-8 ${scrolltopdata || theme=='dark' ? 'bg-slate-900 py-6' : ''}`}
         aria-label="Global">
           
           <div class="flex lg:flex-1 order-first sm:order-2">
