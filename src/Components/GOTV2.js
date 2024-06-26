@@ -48,7 +48,7 @@ function GOTV2() {
             }
         }
 
-        window.addEventListener("load", handleResize);
+        window.addEventListener("load", handleResize); 
         window.addEventListener("resize", handleResize);
         // if(slider != null) {
         //         slider.current.addEventListener('mousedown', (e) => {
