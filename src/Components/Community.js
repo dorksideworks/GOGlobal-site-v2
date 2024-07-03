@@ -33,12 +33,12 @@ function Community() {
                     <Timeline totalProgress={progress} paused >
                       <Timeline target={
                         <div class="flex flex-row gap-5 relative">
-                          <img src="/ASSETS/community/community-001.png"/>
-                          <img src="/ASSETS/community/community-002.png"/>
-                          <img src="/ASSETS/community/community-003.png"/>
-                          <img src="/ASSETS/community/community-004.png"/>
-                          <img src="/ASSETS/community/community-005.png"/>
-                          <img src="/ASSETS/community/community-006.png"/>
+                          <img alt="Luxury trip GO Global for the community" src="/ASSETS/community/community-001.png"/>
+                          <img alt="GO Global Asia Community" src="/ASSETS/community/community-002.png"/>
+                          <img alt="GO Global G4 trip thailand" src="/ASSETS/community/community-003.png"/>
+                          <img alt="GO Global Asia G4 Trip" src="/ASSETS/community/community-004.png"/>
+                          <img alt="GO GLobal Community around the world" src="/ASSETS/community/community-005.png"/>
+                          <img alt="GO Global community luxury trip" src="/ASSETS/community/community-006.png"/>
                         </div>
                         
                       }>
@@ -49,12 +49,12 @@ function Community() {
                     <Timeline totalProgress={progress} paused >
                       <Timeline target={
                         <div class="flex flex-row gap-5 relative">
-                          <img src="/ASSETS/community/community-007.png"/>
-                          <img src="/ASSETS/community/community-008.png"/>
-                          <img src="/ASSETS/community/community-009.png"/>
-                          <img src="/ASSETS/community/community-010.png"/>
-                          <img src="/ASSETS/community/community-011.png"/>
-                          <img src="/ASSETS/community/community-012.png"/>
+                          <img alt="Take off event in Thailand" src="/ASSETS/community/community-007.png"/>
+                          <img alt="Winners of the GO Global Take off Event" src="/ASSETS/community/community-008.png"/>
+                          <img alt="GO Global Take off Event" src="/ASSETS/community/community-009.png"/>
+                          <img alt="Top leaders of our community of GO Global" src="/ASSETS/community/community-010.png"/>
+                          <img alt="GO Global Event for the community " src="/ASSETS/community/community-011.png"/>
+                          <img alt="GO Global Summit leadership Event" src="/ASSETS/community/community-012.png"/>
                         </div>
                         
                       }>

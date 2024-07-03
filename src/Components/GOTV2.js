@@ -90,26 +90,26 @@ function GOTV2() {
                     <div class="glide__track text-white text-2xl" data-glide-el="track">
                         <ul class="glide__slides">
                             <li class="glide__slide">
-                                <img class="item"src="/ASSETS/gotv/posters/spiderman1.jpg" />
+                                <img alt="Best Superhero film SPIDERMAN in GO TV" class="item"src="/ASSETS/gotv/posters/spiderman1.jpg" />
                             </li>
-                            <li class="glide__slide">
+                            <li alt="Watch Ghostbusterter 2 now in GO TV" class="glide__slide">
                                 <img class="item"src="/ASSETS/gotv/posters/ghostbusters2.jpg" />
                             </li>
                             <li class="glide__slide">
-                                <img class="item"src="/ASSETS/gotv/posters/karatekid3.jpg" />
+                                <img alt="Exclusive The Karate Kid Part 3 only on GO TV" class="item"src="/ASSETS/gotv/posters/karatekid3.jpg" />
                             </li>
                             <li class="glide__slide">
-                                <img class="item"src="/ASSETS/gotv/posters/fewgoodmen.jpg" />
+                                <img alt="Get Inspired watch A FEW GOOD MEN only on GO TV" class="item"src="/ASSETS/gotv/posters/fewgoodmen.jpg" />
                             </li>
-                            <li class="glide__slide">
+                            <li alt="Watch Thriller movie FLATLINERS only on GO TV" class="glide__slide">
                                 <img class="item"src="/ASSETS/gotv/posters/flatliners.jpg" />
                             </li>
-                            <li class="glide__slide">
+                            <li alt="Watch MY GIRL on GOTV.network" class="glide__slide">
                                 <img class="item"src="/ASSETS/gotv/posters/mygirl.jpg" />
                             </li>
 
                             <li class="glide__slide">
-                                <img class="item"src="/ASSETS/gotv/posters/ghostbusters1.jpg" />
+                                <img alt="Watch Blockbuster movie Ghostbusters only on GO TV" class="item"src="/ASSETS/gotv/posters/ghostbusters1.jpg" />
                             </li>
                         </ul>
                     </div>
@@ -139,12 +139,12 @@ function GOTV2() {
                                 <div class="icon bg-red-500 rounded-full shrink-0 relative flex flex-row items-center justify-center text-white">
                                     <UilCoins color="#000000"/>
                                 </div>
-                                <p class="text-md">Annual subscription fors just 500 GO credits</p>
+                                <p class="text-md">{t("gotv.p1")}</p>
                             </li>
                             <li class="flex flex-row text-white justify-center items-center gap-5 basis-auto xl:basis-1/4 p-5">
                                 <div class="icon bg-red-500 rounded-full shrink-0 relative flex flex-row items-center justify-center text-white">
                                     <UilEnglishToChinese color="#000000" /> </div>
-                                <p class="text-md">Available in multiple Languages</p>
+                                <p class="text-md">{t("gotv.p2")}</p>
                             </li>
                             {/* <li class="flex flex-row text-white justify-center items-center gap-5 basis-auto xl:basis-1/3 p-5">
                                 <div class="icon bg-red-500 rounded-full relative shrink-0 flex flex-row items-center justify-center text-white">
@@ -156,13 +156,13 @@ function GOTV2() {
                                 <div class="icon bg-red-500 rounded-full relative shrink-0 flex flex-row items-center justify-center text-white">
                                     <UilFilm color="#000000" />
                                 </div>
-                                <p class="text-md">A-List Blockbusters and TV Shows.</p>
+                                <p class="text-md">{t("gotv.p3")}</p>
                             </li>
                             <li class="flex flex-row text-white justify-center items-center gap-5 basis-auto xl:basis-1/4 p-5">
                                 <div class="icon bg-red-500 rounded-full relative  shrink-0 flex flex-row items-center justify-center text-white">
                                     <UilClapperBoard color="#000000"/>
                                 </div>
-                                <p class="text-md">Brand new content every week</p>
+                                <p class="text-md">{t("gotv.p4")}</p>
                             </li>
                         </ul>
                     </div>

@@ -26,6 +26,25 @@ function App() {
     setTheme(t);
   }
 
+  const articleStructuredData = {
+    
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "GO GLOBAL",
+      "alternateName": "GO",
+      "url": "https://goglobal.network",
+      "logo": "",
+      "sameAs": [
+        "https://www.facebook.com/goglobal.official",
+        "https://www.instagram.com/goglobal.official/",
+        "https://x.com/therealgoglobal",
+        "https://www.youtube.com/@goglobal.official/",
+        "https://goglobal.network"
+      ]
+    
+    
+  };
+
   useEffect(()=>{
     TagManager.initialize({ gtmId: 'GTM-MCB7VQQF' });
     console.log("themez is: " + theme); 
@@ -39,15 +58,21 @@ function App() {
           <title> Empowering Global Community Through Digital Solution - GO Global</title>
           <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
           <meta name="google-site-verification" content="GOlRpyHKjDGUffTz-xmFsXeUrjXzIi_y7AYUKQFOhYA" />
-        
+          
         </Helmet>
+        <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{
+              __html: JSON.stringify(articleStructuredData),
+            }}
+        />
         <div class=" overflow-hidden">
           
           <Header th={theme}/> 
 
           <Routes>
             <Route path="/" element={ <Home /> } />
-            <Route path="/blogs" element={ <Blogs/> } />
+            {/* <Route path="/blogs" element={ <Blogs/> } /> */}
             <Route path="/downloads" element={ <Downloads2 sendTheme={handleTheme} /> } />
             <Route path="*" element={ <Page404 sendTheme={handleTheme} /> } />
 

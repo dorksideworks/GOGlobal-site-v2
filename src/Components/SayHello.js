@@ -12,14 +12,14 @@ function SayHello () {
     const [t, i18n] = useTranslation("global");
 
     return(
-        <div id="sayhello" class="p-5">
+        <div  class="p-5">
             <div class="wrapper mx-auto">
-                <h1 class="text-cyan-500 text-6xl font-bold"> Say Hello To GO</h1>
-                <p class="pt-3 dark:text-white text-slate-900" >Providing global digital experiences with our wide range of innovative products.</p>
+                <h1 class="text-cyan-500 text-6xl font-bold"> {t("sayhello.title")}</h1>
+                <p class="pt-3 dark:text-white text-slate-900" > {t("sayhello.description")} </p>
 
                 <div class="pt-5"> 
                     <ul class="flex sm:flex-col md: flex-col lg:flex-row pt-10 items-start justify-center gap-5 text-slate-900 dark:text-white">
-                        {t("sayhello", {returnObjects:true}).map(function(o, i) {
+                        {t("sayhello_items", {returnObjects:true}).map(function(o, i) {
                             return (
                                 <li class="flex flex-col w-23 basis-1/5  flex flex-col items-center justify-center"> 
                                     <div class="w-20 bg-cyan-400 h-20 rounded-full flex flex-col items-center justify-center p-3">

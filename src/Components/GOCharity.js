@@ -16,21 +16,21 @@ function GOCharity() {
                     <div>
                             <Timeline totalProgress={progress} paused
                                 target={
-                                    <img class="absolute right-96 scale-50" src="/ASSETS/gofoundation/charity-03.png" />
+                                    <img alt="GO Charity in thailand" class="absolute right-96 scale-50" src="/ASSETS/gofoundation/charity-03.png" />
                                 }
                             >
                                 <Tween from={{bottom: "30%", opacity: 0}} to={{bottom: "70%", opacity: 1}} />
                             </Timeline>
                             <Timeline totalProgress={progress} paused
                                 target={
-                                    <img class="absolute left-96 scale-50" src="/ASSETS/gofoundation/charity-04.png" />
+                                    <img alt="GO Foundation program in Thailand" class="absolute left-96 scale-50" src="/ASSETS/gofoundation/charity-04.png" />
                                 }
                             >
                                 <Tween from={{bottom: "30%", opacity: 0}} to={{bottom: "75%", opacity: 1}} />
                             </Timeline>
                             <Timeline totalProgress={progress} paused
                                 target={
-                                    <img class="-right-10 sm:-right-72 scale-75 blur-sm absolute" src="/ASSETS/gofoundation/charity-02.png" />
+                                    <img alt="GO charity program in Thailand" class="-right-10 sm:-right-72 scale-75 blur-sm absolute" src="/ASSETS/gofoundation/charity-02.png" />
                                 }
                             >
                                 <Tween from={{bottom: "0%", opacity: 0}} to={{bottom: "50%", opacity: 1}} />
@@ -38,14 +38,14 @@ function GOCharity() {
 
                             <Timeline totalProgress={progress} paused
                                 target={
-                                    <img class="absolute -left-20 scale-75" src="/ASSETS/gofoundation/charity-05.png" />
+                                    <img alt="GO Charity event in turkey" class="absolute -left-20 scale-75" src="/ASSETS/gofoundation/charity-05.png" />
                                 }
                             >
                                 <Tween from={{bottom: "0%", opacity: 0}} to={{bottom: "30%", opacity: 1}} />
                             </Timeline>
                         <div class="wrapper mx-auto flex flex-col text-slate-900 dark:text-white z-40 relative">
                             <div class="mb-4 relative mx-auto p-10 bg-white shadow-xl mb-20 text-white font-bold rounded-xl w-40 text-center">
-                                <img src="/ASSETS/logos/color/foundation.png"/>
+                                <img alt="GO Global over the universe" src="/ASSETS/logos/color/foundation.png"/>
                             </div>
                             <h1 class="text-6xl font-bold pb-5"> <span class="charity-tcolor">Changing Lives </span> <br/> by Giving Back</h1>
                             <p>Our mission is to make a meaningful impact <br/> wherever we go, ensuring our efforts are both far-reaching and lasting.</p>
@@ -85,7 +85,7 @@ function GOCharity() {
                                     target={ 
                                         <img class="country-pin japan absolute" src="/ASSETS/gofoundation/japan-pin.png" />
                                     }
-                                >
+                            >
                                     <Tween from={{opacity: 0, bottom:"90%"}} to={{opacity: 1, bottom: "44%"}}/>
                                 </Timeline>
 

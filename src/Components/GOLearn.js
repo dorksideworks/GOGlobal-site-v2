@@ -50,7 +50,7 @@ function GOLearn() {
                     <Timeline totalProgress={progress} paused>
                         
                         <Timeline
-                        target={<img class=" w-full md:w-1/4 lg:w-1/4 -left-1/2 md:left-1/4 lg:left-1/4 absolute blur-md" src="/Assets/golearn/golearn-004.png"/> }
+                        target={<img alt="Instagram Courses to turn followers to customers in GO LEARN" class=" w-full md:w-1/4 lg:w-1/4 -left-1/2 md:left-1/4 lg:left-1/4 absolute blur-md" src="/Assets/golearn/golearn-004.png"/> }
                         >
                             <Tween from={{bottom: "-1000px"}} to={{bottom: "1000px"}} />
                         </Timeline>
@@ -61,7 +61,7 @@ function GOLearn() {
                     <Timeline totalProgress={progress} paused>
                         
                         <Timeline
-                        target={<img class="w-full md:w-1/2 lg:w-1/2 -right-1/2 md:-right-1/4 lg:-right-1/4 absolute blur-md" src="/Assets/golearn/golearn-008.png"/> }
+                        target={<img alt="Mindful Healing courses at GO Learn" class="w-full md:w-1/2 lg:w-1/2 -right-1/2 md:-right-1/4 lg:-right-1/4 absolute blur-md" src="/Assets/golearn/golearn-008.png"/> }
                         >
                             <Tween from={{bottom: "-2000px"}} to={{bottom: "1500px"}} />
                         </Timeline>
@@ -84,7 +84,7 @@ function GOLearn() {
                     <Timeline totalProgress={progress} paused>
                         
                         <Timeline
-                        target={<img class="w-1/2 md:w-1/4 lg:w-1/4 right-20 absolute " src="/Assets/golearn/golearn-002.png"/> }
+                        target={<img alt="Course on being successful together as a course only on GO LEARN" class="w-1/2 md:w-1/4 lg:w-1/4 right-20 absolute " src="/Assets/golearn/golearn-002.png"/> }
                         >
                             <Tween from={{bottom: "-1000px"}} to={{bottom: "-200px"}} />
                         </Timeline>
@@ -95,7 +95,7 @@ function GOLearn() {
                     <Timeline totalProgress={progress} paused>
                         
                         <Timeline
-                        target={<img class="w-1/2 md:w-1/4 lg:w-1/4 left-3/4 md:left-1/2 lg:left-1/2 absolute blur-sm" src="/Assets/golearn/golearn-003.png"/> }
+                        target={<img alt="Best Fitness course in GO Learn" class="w-1/2 md:w-1/4 lg:w-1/4 left-3/4 md:left-1/2 lg:left-1/2 absolute blur-sm" src="/Assets/golearn/golearn-003.png"/> }
                         >
                             <Tween from={{bottom: "-1500px"}} to={{bottom: "500px"}} />
                         </Timeline>
@@ -106,7 +106,7 @@ function GOLearn() {
                     <Timeline totalProgress={progress} paused>
                         
                         <Timeline
-                        target={<img class="w-1/4 left-1/3 absolute" src="/Assets/golearn/golearn-005.png"/> }
+                        target={<img alt="Achieve your goals in business course in GO Learn" class="w-1/4 left-1/3 absolute" src="/Assets/golearn/golearn-005.png"/> }
                         >
                             <Tween from={{bottom: "-2000px"}} to={{bottom: "300px"}} />
                         </Timeline>
@@ -116,7 +116,7 @@ function GOLearn() {
                     <Timeline totalProgress={progress} paused>
                         
                         <Timeline
-                        target={<img class="w-1/2 blur-md -left-1/4 absolute" src="/Assets/golearn/golearn-006.png"/> }
+                        target={<img alt="Watch How to build your online business only at GO LEARN" class="w-1/2 blur-md -left-1/4 absolute" src="/Assets/golearn/golearn-006.png"/> }
                         >
                             <Tween from={{bottom: "-2000px"}} to={{bottom: "-400px"}} />
                         </Timeline>
@@ -126,7 +126,7 @@ function GOLearn() {
                     <Timeline totalProgress={progress} paused>
                         
                         <Timeline
-                        target={<img class="w-96 right-56 absolute" src="/Assets/golearn/golearn-009.png"/> }
+                        target={<img alt="Mindset course only on GO LEARN" class="w-96 right-56 absolute" src="/Assets/golearn/golearn-009.png"/> }
                         >
                             <Tween from={{bottom: "-3000px"}} to={{bottom: "100px"}} />
                         </Timeline>
@@ -149,7 +149,7 @@ function GOLearn() {
                 <button class="rounded-full bg-cyan-500 py-2 px-5 text-white text-sm font-bold mt-5 cta-btn"> {t("golearn.cta.button")}</button>
             </div>
             <div class="basis-1/2 absolute lg:relative md:relative">
-                <img class="absolute scale-125" src="/ASSETS/golearn/cta-image.png"/>
+                <img alt="GO LEARN online courses" class="absolute scale-125" src="/ASSETS/golearn/cta-image.png"/>
             </div>
         </div>
     </div>

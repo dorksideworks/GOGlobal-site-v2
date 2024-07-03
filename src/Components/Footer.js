@@ -20,25 +20,25 @@ function Footer() {
  
             <div class="flex flex-row gap-5 mt-5">
 
-              <a href="#">
+              <a href="https://www.facebook.com/goglobal.official">
                 <img src='/ASSETS/footer/ri_facebook-fill.png'/>
               </a>
 
-              <a href="#">
+              <a href="https://www.instagram.com/goglobal.official/">
                 <img src='/ASSETS/footer/ri_instagram-fill.png'/>
               </a>
 
-              <a href="#">
+              <a href="https://x.com/therealgoglobal?lang=en">
                 <img src='/ASSETS/footer/mdi_twitter.png'/>
               </a>
 
-              <a href="#">
+              <a href="https://www.youtube.com/@goglobal.official">
                 <img src='/ASSETS/footer/mdi_youtube.png'/>
               </a>
 
-              <a href="#">
+              {/* <a href="#">
                 <img src='/ASSETS/footer/ic_baseline-telegram.png'/>
-              </a>
+              </a> */}
 
             </div>
           </div>
@@ -68,7 +68,7 @@ function Footer() {
           </div>
 
           <div class="flex flex-col basis-1/3">
-            <img src="/ASSETS/footer/intersect.png"/>
+            <img alt="GO Global around the Globe" src="/ASSETS/footer/intersect.png"/>
           </div>
       </div>
       <h2 class="text-gray-200">Copyright © 2024 GO Global. All rights reserved.</h2>

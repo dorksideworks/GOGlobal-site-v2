@@ -80,18 +80,18 @@ function GOwin() {
                 <div class="relative xl:scale-100 z-50 scale-75 lg:top-0 xl:top-0 top-0 xl:left-0 -left-10">
                     <div>
 
-                        <img src="/ASSETS/gowin/gowin-phone-2.png" class="absolute phone-2 z-20"/>
+                        <img alt=" Play now at GO WIN" src="/ASSETS/gowin/gowin-phone-2.png" class="absolute phone-2 z-20"/>
 
-                        <img src="/ASSETS/gowin/coin-01.png" class="absolute scale-50 coin-1 z-20 " />
-                        <img src="/ASSETS/gowin/gowin-phone-1.png" class="relative xl:absolute phone-1 z-20"/>
+                        <img alt="Get chance to win at GOWIN" src="/ASSETS/gowin/coin-01.png" class="absolute scale-50 coin-1 z-20 " />
+                        <img alt="Sports Betting only at GOwin.cash" src="/ASSETS/gowin/gowin-phone-1.png" class="relative xl:absolute phone-1 z-20"/>
 
-                        <img src="/ASSETS/gowin/coin-2.png" class="absolute coin-2 z-20"/>
-                        <img src="/ASSETS/gowin/coin-3.png" class="absolute coin-3 z-40"/>
-                        <img src="/ASSETS/gowin/coin-4.png" class="absolute coin-4 z-20"/>
-                        <img src="/ASSETS/gowin/coin-5.png" class="absolute coin-5 z-20"/>
-                        <img src="/ASSETS/gowin/coin-6.png" class="absolute coin-6 z-20"/>
+                        <img alt="Get chance to win at GOWIN" src="/ASSETS/gowin/coin-2.png" class="absolute coin-2 z-20"/>
+                        <img alt="Get chance to win at GOWIN" src="/ASSETS/gowin/coin-3.png" class="absolute coin-3 z-40"/>
+                        <img alt="Get chance to win at GOWIN" src="/ASSETS/gowin/coin-4.png" class="absolute coin-4 z-20"/>
+                        <img alt="Get chance to win at GOWIN" src="/ASSETS/gowin/coin-5.png" class="absolute coin-5 z-20"/>
+                        <img alt="Get chance to win at GOWIN" src="/ASSETS/gowin/coin-6.png" class="absolute coin-6 z-20"/>
                     </div>
-                    <img src="/ASSETS/gowin/gowin-bg.png" class="absolute xl:relative top-0 scale-100 w-100 z-1"/>
+                    <img alt="Best entertainment platform GOWIN" src="/ASSETS/gowin/gowin-bg.png" class="absolute xl:relative top-0 scale-100 w-100 z-1"/>
                 </div>
             </div>
             <div class="gliders wrapper mx-auto relative xl:-top-52 ">

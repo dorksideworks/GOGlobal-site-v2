@@ -134,7 +134,7 @@ function Downloads2({sendTheme}) {
                                         Download
                                     </button>
                                     :""
-                                }
+                                }   
                             </div>
                         )
                     })

@@ -18,7 +18,7 @@ function InfiniteMoney() {
                   <Timeline totalProgress={progress} paused>
                     <Timeline 
                       target={
-                          <img class="z-20 mx-auto absolute left-auto right-auto w-72 scale-125" src="/ASSETS/infin8/infin8-001.png"></img>
+                          <img alt="Crypto Card never seen before - INFIN8 MONEY" class="z-20 mx-auto absolute left-auto right-auto w-72 scale-125" src="/ASSETS/infin8/infin8-001.png"></img>
                  
                         
                       }>
@@ -29,7 +29,7 @@ function InfiniteMoney() {
                   <Timeline totalProgress={progress} paused>
                     <Timeline 
                       target={
-                          <img class="z-22 mx-auto absolute left-auto right-auto w-72 origin-bottom scale-100" src="/ASSETS/infin8/infin8-002.png"></img>
+                          <img alt="Crypto Card never seen before - INFIN8 MONEY" class="z-22 mx-auto absolute left-auto right-auto w-72 origin-bottom scale-100" src="/ASSETS/infin8/infin8-002.png"></img>
                       }>
 
                       <Tween from={{rotate: "0deg", bottom: "-700px"}} to={{rotate: "30deg", bottom: "-100px"}} />
@@ -38,7 +38,7 @@ function InfiniteMoney() {
                   <Timeline totalProgress={progress} paused>
                     <Timeline 
                       target={
-                          <img class="mx-auto absolute left-auto right-auto w-72 origin-bottom scale-100" src="/ASSETS/infin8/infin8-003.png"></img>
+                          <img alt="Crypto Card never seen before - INFIN8 MONEY" class="mx-auto absolute left-auto right-auto w-72 origin-bottom scale-100" src="/ASSETS/infin8/infin8-003.png"></img>
                       }>
 
                       <Tween from={{rotate: "0deg", bottom: "-700px"}} to={{rotate: "-30deg", bottom: "-100px"}} />
@@ -63,7 +63,7 @@ function InfiniteMoney() {
           </Controller>
           
           <div class="mb-4 z-40 mt-10 relative mx-auto py-10 px-3 bg-white shadow-xl mb-20 text-white font-bold rounded-xl w-40 text-center">
-              <img src="/ASSETS/logos/color/infin8.png"/>
+              <img alt="INFIN8 MONEY Crypto Card" src="/ASSETS/logos/color/infin8.png"/>
           </div>
 
         <h1 class="text-slate-900 z-30 dark:text-white text-4xl md:text-5xl lg:text-6xl font-bold isolate"> 
