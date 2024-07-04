@@ -11,6 +11,7 @@ import { I18nextProvider } from 'react-i18next';
 
 i18next.init({
   interpolation: {escapeValue: false},
+  fallbackLng: 'en',
   lng : "en",
   resources : {
     en: {

@@ -6,13 +6,32 @@ import { useTranslation } from 'react-i18next';
 import {Tween, Timeline} from 'react-gsap';
 
 function Compensation() {
+    const [t, i18n] = useTranslation("global");
 
     return(
         <div id="CompensationSection" class="py-40   ">
 
             <div class="wrapper mx-auto flex flex-col ">
-                <h1 class="font-bold text-6xl dark:text-white text-slate-900" > <span class="text-cyan-500">The Most Powerful</span><br/> Opportunity in the world</h1>
-                <p class="mt-5 dark:text-white text-slate-900">Unlimited earning potential with our affiliate program. Simple, powerful, limitless income potential!</p>
+                <h2 class="font-bold text-6xl dark:text-white text-slate-900" > 
+                    {t("compensation.title", {returnObjects:true}).map(function(o,i) {
+
+                            if(o.startsWith("/s/br")) {
+                                return <span class="text-cyan-500"><br/> {o.split("/s/br")[1]}</span>
+                            }
+                            if(o.startsWith("/s")) {
+                                return <span class="text-cyan-500"> {o.split("/s")[1]}</span>
+                            }
+                            if(o.startsWith("/br")) {
+                                return <span><br/> {o.split("/br")[1]}</span>
+                            }
+
+
+                            else {  
+                                return <span> {o} </span> 
+                            }
+                    })}
+                </h2>
+                <p class="mt-5 dark:text-white text-slate-900">{t("compensation.description")}</p>
                 <div class="flex flex-col xl:flex-row mt-10 gap-10">
 
                     <div class="basis-1/3 text-left comp-card p-5 rounded-xl overflow-hidden">
@@ -30,8 +49,27 @@ function Compensation() {
                             </div>
                             
                         </div>
-                        <h1 class="font-bold text-4xl z-50 relative">GO <br/><span class="text-cyan-500">Direct</span></h1>
-                        <p class="mt-5">Earn 5% - 20% on every <br/>Direct Sponsored GO member.</p>
+                        <h2 class="font-bold text-4xl z-50 relative">
+                            {t("compensation.go_direct.title", {returnObjects:true}).map(function(o,i) {
+
+                            if(o.startsWith("/s/br")) {
+                                return <span class="text-cyan-500"><br/> {o.split("/s/br")[1]}</span>
+                            }
+                            if(o.startsWith("/s")) {
+                                return <span class="text-cyan-500"> {o.split("/s")[1]}</span>
+                            }
+                            if(o.startsWith("/br")) {
+                                return <span><br/> {o.split("/br")[1]}</span>
+                            }
+
+
+                            else {  
+                                return <span> {o} </span> 
+                            }
+                            })}
+
+                        </h2>
+                        <p class="mt-5">{t("compensation.go_direct.description")}</p>
 
                     </div>
 
@@ -50,8 +88,26 @@ function Compensation() {
                         </div>
 
                         </div>
-                        <h1 class="font-bold text-4xl z-50 ">GO <br/><span class="text-cyan-500"> Target</span></h1>
-                        <p class="mt-5 z-50">Earn a percentage of the <br/> company’s weekly global revenue.</p>
+                        <h2 class="font-bold text-4xl z-50 ">
+                            {t("compensation.go_target.title", {returnObjects:true}).map(function(o,i) {
+
+                            if(o.startsWith("/s/br")) {
+                                return <span class="text-cyan-500"><br/> {o.split("/s/br")[1]}</span>
+                            }
+                            if(o.startsWith("/s")) {
+                                return <span class="text-cyan-500"> {o.split("/s")[1]}</span>
+                            }
+                            if(o.startsWith("/br")) {
+                                return <span><br/> {o.split("/br")[1]}</span>
+                            }
+
+
+                            else {  
+                                return <span> {o} </span> 
+                            }
+                            })}
+                        </h2>
+                        <p class="mt-5 z-50">{t("compensation.go_target.description")}</p>
                         
                     </div>
 
@@ -70,8 +126,26 @@ function Compensation() {
                         </div>
 
                         </div>
-                        <h1 class="font-bold text-4xl ">GO <br/><span class="text-cyan-500">Rank</span></h1>
-                        <p class="mt-5">Earn special rewards and <br/> recognition for new ranks.</p>
+                        <h2 class="font-bold text-4xl ">
+                            {t("compensation.go_rank.title", {returnObjects:true}).map(function(o,i) {
+
+                            if(o.startsWith("/s/br")) {
+                                return <span class="text-cyan-500"><br/> {o.split("/s/br")[1]}</span>
+                            }
+                            if(o.startsWith("/s")) {
+                                return <span class="text-cyan-500"> {o.split("/s")[1]}</span>
+                            }
+                            if(o.startsWith("/br")) {
+                                return <span><br/> {o.split("/br")[1]}</span>
+                            }
+
+
+                            else {  
+                                return <span> {o} </span> 
+                            }
+                            })}
+                        </h2>
+                        <p class="mt-5">{t("compensation.go_rank.description")}</p>
     
                     </div>
                 </div>

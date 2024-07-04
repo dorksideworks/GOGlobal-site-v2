@@ -35,7 +35,7 @@ function Hero() {
           
           
 
-          <div id="HeroSection" class="mx-auto max-w-2xl pt-20 sm:pt-20 lg:pt-40">
+          <div id="HeroSection" class="mx-auto max-w-3xl pt-20 sm:pt-20 lg:pt-40">
          
               <div class="hidden sm:mb-2 sm:flex sm:justify-center">
                 <div class="relative rounded-full px-3 text-sm leading-6 text-gray-400 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
@@ -130,7 +130,7 @@ function Hero() {
 
       {t("Hero.stats", {returnObjects:true}).map(function(o,i) {
             return (<div class="px-5 basis-1/3 justify-center align-center items-center flex flex-col duration-500">
-              <h1 class="text-5xl text-cyan-500">{o.data} {o.suffix}</h1>
+              <h1 class="text-5xl text-cyan-500">{o.data}{o.suffix}</h1>
               <span class="dark:text-white text-gray-700">{o.description}</span>
             </div>)
           })}

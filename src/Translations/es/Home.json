@@ -1,17 +1,17 @@
 {
     "Hero" : {
-        "sub-title" : "Soluciones digitales globales",
-        "title" : "Bienvenido a GO Global ",
+        "sub-title" : "SOLUCIONES DIGITALES GLOBALES ",
+        "title" : "BIENVENIDO A GO GLOBAL",
         "stats" : [
             {
-                "data" : "200",
+                "data" : "300",
                 "suffix" : "k+",
                 "description" : "Miembros activos"
             }, 
             {
-                "data" : "1000",
+                "data" : "1,000",
                 "suffix" : "+",
-                "description" : "Contenido educativo y de entretenimiento"
+                "description" : "Horas de contenido educativo y de entretenimiento"
             },
             {
                 "data" : "140",
@@ -20,59 +20,110 @@
             }
         ]
     },
-    "nav" : [
-        "HOGAR",
-        "Productos",
-        "FOUNDATION",
-        "COMUNIDAD",
-        "ACCESO"
-    ],
-    "products" : {
-        "title" : "Nuestros productos",
-        "description" : "Desbloquee su éxito de redes a través de la educación de primer nivel, el entretenimiento de clase mundial y las innovaciones de vanguardia."
+    
+    "nav" : {
+        "home" : "HOGAR",
+        "products" : "PRODUCTOS",
+        "foundation" : "FUNDACION",
+        "compensation" : "COMPENSACIÓN",
+        "community" : "COMUNIDAD",
+        "login" : "ACCESO"
     },
 
-    "golearn" : {
-        "title" : ["/s Desbloquea tu éxito", "/br y aprender de expertos de la industria."],
+    "products" : {
+        "title" : "Our Products",
+        "description" : "Unlock your networking success through top-tier education, world-class entertainment, and cutting-edge innovations."
+    },
+    "sayhello" : {
+        "title" : "SALUDA A GO",
+        "description" : "Brindando experiencias digitales globales con nuestra amplia gama de productos innovadores."
+    },
+    "sayhello_items" : [
+        {
+            "title" : "GO Learn",
+            "desc" : "Aprenda nuevas habilidades de los mejores expertos de todo el mundo.",
+            "image": "/ASSETS/logos/go-learn.png"
+        },
+        {
+            "title" : "GO TV",
+            "desc" : "Transmita éxitos de taquilla y gane recompensas por compartirlos con otros.",
+            "image": "/ASSETS/logos/go-tv.png"
+        },
+        {
+            "title" : "INFIN8 Money",
+            "desc" : "Use sin problemas su criptoe en cualquier lugar donde se acepten tarjetas de crédito principales.",
+            "image": "/ASSETS/logos/infin8-icon.png"
+        },
+        {
+            "title" : "GO WIN",
+            "desc" : "La plataforma de entretenimiento en línea n. ° 1 que cuenta con más de 10,000 juegos de proveedores con licencia y regulada.",
+            "image": "/ASSETS/logos/gowin.png"
+        },
+        {
+            "title" : "GO Foundation",
+            "desc" : "Nuestra misión es tener un impacto significativo donde quiera que vayamos, asegurando que nuestros esfuerzos sean de gran alcance y duradero",
+            "image": "/ASSETS/logos/go-foundation.png"
+        }
+    ],
 
-        "description" : "Sube al éxito con cursos que van desde negocios y liderazgo hasta desarrollo personal impartido por entrenadores de clase mundial.",
+    "golearn" : {
+        "title" : ["Aprenda de la", "/sMAS INFLUYENTE ", "/s/brLIDERES FUERTES" ,"EN EL MUNDO"],
+
+        "description" : "Desde cómo jugar Paddle hasta cómo construir un negocio en línea utilizando AI, Go Learn tiene una biblioteca masiva de cursos y expertos de los que aprender.",
 
         "cta" : {
-            "title" : "Comience su viaje de aprendizaje en línea hoy",
-            "description" : "Aprenda de los mejores de la industria y sea el líder de su futuro.Únase a nuestra comunidad cada vez mayor de estudiantes y triunfadores.",
-            "button" : "APRENDE MÁS"
+            "title" : "Convertirse en un experto aprendiendo de expertos",
+            "description" : "Con una línea de instructores de clase mundial a su alcance; Aprender a jugar al golf, cocinar una comida gourmet o convertirse en un DJ profesional está a solo unos clics de distancia. ¡Pulse abajo para mas información!",
+            "button" : "LEARN MORE"
         }
     },
     "gotv" : {
         "tag" : "GOTV",
-        "title" :["/s Disfruta del entretenimiento de clase mundial", "en cualquier momento, en cualquier lugar."],
-        "description" : "Obtenga recompensado por su suscripción y transmisión de títulos de exhibición de actores mejor calificados como Robert de Niro, Kevin Hart y Robin Williams entre muchos otros."
+        "title" :["/sDisfruta de entretenimiento de clase mundial", "En Cualqier momento, En calquier lugar"],
+        "description" : "Obtenga recompensado por su suscripción y transmisión de títulos de exhibición de actores mejor calificados como Robert de Niro, Kevin Hart y Robin Williams entre muchos otros.",
+
+        "p1" : "Suscripción anual por solo 500 créditos GO",
+        "p2" :  "Disponible en varios idiomas",
+        "p3" :  "Blockbusters de la lista A y programas de televisión",
+        "p4" : "Películas y actuaciones galardonadas"
+        
+        
     },
+
+    "gowin" : {
+        "title" : ["Bienvenida a la",  "/sFuturo de los juegos en línea de afiliados"],
+        "description" : [
+            "Elija entre más de 10,000 juegos de casino en línea de los proveedores de juegos más acreditados, con licencia y regulados en el mundo, lo que garantiza el juego y la seguridad justos cuando cobra sus grandes victorias.",
+            "Y por primera vez en nuestra industria, el programa de afiliados más sólido que le paga no solo por promocionar, sino que cada vez que sus referencias hacen un nuevo depósito. ¡PARA SIEMPRE!"
+        ],
+        "powered_by" : "ENERGIZADO POR:"
+    },
+
     "infin8" : {
         "tag" : "INFIN8 MONEY",
-        "title" : ["Flexibilidad definitiva", "/s Posibilidades infinitas"],
-        "description" : "Experimente el mundo del lujo y gaste sin problemas su criptomoneda en el mundo real sin límites."
+        "title" : ["Usa fácilmente ", "tu " ,"/sCrypto en cualquier lugar!"],
+        "description" : "Infin8 Money le permite usar su cripto de cripto favorita en cualquier lugar que se acepten tarjetas de crédito y débito importantes, incluso en el cajero automático."
     },
     "gofoundation" : {
         "tag" : "GO FOUNDATION",
         "title" : [
-            "/s Cambiando vidas",
-            "devolviendo"
+            "/sCambiando Vidas",
+            "Devolviendo"
         ],
-        "description" : "Contribuir a una causa mayor y ayudar a los necesitados.Juntos, podemos cambiar vidas al proporcionar una plataforma educativa como uno de los servicios de GO Global, ayudando a las organizaciones sin fines de lucro que comparten los mismos valores es el objetivo de la Fundación GO.",
+        "description" : "Contribuir a una causa mayor y ayudar a los necesitados. Juntos, podemos cambiar vidas al proporcionar una plataforma educativa como uno de los servicios de GO Global, ayudando a las organizaciones sin fines de lucro que comparten los mismos valores es el objetivo de la Fundación GO.",
         "foundations" : [
             {
                 "name" : "The Good Shepherd Sisters",
-                "description" : "Es una organización sin fines de lucro dedicada a desarrollar la calidad de vida de todos los necesitados, independientemente de su afiliación religiosa.",
-                "button" : "APRENDE MÁS",
+                "description" : "It is a non-profit organization dedicated to developing the quality of life of all those in need regardless of their religious affiliation.",
+                "button" : "LEARN MORE",
                 "link" : "",
 
                 "image" : "/ASSETS/gofoundation/foundation-001.png"
             },
             {
                 "name" : "Boğaziçi Özel Eğitim",
-                "description" : "Es una organización sin fines de lucro dedicada a desarrollar la calidad de vida de todos los necesitados, independientemente de su afiliación religiosa.",
-                "button" : "APRENDE MÁS",
+                "description" : "It is a non-profit organization dedicated to developing the quality of life of all those in need regardless of their religious affiliation.",
+                "button" : "LEARN MORE",
                 "link" : "",
 
                 "image" : "/ASSETS/gofoundation/foundation-002.png"
@@ -81,13 +132,36 @@
     },
     
     "gocommunity" : {
-        "tag" : "Comunidad para ir",
-        "title" : ["/sCrecer y prosperar", "juntos como comunidad."],
-        "description" : "La colaboración y el trabajo en equipo son dos herramientas poderosas en las que la comunidad GO en constante crecimiento cree. Con más de 200,000 miembros activos en 4 continentes, GO Global brinda oportunidades para las personas de todo el mundo."
+        "tag" : "GO COMUNIDAD",
+        "title" : ["/sCrecido y prosperar", "Juntos como comunidad"],
+        "description" : "La colaboración y el trabajo en equipo son dos herramientas poderosas en las que la comunidad GO cada vez cree. Con más de 200,000 miembros activos en 4 continentes, GO Global brinda oportunidades para las personas de todo el mundo."
     },
 
     "footer" : {
-        "description" : "GO Global es un pionero en la industria de marketing de redes.Apodada la marca de más rápido crecimiento en la industria, GOL Global acumuló más de 200,000 miembros activos dentro de un año.Y con sus productos y plataformas a prueba de futuro, GO Global está listo para ayudar a sus miembros a lograr el éxito."
-    }
+        "description" : "GO Global ha sido calificado como AAA+ Oportunidad de negocio por BusinessForhome.org en solo su primer año de negocios. Con una comunidad masiva de más de 300,000 distribuidores en todo el mundo, GO ha tomado por asalto a la industria de marketing de redes con sus innovadores productos digitales, un plan de compensación ganador de los asombrosos y los notables viajes de incentivos a destinos exóticos."
+    },
     
+
+    "compensation" : {
+        "title" : ["/sLa mas poderosa", "/brOportunidad en el mundo"],
+        "description" : "Potencial de ingresos ilimitado con nuestro programa de afiliados. ¡Potencial de ingresos simple, potente e ilimitado!",
+
+        "go_direct" : {
+            "title" : ["GO", "/s/brDirect"],
+            
+            "description" : "Gane un porcentaje en cada miembro de GO patrocinado directamente.",
+            "frequency" : "WEEKLY"
+        },
+        "go_target" : {
+            "title" : ["GO","/s/brTarget"],
+            "description" : "Obtenga un porcentaje de los ingresos globales semanales de la compañía.",
+            "frequency" : "WEEKLY"
+        },
+        "go_rank" : {
+            "title" : ["GO", "/s/brRank"],
+            "description" :"Obtenga recompensas y reconocimiento especiales por alcanzar nuevas filas.",
+            "frequency" : "MONTHLY"
+        }
+
+    }
 }

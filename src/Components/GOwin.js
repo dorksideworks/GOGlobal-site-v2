@@ -9,6 +9,7 @@ import "@glidejs/glide/dist/css/glide.theme.min.css"
 import Glide from '@glidejs/glide'
 
 function GOwin() {
+    const [t, i18n] = useTranslation("global");
 
     useEffect(() => {
         let isDown = false;
@@ -55,12 +56,33 @@ function GOwin() {
                         <img src="/ASSETS/logos/color/gowin-logo.png"/>
                     </div>
                     
-                    <h1 class="mt-8 text-5xl text-white font-bold text-left">Welcome to the <span class="gowin-highlight">Future of Affiliate Online Gaming</span></h1>
-                    <p class="text-white text-left pt-8 sm:pr-0 lg:pr-42"> For the first time ever in the network marketing industry you can be part of a world-class online gaming platform that allows you to play LIVE games and tournaments with players from all over the world. </p>
+                    <h2 class="mt-8 text-5xl text-white font-bold text-left">
+                        {t("gowin.title", {returnObjects:true}).map(function(o,i) {
 
-                    <p class="text-white text-left pt-8 sm:pr-0 lg:pr-42" >
+                            if(o.startsWith("/s/br")) {
+                                return <span class="gowin-highlight"><br/> {o.split("/s/br")[1]}</span>
+                            }
+                            if(o.startsWith("/s")) {
+                                return <span class="gowin-highlight"> {o.split("/s")[1]}</span>
+                            }
+                            if(o.startsWith("/br")) {
+                                return <span><br/> {o.split("/br")[1]}</span>
+                            }
+
+
+                            else {  
+                                return <span> {o} </span> 
+                            }
+                        })}
+                    </h2>
+                    {t("gowin.description", {returnObjects:true}).map(function(o, i) {
+                        return <p class="text-white text-left pt-8 sm:pr-0 lg:pr-42"> {o} </p>
+                    })}
+                    {/* <p class="text-white text-left pt-8 sm:pr-0 lg:pr-42"></p> */}
+
+                    {/* <p class="text-white text-left pt-8 sm:pr-0 lg:pr-42" >
                         Powered by some of the biggest regulated game developers in the world like <b>Pragmatic Play, Evolution and Play’n GO,</b> you can experience the thrill of winning big in games such as baccarat, poker, slots and roulette from the comfort of your own home.
-                    </p>
+                    </p> */}
 
                     <div class="self-start">
                         
@@ -98,7 +120,7 @@ function GOwin() {
                 <div class="gowin-gradient absolute z-30 bg-gradient-to-r from-slate-900 left-0 top-0 gotv-gradient"></div>
                 <div class="gowin-gradient absolute z-30 bg-gradient-to-l from-slate-900 right-0 top-0 gotv-gradient"></div>
                 
-                <h1 class="text-lg text-gray-400 font-bold text-center pt-10 pb-5"> POWERED BY:</h1>
+                <h2 class="text-lg text-gray-400 font-bold text-center pt-10 pb-5"> {t("gowin.powered_by")}</h2>
                         
                             <div class="glide-gowin">
                                 <div class="glide__track text-white text-2xl" data-glide-el="track">
@@ -106,14 +128,14 @@ function GOwin() {
                                         <li class="glide__slide">
                                             <div class="logo-box bg-slate-900 p-5 rounded-lg flex flex-col">
                                                 <img src="/ASSETS/gowin/pragmatic.png"/>
-                                                <h1 class="font-bold text-sm pt-5 text-white"> PRAGMATIC </h1>
+                                                <h2 class="font-bold text-sm pt-5 text-white"> PRAGMATIC </h2>
                                             </div>
                                         </li>
                                         <li class="glide__slide">
                                             <div class="logo-box bg-slate-900 p-5 rounded-lg flex flex-col">
                                                 <img src="/ASSETS/gowin/playngo.png"/>
                                                 
-                                                <h1 class="font-bold text-sm pt-5 text-white"> PLAY N GO </h1>
+                                                <h2 class="font-bold text-sm pt-5 text-white"> PLAY N GO </h2>
 
                                             </div>
                                         </li>
@@ -122,7 +144,7 @@ function GOwin() {
                                             <div class="logo-box bg-slate-900 p-5 rounded-lg flex flex-col">
                                                 <img src="/ASSETS/gowin/evolution.png"/>
                                                 
-                                                <h1 class="font-bold text-sm pt-5 text-white"> EVOLUTION </h1>
+                                                <h2 class="font-bold text-sm pt-5 text-white"> EVOLUTION </h2>
 
                                             </div>
                                         </li>
@@ -130,21 +152,21 @@ function GOwin() {
                                             <div class="logo-box bg-slate-900 p-5 rounded-lg flex flex-col">
                                                 <img src="/ASSETS/gowin/betsolutions.png"/>
                                                 
-                                                <h1 class="font-bold text-sm pt-5 text-white"> BETSOLUIONS </h1>
+                                                <h2 class="font-bold text-sm pt-5 text-white"> BETSOLUIONS </h2>
 
                                             </div>
                                         </li><li class="glide__slide">
                                             <div class="logo-box bg-slate-900 p-5 rounded-lg flex flex-col">
                                                 <img src="/ASSETS/gowin/reelplay.png"/>
                                                 
-                                                <h1 class="font-bold text-sm pt-5 text-white"> REELPLAY </h1>
+                                                <h2 class="font-bold text-sm pt-5 text-white"> REELPLAY </h2>
 
                                             </div>
                                         </li><li class="glide__slide">
                                             <div class="logo-box bg-slate-900 p-5 rounded-lg flex flex-col">
                                                 <img src="/ASSETS/gowin/readyplaygaming.png"/>
                                                 
-                                                <h1 class="font-bold text-xs pt-5 text-white"> READY PLAY </h1>
+                                                <h2 class="font-bold text-xs pt-5 text-white"> READY PLAY </h2>
 
                                             </div>
                                         </li>
@@ -152,7 +174,7 @@ function GOwin() {
                                             <div class="logo-box bg-slate-900 p-5 rounded-lg flex flex-col">
                                                 <img src="/ASSETS/gowin/pateplay.png"/>
                                                 
-                                                <h1 class="font-bold text-xs pt-5 text-white"> PATEPLAY </h1>
+                                                <h2 class="font-bold text-xs pt-5 text-white"> PATEPLAY </h2>
 
                                             </div>
                                         </li>

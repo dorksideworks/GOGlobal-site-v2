@@ -77,11 +77,11 @@ function Header({th}) {
           </div>
 
           <div class="hidden lg:flex lg:gap-x-12 order-2">
-            <a href="/#HeroSection" class="text-sm font-semibold leading-6 text-white">HOME</a>
-            <a href="//#golearn-cards" class="text-sm font-semibold leading-6 text-white">PRODUCTS</a>
-            <a href="/#foudnation-container" class="text-sm font-semibold leading-6 text-white">FOUNDATION</a>
-            <a href="/#CompensationSection" class="text-sm font-semibold leading-6 text-white">COMPENSATION</a>
-            <a href="/#CommunitySection" class="text-sm font-semibold leading-6 text-white">COMMUNITY</a>
+            <a href="/#HeroSection" class="text-sm font-semibold leading-6 text-white">{t("nav.home")}</a>
+            <a href="//#golearn-cards" class="text-sm font-semibold leading-6 text-white">{t("nav.products")}</a>
+            <a href="/#foudnation-container" class="text-sm font-semibold leading-6 text-white">{t("nav.foundation")}</a>
+            <a href="/#CompensationSection" class="text-sm font-semibold leading-6 text-white">{t("nav.compensation")}</a>
+            <a href="/#CommunitySection" class="text-sm font-semibold leading-6 text-white">{t("nav.community")}</a>
           </div>
           
           <div class="flex lg:flex lg:flex-1 lg:justify-end order-3">
@@ -93,7 +93,7 @@ function Header({th}) {
 
             <a href="https://dashboard.goglobal.network/users/login" target="_blank" class="hidden bg-cyan-500 py-3 px-10 rounded-full md:relative lg:relative lg:block md:block text-sm font-semibold leading-6 text-white">Log in <span aria-hidden="true">&rarr;</span></a>
             <div class="hidden md:flex lg:flex text-white cursor-pointer flex flex-col justify-center align-center items-center px-10 rounded-xl ml-5 hover:bg-slate-800 duration-500 font-bold text-sm">
-              {/* <div onClick={toggleLanguage}> {i18n.language.toUpperCase()}</div>
+              <div onClick={toggleLanguage}> {i18n.language.toUpperCase()}</div>
               
               <div ref= { a => {lang_modal = a}} class="langSelect absolute top-24 flex flex-col bg-slate-800 rounded-xl overflow-hidden justify-stretch align-stretch items-stretch duration-500">
                 
@@ -101,7 +101,7 @@ function Header({th}) {
                 {i18n.language != 'es'? <a href="/es" class="duration-500 hover:bg-slate-900 bg-slate-800 basis-1/3 py-3 px-10"> ES </a > : ""}
                 {i18n.language != 'kr' ? <a href="/kr" class="duration-500 hover:bg-slate-900 bg-slate-800 basis-1/3 py-3 px-10"> KR </a> : ""}
                 {i18n.language != 'ar' ? <a href="/ar" class="duration-500 hover:bg-slate-900 bg-slate-800 basis-1/3 py-3 px-10"> AR </a> : ""}
-              </div> */}
+              </div>
 
             </div>
 

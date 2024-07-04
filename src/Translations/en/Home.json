@@ -4,14 +4,14 @@
         "title" : "Welcome to GO Global ",
         "stats" : [
             {
-                "data" : "200",
+                "data" : "300",
                 "suffix" : "k+",
                 "description" : "Active Members"
             }, 
             {
-                "data" : "1000",
+                "data" : "1,000",
                 "suffix" : "+",
-                "description" : "Educational and Entertainment Content"
+                "description" : "Hours of Educational & Entertainment Content"
             },
             {
                 "data" : "140",
@@ -21,83 +21,94 @@
         ]
     },
     
-    "nav" : [
-        "HOME",
-        "PRODUCTS",
-        "FOUNDATION",
-        "COMMUNITY",
-        "LOGIN"
-    ],
+    "nav" : {
+        "home" : "HOME",
+        "products" : "PRODUCTS",
+        "foundation" : "FOUNDATION",
+        "community" : "COMMUNITY",
+        "compensation" : "COMPENSATION",
+        "login" : "LOGIN"
+    },
 
     "products" : {
         "title" : "Our Products",
         "description" : "Unlock your networking success through top-tier education, world-class entertainment, and cutting-edge innovations."
     },
     "sayhello" : {
-        "title" : "Say Hello To GO",
+        "title" : "SAY HELLO TO GO",
         "description" : "Providing global digital experiences with our wide range of innovative products."
     },
     "sayhello_items" : [
         {
             "title" : "GO Learn",
-            "desc" : "One stop shop to learn new skills and unlock potential from industry experts.",
+            "desc" : "Learn new skills from top experts from around the world.",
             "image": "/ASSETS/logos/go-learn.png"
         },
         {
             "title" : "GO TV",
-            "desc" : "GO TV is the ultimate streaming platform that offers a wide range of on-demand content including blockbusters and A-List titles from around the world.",
+            "desc" : "Stream blockbusters and earn rewards for sharing with others.",
             "image": "/ASSETS/logos/go-tv.png"
         },
         {
             "title" : "INFIN8 Money",
-            "desc" : "Seamlessly convert cryptocurrency into cash and enjoy the freedom to use digital assets everywhere major credit cards are accepted.",
+            "desc" : "Seamlessly use your cyrpto anywhere major credit cards are accepted.",
             "image": "/ASSETS/logos/infin8-icon.png"
         },
         {
             "title" : "GO WIN",
-            "desc" : "New entertainment platform where you can play hundreds of games and win massive jackpots from the comfort of your home.",
+            "desc" : "The #1 online entertainment platform that boasts over 10,000 games from top licensed and regulated providers.",
             "image": "/ASSETS/logos/gowin.png"
         },
         {
             "title" : "GO Foundation",
-            "desc" : "Our mission is to make a meaningful impact wherever we go, ensuring our efforts are both far-reaching and lasting.",
+            "desc" : "Our mission is to make a meaningful impact wherever we go, ensuring our efforts are both far-reaching and lasting",
             "image": "/ASSETS/logos/go-foundation.png"
         }
     ],
 
     "golearn" : {
-        "title" : ["/s Unlock your success", "/br and learn from industry experts."],
+        "title" : ["LEARN FROM THE", "/sMOST INFLUENCIAL ", "/s/brTHOUGHT LEADERS" ,"IN THE WORLD"],
 
-        "description" : "Climb to success with courses ranging from business and leadership to personal development taught by world-class trainers.",
+        "description" : "From how to play paddle to how to build an online business using AI, GO Learn has a massive library of courses and experts to learn from.",
 
         "cta" : {
-            "title" : "Start Your Online Learning Journey Today",
-            "description" : "Learn from the best in the industry and be the leader of your future. Join our ever-growing community of learners and achievers.",
+            "title" : "BECOME AN EXPERT BY LEARNING FROM EXPERTS",
+            "description" : "With a world-class lineup of instructors at your fingertips; learning how to play golf, cooking a gourmet meal or becoming a professional DJ is just a few clicks away. Click below to learn more!",
             "button" : "LEARN MORE"
         }
     },
     "gotv" : {
         "tag" : "GOTV",
-        "title" :["/s Enjoy world-class entertainment", "anytime, anywhere."],
+        "title" :["/s ENJOY WORLD CLASS ENTERTAINMENT", "ANYTIME, ANYWHERE"],
         "description" : "Get rewarded for your subscription and stream showstopping titles from top-rated actors such as Robert De Niro, Kevin Hart, and Robin Williams among many others.",
 
-        "p1" : "Annual subscription fors just 500 GO credits",
+        "p1" : "Annual subscription for just 500 GO Credits",
         "p2" :  "Available in multiple Languages",
-        "p3" :  "A-List Blockbusters and TV Shows.",
-        "p4" : "Brand new content every week"
+        "p3" :  "A-list Blockbusters and TV Shows",
+        "p4" : "Award-winning films and performances"
         
         
     },
+
+    "gowin" : {
+        "title" : ["WELCOME TO THE ",  "/sFUTURE OF AFFILIATE ONLINE GAMING"],
+        "description" : [
+            "Choose from over 10,000 online casino games by the most reputable, licensed and regulated game providers in the world ensuring fair-play and security when you're cashing out your big wins.",
+            "And for the first time ever in our industry, the most robust affiliate program that pays you not only for promoting but everytime your referrals make a new deposit. FOREVER!"
+        ],
+        "powered_by" : "POWERED BY:"
+    },
+
     "infin8" : {
         "tag" : "INFIN8 MONEY",
-        "title" : ["/sEasily Spend Your Crypto", "for everyday use"],
-        "description" : "Experience the world of luxury and seamlessly spend your cryptocurrency in the real world without limits."
+        "title" : ["EASILY USE ", "YOUR " ,"/sCRYPTO ANYWHERE!"],
+        "description" : "INFIN8 MONEY allows you to use your favorite crypto anywhere major credit and debit cards are accepted, even at the ATM."
     },
     "gofoundation" : {
         "tag" : "GO FOUNDATION",
         "title" : [
-            "/sChanging Lives",
-            "by Giving Back"
+            "/sCHANGING LIVES",
+            "BY GIVING BACK"
         ],
         "description" : "Contribute to a greater cause and help those in need. Together, we can change lives With providing an educational platform as one of GO Global’s services, helping non-profit organizations who share the same values is the goal of the GO Foundation.",
         "foundations" : [
@@ -122,12 +133,35 @@
     
     "gocommunity" : {
         "tag" : "GO COMMUNITY",
-        "title" : ["/sGrow and thrive", "together as a community."],
-        "description" : "Collaboration and teamwork, are two powerful tools that the ever-growing GO community believes in. With over 200,000 active members across 4 continents, GO Global provides opportunities for people around the world."
+        "title" : ["/sGROWN & THRIVE", "TOGETHER AS A COMMUNITY"],
+        "description" : "Collaboration and teamwork are two powerful tools that the ever-growing GO community believes in. With over 200,000 active members across 4 continents, GO Global provides opportunities for people around the world."
     },
 
     "footer" : {
-        "description" : "GO Global is a trailblazer in the network marketing industry. Dubbed the fastest-growing brand in the industry, GO Global amassed over 200,000 active members within a year. And with their future-proof products and platforms, GO Global is set to help their members achieve success."
-    }
+        "description" : "GO Global has been rated as AAA+ business opportunity by businessforhome.org in just their first year of business. With a massive community of over 300,000 distributors worldwide, GO has taken the network marketing industry by storm with their innovative digital products, awar-winning compensation plan and remarkable incentive trips to exotic destinations."
+    },
     
+
+    "compensation" : {
+        "title" : ["/sTHE MOST POWERFUL", "/brOPPORTUNITY IN THE WORLD"],
+        "description" : "Unlimited earning potential with our affiliate program. Simple, powerful, limitless income potential!",
+
+        "go_direct" : {
+            "title" : ["GO", "/s/brDirect"],
+            
+            "description" : "Earn a percentage on every direct sponsored GO member.",
+            "frequency" : "WEEKLY"
+        },
+        "go_target" : {
+            "title" : ["GO","/s/brTarget"],
+            "description" : "Earn a percentage of the company's weekly global revenue.",
+            "frequency" : "WEEKLY"
+        },
+        "go_rank" : {
+            "title" : ["GO", "/s/brRank"],
+            "description" :"Earn special rewards & recognition for reaching new ranks.",
+            "frequency" : "MONTHLY"
+        }
+
+    }
 }
