@@ -453,6 +453,13 @@ html {
 .downloads-card {
   /* width: 500px; */
   background: #ededed;
+  max-width: 300px;
+  position: relative;
+
+}
+
+.downloads-card select{
+  width: 100%;
 }
 
 #gotv-hero {
@@ -461,4 +468,14 @@ html {
 
 .bg-404 {
   background-image: url('../public/ASSETS/404/404-bg.jpg');
+}
+
+.blog-card {
+  max-width: 1200px;
+  width: 80%;
+
+}
+
+.blog-body p{
+  padding-top: 1em;
 }

@@ -23,15 +23,17 @@ import { useTranslation } from 'react-i18next';
 function Home() {
 
     let location = useLocation();
-    let lang = location.pathname.slice(location.pathname.lastIndexOf("/"));
+    // let lang = location.pathname.slice(location.pathname.lastIndexOf("/"));
+    let lang = location.pathname.split("/")[1]
 
     const [t, i18n] = useTranslation("global");
 
     useEffect(() => {
+        console.log(location.pathname.split("/")[1])
         
-        if(lang =='/es') {
+        if(lang =='es') {
             i18n.changeLanguage("es");
-        } else if(lang == "/kr") {
+        } else if(lang == "kr") {
             i18n.changeLanguage("kr")
         }
 

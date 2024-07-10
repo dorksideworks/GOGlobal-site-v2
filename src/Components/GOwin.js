@@ -120,7 +120,7 @@ function GOwin() {
                 <div class="gowin-gradient absolute z-30 bg-gradient-to-r from-slate-900 left-0 top-0 gotv-gradient"></div>
                 <div class="gowin-gradient absolute z-30 bg-gradient-to-l from-slate-900 right-0 top-0 gotv-gradient"></div>
                 
-                <h2 class="text-lg text-gray-400 font-bold text-center pt-10 pb-5"> {t("gowin.powered_by")}</h2>
+                <h2 class="text-lg text-gray-400 font-bold text-center pt-10 pb-5"> {}</h2>
                         
                             <div class="glide-gowin">
                                 <div class="glide__track text-white text-2xl" data-glide-el="track">

@@ -2,7 +2,7 @@
 import {useEffect, useState} from 'react';
 import logo from './logo.svg';
 import { BrowserRouter as Router, Routes, Route, Navigate} from 'react-router-dom';
-
+import { useLocation } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 
 
@@ -49,7 +49,7 @@ function App() {
 
   const { i18n } = useTranslation();
   const currLocale = i18n.language;
-
+  const loc = useLocation();
   useEffect(()=>{
     console.log("current language is : " + currLocale)
     TagManager.initialize({ gtmId: 'GTM-MCB7VQQF' });
@@ -59,7 +59,7 @@ function App() {
 
 
   return (
-    <Router>
+    <div>
       <div className="App">
         <Helmet>
           <title> Empowering Global Community Through Digital Solution - GO Global</title>
@@ -79,13 +79,13 @@ function App() {
 
           <Routes>
             <Route exact path="/:currLocale" element={ <Home /> } />
-            <Route path="/" element={<Navigate exact from="/" to={`/${currLocale}`} /> } />
+            <Route path="/" element={<Navigate exact from="/" to={`${currLocale}`} /> } />
             {/* <Route path="/:currLocale/home" element={ <Home /> } /> */}
-            {/* <Route path="/blogs" element={ <Blogs/> } /> */}
+            <Route path="/blogs" element={ <Blogs sendTheme={handleTheme}/> } />
 
 
             <Route path="/:currLocale/downloads" element={ <Downloads2 sendTheme={handleTheme} /> } />
-            {/* <Route path="*" element={ <Page404 sendTheme={handleTheme} /> } /> */}
+            <Route path="*" element={ <Page404 sendTheme={handleTheme} /> } />
 
           </Routes>
 
@@ -96,7 +96,7 @@ function App() {
         </div>
 
       </div>
-    </Router>
+    </div>
   );
 }
 

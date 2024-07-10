@@ -47,8 +47,26 @@ function GOCharity() {
                             <div class="mb-4 relative mx-auto p-10 bg-white shadow-xl mb-20 text-white font-bold rounded-xl w-40 text-center">
                                 <img alt="GO Global over the universe" src="/ASSETS/logos/color/foundation.png"/>
                             </div>
-                            <h1 class="text-6xl font-bold pb-5"> <span class="charity-tcolor">Changing Lives </span> <br/> by Giving Back</h1>
-                            <p>Our mission is to make a meaningful impact <br/> wherever we go, ensuring our efforts are both far-reaching and lasting.</p>
+                            <h2 class="text-6xl font-bold pb-5"> 
+                                {t("gofoundation.title", {returnObjects:true}).map(function(o,i) {
+                                    if(o.startsWith("/s/br")) {
+                                        return <span class="charity-tcolor"><br/> {o.split("/s/br")[1]}</span>
+                                    }
+                                    if(o.startsWith("/s")) {
+                                        return <span class="charity-tcolor"> {o.split("/s")[1]}</span>
+                                    }
+                                    if(o.startsWith("/br")) {
+                                        return <span><br/> {o.split("/br")[1]}</span>
+                                    }
+
+                                    
+                                    else {  
+                                        return <span> {o} </span> 
+                                    }
+                                })}
+
+                            </h2>
+                            <p>{t("gofoundation.description")}</p>
                             <div class="charity-map relative mt-24">
 
                                 <Timeline delay={1000} totalProgress={progress} paused
@@ -72,7 +90,7 @@ function GOCharity() {
                                         <div class="country-pin thailand absolute group">
                                             <img class="absolute group duration-300" src="/ASSETS/gofoundation/thailand-pin.png"/>
                                             <div class="bg-slate-900 absolute country-block overflow-hidden duration-500 flex flex-row justify-center items-center">
-                                                <h1 class="text-white font-bold "> hello sebu! </h1>
+                                                <h2 class="text-white font-bold "> hello sebu! </h2>
                                             </div>
                                         </div>
                                         

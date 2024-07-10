@@ -9,6 +9,8 @@ import home_kr from './Translations/kr/Home.json';
 import i18next from 'i18next';
 import { I18nextProvider } from 'react-i18next';
 
+import { BrowserRouter as Router, Routes, Route, Navigate} from 'react-router-dom';
+
 i18next.init({
   interpolation: {escapeValue: false},
   fallbackLng: 'en',
@@ -27,11 +29,14 @@ i18next.init({
 })
 
 ReactDOM.render(
+  <Router>
   <React.StrictMode>
     <I18nextProvider i18n={i18next}> 
       <App/>
     </I18nextProvider>
-  </React.StrictMode>,
+  </React.StrictMode>
+  </Router>
+  ,
   document.getElementById('root')
 );
 

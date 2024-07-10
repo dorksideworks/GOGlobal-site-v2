@@ -1,116 +1,115 @@
 {
     "Hero" : {
-        "sub-title" : "Global Digital Solutions ",
-        "title" : "Welcome to GO Global ",
+        "sub-title" : "글로벌 디지털 솔루션 ",
+        "title" : "GO GLOBAL에 오신 것을 환영합니다.",
         "stats" : [
             {
                 "data" : "300",
                 "suffix" : "k+",
-                "description" : "Active Members"
+                "description" : "활동적인 회원"
             }, 
             {
                 "data" : "1,000",
                 "suffix" : "+",
-                "description" : "Hours of Educational & Entertainment Content"
+                "description" : "교육 및 엔터테인먼트 콘텐츠의 시간"
             },
             {
                 "data" : "140",
                 "suffix" : "+",
-                "description" : "Countries Reached"
+                "description" : "국가에 도달했습니다"
             }
         ]
     },
     
     "nav" : {
-        "home" : "HOME",
-        "products" : "PRODUCTS",
-        "foundation" : "FOUNDATION",
-        "community" : "COMMUNITY",
-        "compensation" : "COMPENSATION",
-        "login" : "LOGIN"
+        "home" : "집",
+        "products" : "제품",
+        "foundation" : "기반",
+        "community" : "지역 사회",
+        "compensation" : "보상",
+        "login" : "로그인"
     },
 
     "products" : {
-        "title" : "Our Products",
-        "description" : "Unlock your networking success through top-tier education, world-class entertainment, and cutting-edge innovations."
+        "title" : "우리 제품",
+        "description" : "최고의 교육, 세계적 수준의 엔터테인먼트 및 최첨단 혁신을 통해 네트워크 성공을 잠금 해제하십시오."
     },
     "sayhello" : {
-        "title" : "SAY HELLO TO GO",
-        "description" : "Providing global digital experiences with our wide range of innovative products."
+        "title" : "가서 인사하십시오",
+        "description" : "광범위한 혁신적인 제품으로 글로벌 디지털 경험을 제공합니다."
     },
     "sayhello_items" : [
         {
             "title" : "GO Learn",
-            "desc" : "Learn new skills from top experts from around the world.",
+            "desc" : "전 세계 최고의 전문가들로부터 새로운 기술을 배우십시오.",
             "image": "/ASSETS/logos/go-learn.png"
         },
         {
             "title" : "GO TV",
-            "desc" : "Stream blockbusters and earn rewards for sharing with others.",
+            "desc" : "블록버스터를 스트리밍하고 다른 사람들과 공유 한 것에 대한 보상을받습니다.",
             "image": "/ASSETS/logos/go-tv.png"
         },
         {
             "title" : "INFIN8 Money",
-            "desc" : "Seamlessly use your cyrpto anywhere major credit cards are accepted.",
+            "desc" : "주요 신용 카드가 허용되는 모든 암호를 원활하게 사용하십시오.",
             "image": "/ASSETS/logos/infin8-icon.png"
         },
         {
             "title" : "GO WIN",
-            "desc" : "The #1 online entertainment platform that boasts over 10,000 games from top licensed and regulated providers.",
+            "desc" : "최고 라이센스 및 규제 제공 업체의 10,000 개 이상의 게임을 자랑하는 #1 온라인 엔터테인먼트 플랫폼.",
             "image": "/ASSETS/logos/gowin.png"
         },
         {
             "title" : "GO Foundation",
-            "desc" : "Our mission is to make a meaningful impact wherever we go, ensuring our efforts are both far-reaching and lasting",
+            "desc" : "우리의 사명은 우리가가는 곳마다 의미있는 영향을 미치는 것입니다.",
             "image": "/ASSETS/logos/go-foundation.png"
         }
     ],
 
     "golearn" : {
-        "title" : ["LEARN FROM THE", "/sMOST INFLUENCIAL ", "/s/brTHOUGHT LEADERS" ,"IN THE WORLD"],
+        "title" : ["세계에서 가장 영향력있는 사고 지도자들로부터 배우십시오"],
 
-        "description" : "From how to play paddle to how to build an online business using AI, GO Learn has a massive library of courses and experts to learn from.",
+        "description" : "패들 플레이 방법부터 AI를 사용하여 온라인 비즈니스를 구축하는 방법에 이르기까지 Go Learn에는 배울 수있는 다양한 과정 및 전문가 라이브러리가 있습니다.",
 
         "cta" : {
-            "title" : "BECOME AN EXPERT BY LEARNING FROM EXPERTS",
-            "description" : "With a world-class lineup of instructors at your fingertips; learning how to play golf, cooking a gourmet meal or becoming a professional DJ is just a few clicks away. Click below to learn more!",
-            "button" : "LEARN MORE"
+            "title" : "전문가로부터 배우면 전문가가됩니다",
+            "description" : "당신의 손끝에서 세계적 수준의 강사 라인업; 골프를하는 방법을 배우거나 미식가 식사 요리를하거나 전문 DJ가되는 것은 단 몇 번의 클릭으로 불과합니다. 자세한 내용은 아래를 클릭하십시오!",
+            "button" : "더 알아보기"
         }
     },
     "gotv" : {
         "tag" : "GOTV",
-        "title" :["/s ENJOY WORLD CLASS ENTERTAINMENT", "ANYTIME, ANYWHERE"],
-        "description" : "Get rewarded for your subscription and stream showstopping titles from top-rated actors such as Robert De Niro, Kevin Hart, and Robin Williams among many others.",
+        "title" :["언제 어디서나 월드 클래스 엔터테인먼트를 즐기십시오"],
+        "description" : "Robert de Niro, Kevin Hart 및 Robin Williams와 같은 최고 등급의 배우의 구독 및 Stream Showstopping 타이틀에 대한 보상을 받으십시오.",
 
-        "p1" : "Annual subscription for just 500 GO Credits",
-        "p2" :  "Available in multiple Languages",
-        "p3" :  "A-list Blockbusters and TV Shows",
-        "p4" : "Award-winning films and performances"
+        "p1" : "500 GO 크레딧에 대한 연간 구독",
+        "p2" :  "여러 언어로 제공됩니다",
+        "p3" :  "A-리스트 블록버스터 및 TV 쇼",
+        "p4" : "수상 경력에 빛나는 영화와 공연"
         
         
     },
 
     "gowin" : {
-        "title" : ["WELCOME TO THE ",  "/sFUTURE OF AFFILIATE ONLINE GAMING"],
+        "title" : ["제휴 온라인 게임의 미래에 오신 것을 환영합니다"],
         "description" : [
-            "Choose from over 10,000 online casino games by the most reputable, licensed and regulated game providers in the world ensuring fair-play and security when you're cashing out your big wins.",
-            "And for the first time ever in our industry, the most robust affiliate program that pays you not only for promoting but everytime your referrals make a new deposit. FOREVER!"
+            "전 세계에서 가장 유명하고 라이센스가 부여되고 규제 된 게임 제공 업체가 10,000 개가 넘는 온라인 카지노 게임 중에서 선택하여 큰 승리를 현금화 할 때 공정한 플레이와 보안을 보장하십시오.",
+            "그리고 우리 업계에서 처음으로, 홍보에 대한 비용을 지불 할뿐만 아니라 당신의 추천이 새로운 예금을 할 때마다 당신에게 지불하는 가장 강력한 제휴 프로그램. 영원히!"
         ],
-        "powered_by" : "POWERED BY:"
+        "powered_by" : "제작자 :"
     },
 
     "infin8" : {
         "tag" : "INFIN8 MONEY",
-        "title" : ["EASILY USE ", "YOUR " ,"/sCRYPTO ANYWHERE!"],
-        "description" : "INFIN8 MONEY allows you to use your favorite crypto anywhere major credit and debit cards are accepted, even at the ATM."
+        "title" : ["어디서나 암호를 쉽게 사용하십시오!"],
+        "description" : "Infin8 Money를 사용하면 ATM에서도 가장 좋아하는 암호를 사용할 수 있습니다."
     },
     "gofoundation" : {
         "tag" : "GO FOUNDATION",
         "title" : [
-            "/sCHANGING LIVES",
-            "BY GIVING BACK"
+            "/s돌려 주어 ", "/br삶을 바꾸는 것"
         ],
-        "description" : "Contribute to a greater cause and help those in need. Together, we can change lives With providing an educational platform as one of GO Global’s services, helping non-profit organizations who share the same values is the goal of the GO Foundation.",
+        "description" : "더 큰 원인에 기여하고 도움이 필요한 사람들을 돕습니다. 우리는 함께 Go Global의 서비스 중 하나로 교육 플랫폼을 제공함으로써 삶을 변화시킬 수 있으며, 동일한 가치를 공유하는 비영리 단체가 Go Foundation의 목표입니다.",
         "foundations" : [
             {
                 "name" : "The Good Shepherd Sisters",
@@ -133,34 +132,34 @@
     
     "gocommunity" : {
         "tag" : "GO COMMUNITY",
-        "title" : ["/sGROWN & THRIVE", "TOGETHER AS A COMMUNITY"],
-        "description" : "Collaboration and teamwork are two powerful tools that the ever-growing GO community believes in. With over 200,000 active members across 4 continents, GO Global provides opportunities for people around the world."
+        "title" : ["커뮤니티로 성장하고 번성합니다"],
+        "description" : "협업 및 팀워크는 끊임없이 성장하는 GO 커뮤니티가 믿는 두 가지 강력한 도구입니다. 4 개 대륙에 20 만 명 이상의 활동적인 회원이있는 Go Global은 전 세계 사람들에게 기회를 제공합니다."
     },
 
     "footer" : {
-        "description" : "GO Global has been rated as AAA+ business opportunity by businessforhome.org in just their first year of business. With a massive community of over 300,000 distributors worldwide, GO has taken the network marketing industry by storm with their innovative digital products, awar-winning compensation plan and remarkable incentive trips to exotic destinations."
+        "description" : "Go Global은 비즈니스 첫 해에 Businessforhome.org에 의해 AAA+ 비즈니스 기회로 평가되었습니다. GO는 전 세계적으로 30 만 명 이상의 유통 업체로 구성된 대규모 커뮤니티를 보유한 혁신적인 디지털 제품, AWAR 우승 보상 계획 및 이국적인 목적지로의 인센티브 여행으로 네트워크 마케팅 산업을 폭풍으로 끌어 올렸습니다."
     },
     
 
     "compensation" : {
-        "title" : ["/sTHE MOST POWERFUL", "/brOPPORTUNITY IN THE WORLD"],
-        "description" : "Unlimited earning potential with our affiliate program. Simple, powerful, limitless income potential!",
+        "title" : ["세계에서 가장 강력한 기회"],
+        "description" : "제휴 프로그램으로 무제한 수입 잠재력. 단순하고 강력하며 무한한 소득 잠재력!",
 
         "go_direct" : {
             "title" : ["GO", "/s/brDirect"],
             
-            "description" : "Earn a percentage on every direct sponsored GO member.",
-            "frequency" : "WEEKLY"
+            "description" : "모든 직접 후원 GO 회원에 대해 백분율을 얻으십시오.",
+            "frequency" : "주간"
         },
         "go_target" : {
             "title" : ["GO","/s/brTarget"],
-            "description" : "Earn a percentage of the company's weekly global revenue.",
-            "frequency" : "WEEKLY"
+            "description" : "회사의 주간 글로벌 수익의 비율을 획득하십시오.",
+            "frequency" : "주간"
         },
         "go_rank" : {
             "title" : ["GO", "/s/brRank"],
-            "description" :"Earn special rewards & recognition for reaching new ranks.",
-            "frequency" : "MONTHLY"
+            "description" :"새로운 순위에 도달 한 특별 보상 및 인정을 받으십시오.",
+            "frequency" : "월간 간행물"
         }
 
     }

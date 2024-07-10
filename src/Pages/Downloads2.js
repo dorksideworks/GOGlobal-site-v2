@@ -83,7 +83,7 @@ function Downloads2({sendTheme}) {
 
 
     return (
-        <div class="pt-52 relative bg-slate-50 duration-500 relative ">
+        <div class="pt-52 relative bg-slate-50 duration-500 relative pb-52 ">
 
             <div id="downloads-section" class="wrapper mx-auto">
 
@@ -96,11 +96,11 @@ function Downloads2({sendTheme}) {
 
 
 
-               <div class="wrapper mx-auto flex gap-5" >
+               <div class="wrapper mx-auto flex gap-10 flex-wrap align-center justify-center" >
                 {
                     presData.map(function(item, index) {
                         return (
-                            <div key={index} class="downloads-card p-7 rounded-xl flex flex-col group basis-1/3">
+                            <div key={index} class="downloads-card p-7 rounded-xl flex flex-col group basis-1/3 justify-between">
                                     <img class="rounded-md overflow-hidden" src={"https://cms.goglobal.network/"+item.attributes.cover.data.attributes.formats.medium.url}/>
                                     
                                     <h1 class="text-left font-bold text-2xl pt-5">{item.attributes.title}</h1>

@@ -89,23 +89,23 @@ function Compensation() {
 
                         </div>
                         <h2 class="font-bold text-4xl z-50 ">
-                            {t("compensation.go_target.title", {returnObjects:true}).map(function(o,i) {
+                        {t("compensation.go_target.title", {returnObjects:true}).map(function(o,i) {
 
-                            if(o.startsWith("/s/br")) {
-                                return <span class="text-cyan-500"><br/> {o.split("/s/br")[1]}</span>
-                            }
-                            if(o.startsWith("/s")) {
-                                return <span class="text-cyan-500"> {o.split("/s")[1]}</span>
-                            }
-                            if(o.startsWith("/br")) {
-                                return <span><br/> {o.split("/br")[1]}</span>
-                            }
+if(o.startsWith("/s/br")) {
+    return <span class="text-cyan-500"><br/> {o.split("/s/br")[1]}</span>
+}
+if(o.startsWith("/s")) {
+    return <span class="text-cyan-500"> {o.split("/s")[1]}</span>
+}
+if(o.startsWith("/br")) {
+    return <span><br/> {o.split("/br")[1]}</span>
+}
 
 
-                            else {  
-                                return <span> {o} </span> 
-                            }
-                            })}
+else {  
+    return <span> {o} </span> 
+}
+})}
                         </h2>
                         <p class="mt-5 z-50">{t("compensation.go_target.description")}</p>
                         

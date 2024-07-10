@@ -4,8 +4,10 @@ import {UilMoon, UilSun} from '@iconscout/react-unicons';
 
 
 function Header({th}) {
+  
   const [t, i18n] = useTranslation("global");
 
+  const currLocale = i18n.language;
   let burger = useRef(null);
   let nav_modal = useRef(null);
   let lang_modal = useRef(null);
@@ -77,11 +79,11 @@ function Header({th}) {
           </div>
 
           <div class="hidden lg:flex lg:gap-x-12 order-2">
-            <a href="/#HeroSection" class="text-sm font-semibold leading-6 text-white">{t("nav.home")}</a>
-            <a href="//#golearn-cards" class="text-sm font-semibold leading-6 text-white">{t("nav.products")}</a>
-            <a href="/#foudnation-container" class="text-sm font-semibold leading-6 text-white">{t("nav.foundation")}</a>
-            <a href="/#CompensationSection" class="text-sm font-semibold leading-6 text-white">{t("nav.compensation")}</a>
-            <a href="/#CommunitySection" class="text-sm font-semibold leading-6 text-white">{t("nav.community")}</a>
+            <a href={"/"+currLocale+"/#HeroSection"} class="text-sm font-semibold leading-6 text-white">{t("nav.home")}</a>
+            <a href={"/"+currLocale+"/#golearn-cards"} class="text-sm font-semibold leading-6 text-white">{t("nav.products")}</a>
+            <a href={"/"+currLocale+"/#foudnation-container"} class="text-sm font-semibold leading-6 text-white">{t("nav.foundation")}</a>
+            <a href={"/"+currLocale+"/#CompensationSection"} class="text-sm font-semibold leading-6 text-white">{t("nav.compensation")}</a>
+            <a href={"/"+currLocale+"/#CommunitySection"} class="text-sm font-semibold leading-6 text-white">{t("nav.community")}</a>
           </div>
           
           <div class="flex lg:flex lg:flex-1 lg:justify-end order-3">
@@ -91,9 +93,10 @@ function Header({th}) {
                 </div>
             </button>
 
-            <a href="https://dashboard.goglobal.network/users/login" target="_blank" class="hidden bg-cyan-500 py-3 px-10 rounded-full md:relative lg:relative lg:block md:block text-sm font-semibold leading-6 text-white">Log in <span aria-hidden="true">&rarr;</span></a>
-            <div class="hidden md:flex lg:flex text-white cursor-pointer flex flex-col justify-center align-center items-center px-10 rounded-xl ml-5 hover:bg-slate-800 duration-500 font-bold text-sm">
-              <div onClick={toggleLanguage}> {i18n.language.toUpperCase()}</div>
+            <a href="https://dashboard.gogl
+            , obal.network/users/login" target="_blank" class="hidden bg-cyan-500 py-3 px-10 rounded-full md:relative lg:relative lg:block md:block text-sm font-semibold leading-6 text-white">Log in <span aria-hidden="true">&rarr;</span></a>
+            <div onClick={toggleLanguage} class="hidden md:flex lg:flex text-white cursor-pointer flex flex-col justify-center align-center items-center px-10 rounded-xl ml-5 hover:bg-slate-800 duration-500 font-bold text-sm">
+              <div > {i18n.language.toUpperCase()}</div>
               
               <div ref= { a => {lang_modal = a}} class="langSelect absolute top-24 flex flex-col bg-slate-800 rounded-xl overflow-hidden justify-stretch align-stretch items-stretch duration-500">
                 
@@ -119,11 +122,11 @@ function Header({th}) {
         </nav>
 
           <div ref = { el => {nav_modal = el}} class="navModal mx-auto text-white font-bold left-0 right-0 w-4/6 p-10 bg-slate-900 absolute duration-500 rounded-xl top-20 isolate flex flex-col gap-5 z-40">
-              <a class="modalNavInner" onClick={handleClick} href="/#HeroSection"> HOME </a>
-              <a class="modalNavInner" onClick={handleClick} href="/#golearn-cards"> PRODUCTS </a>
-              <a class="modalNavInner" onClick={handleClick} href="/#foudnation-container"> FOUNDATION </a>
-              <a class="modalNavInner" onClick={handleClick} href="/#CommunitySection"> COMMUNITY </a>
-              <a class="modalNavInner" onClick={handleClick} href="/#CompensationSection"> COMPENSATION </a>
+              <a class="modalNavInner" onClick={handleClick} href={"/"+currLocale+"/#HeroSection"} > HOME </a>
+              <a class="modalNavInner" onClick={handleClick} href={"/"+currLocale+"/#golearn-cards"}> PRODUCTS </a>
+              <a class="modalNavInner" onClick={handleClick} href={"/"+currLocale+"/#foudnation-container"}> FOUNDATION </a>
+              <a class="modalNavInner" onClick={handleClick} href={"/"+currLocale+"/#CompensationSection"} > COMMUNITY </a>
+              <a class="modalNavInner" onClick={handleClick} href={"/"+currLocale+"/#CommunitySection"}> COMPENSATION </a>
               <a class="modalNavInner" onClick={handleClick} href="https://dashboard.goglobal.network/users/login">LOG IN</a>
               <div>
                   

@@ -44,7 +44,7 @@ function Footer() {
           </div>
 
           <div class="flex flex-col basis-1/3 gap-3 lg:pl-20 md:pl-20 pl-0">
-            <h1 class="text-white text-left font-bold text-2xl mb-5">LINKS</h1>
+            <h1 class="text-white text-left font-bold text-2xl mb-5"> </h1>
             <a href="#HeroSection">
               <h2 class="text-left text-white">HOME</h2>
             </a>
