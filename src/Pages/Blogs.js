@@ -66,13 +66,13 @@ function Blogs({sendTheme}) {
 
   return (
       <div class="w-full dark:bg-slate-900">
-          <div class="w-100 xl:w-2/4 relative bg-slate-100 mx-auto dark:bg-slate-900">
+          <div class="w-100 xl:w-2/3 relative bg-slate-100 mx-auto dark:bg-slate-900">
           {
             selectedArticle ?
             <div>
 
-              <div class="blog-image mt-20">
-                <img src={"https://cms.goglobal.network/"+ selectedArticle.attributes.cover.data.attributes.url}/>
+              <div class="blog-image relative flex items-center justify-center mt-20 w-full image-cover">
+                <img class="object-cover w-full"  src={"https://cms.goglobal.network/"+ selectedArticle.attributes.cover.data.attributes.url}/>
               </div>
               
               
@@ -83,7 +83,7 @@ function Blogs({sendTheme}) {
             
             {selectedArticle?
               
-              <div class="px-5 xl:px-32 dark:bg-slate-900 dark:text-white">
+              <div class="px-5 xl:px-10 2xl:px-32 dark:bg-slate-900 dark:text-white">
                 <h1 class="text-4xl xl:text-6xl font-slate-900 font-bold text-left ">
                   {selectedArticle.attributes.title}
                 </h1>
@@ -116,20 +116,23 @@ function Blogs({sendTheme}) {
             
               <h2 class="text-2xl font-bold mt-20 mb-10 text-left pl-32 text-slate-600 dark:bg-slate-900 dark:text-white">RELATED ARTICLES</h2>
               <hr class="mb-10 mx-32 " />
-              <div class="articles-container dark:bg-slate-900 text-left px-5 xl:px-32  pb-20 ">
-                <div class="related-articles flex flex-col xl:flex-row lg:flex-row dark:text-white">
+              <div class="articles-container dark:bg-slate-900 text-left px-5 xl:px-10 2xl:px-32  pb-20 ">
+                <div class="related-articles flex flex-col sm:flex-col md:flex-row xl:flex-row lg:flex-row dark:text-white flex-wrap">
                     { 
                       articleData?
                         articleData.map(function (item, index){
                           return(
-                            <div class="article-card basis-1/3 shrink-0 flex flex-col sm:flex-col md:flex-row lg:flex-col xl:flex-col hover:bg-slate-200 dark:hover:bg-slate-600 rounded-xl duration-500">
+
+                            <div class="article-card md:basis-1/2 lg:basis-1/2 2xl:basis-1/3 xl:basis-1/3 shrink-0 flex flex-col sm:flex-col md:flex-col lg:flex-col xl:flex-col hover:bg-slate-200 dark:hover:bg-slate-600 rounded-xl duration-500 ">
+
                               <div class="image-container pt-5 px-5 relative">
 
                                 <img class="overflow-hidden rounded-lg " src={"https://cms.goglobal.network/"+item.attributes.cover.data.attributes.url}/>
                               </div>
+                              
                               <a href={"/blogs/" + item.attributes.slug} id="article-card-description" class="flex flex-col">
-                                  <h3 class="px-10 text-xl font-bold"> {item.attributes.title}</h3>
-                                  <p class="px-10 text-slate-700 dark:text-slate-300 pt-2 pb-10">{item.attributes.description}</p>
+                                  <h3 class="px-5 xl:px-5 2xl:px-10 text-md font-bold"> {item.attributes.title}</h3>
+                                  <p class="px-5 xl:px-5 2xl:px-10 text-sm text-slate-700 dark:text-slate-300 pt-2 pb-10">{item.attributes.description}</p>
                               </a>
                             </div>
                           )
