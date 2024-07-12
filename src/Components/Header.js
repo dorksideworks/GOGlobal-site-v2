@@ -30,7 +30,7 @@ function Header({th}) {
 
   useEffect(() => {
     // console.log("header theme is: " + th);
-    setTheme(th);
+    // setTheme(th);
     if(theme === "dark") {
       document.documentElement.classList.add("dark");
     } else {
@@ -114,7 +114,7 @@ function Header({th}) {
           </div>
 
           <div class="order-5">
-            <button class="text-white font-2xl" onClick={handleThemeSwitch}>
+            <button class="text-white font-2xl z-50" onClick={handleThemeSwitch}>
               {theme === "dark" ? <UilMoon color="#ffffff"/> : <UilSun color="#ffffff"/>}
             </button>
           </div>

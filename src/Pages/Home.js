@@ -13,6 +13,7 @@ import GOwin from '../Components/GOwin';
 
 import GOTV2 from '../Components/GOTV2';
 import GOTV3 from '../Components/GOTV3';
+import Blogs from '../Components/Blog';
 import Compensation from '../Components/Compensation';
 
 import {useLocation, useMatch} from 'react-router-dom';
@@ -52,6 +53,7 @@ function Home() {
         <InfiniteMoney/>
         <GOCharity />
         <Compensation />
+        <Blogs />
         {/* <GOFoundation/> */}
         <Community/>
       

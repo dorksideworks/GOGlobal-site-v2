@@ -1,79 +1,145 @@
 import React, {useEffect, useState} from 'react'
 
 
-
-
+import Markdown from 'markdown-to-jsx'
 
 import axios from 'axios';
 
 function Blogs({sendTheme}) {
 
-  const [artcleData, setArticleData] = useState([]);
+  const [articleData, setArticleData] = useState([]);
+  const [selectedArticle, setSelectedArticle] = useState();
+  const [articleID, setArticleID] = useState()
+
+
 
 
   useEffect(() =>{ 
-
     sendTheme('dark');
+    const location = window.location.pathname.split('/');
+
+    setArticleID(location[location.length-1]);
 
 
 
-  },[])
+
+    const fetchData = async () => {
+      // const querystring = window.location.search;
+      // console.log("string" +querystring);
+      const results = await axios({
+        method: 'get',
+        url: `https://cms.goglobal.network/api/articles?pagination[page]=1&pagination[pageSize]=3&populate=cover&filters[slug][$ne]=${articleID}`,
+        withCredentials: false
+      }).then((res) => {
+        // console.log(res.data.data)
+        setArticleData(res.data.data);
+
+      }).catch((err) => {
+        console.log(err);
+      })
+    }
+
+    const fetchArticle = async () => {
+        const results = await axios({
+          method : 'get',
+          // url: `https://cms.goglobal.network/api/articles/${articleID}?populate=blocks&populate=cover`,
+          url: `https://cms.goglobal.network/api/articles?filters[slug][$eq]=${articleID}&populate=blocks&populate=cover`,
+          withCredentials: false
+        }).then((res) => {
+          console.log(res.data.data);
+          // selectedArticle(res.data.data.attributes);
+          setSelectedArticle(res.data.data[0])
+        }).catch((err) => {
+          console.log(err);
+        }) 
+
+    }
+    // console.log(selectedArticle)
+    if(articleID!= undefined && selectedArticle == undefined) {
+      fetchArticle();
+    }
+    if(articleData == undefined || articleData == ""){ 
+      fetchData();
+    }
+  },[articleID, articleData, selectedArticle])
 
 
   return (
-      <div class="w-full">
-          <div class="blog-card py-52 bg-slate-100 mx-auto">
+      <div class="w-full dark:bg-slate-900">
+          <div class="w-100 xl:w-2/4 relative bg-slate-100 mx-auto dark:bg-slate-900">
+          {
+            selectedArticle ?
+            <div>
+
+              <div class="blog-image mt-20">
+                <img src={"https://cms.goglobal.network/"+ selectedArticle.attributes.cover.data.attributes.url}/>
+              </div>
+              
+              
+            </div>
+            :" "
+          }
 
             
-            <div class="px-32">
-              <h1 class="text-4xl font-slate-900 font-bold text-left pr-52">
-              Gemini Earn Users Receive $2.18 Billion of Their Digital Assets in Kind — a 232% Recovery
-              </h1>
-
-              <div class="blog-image">
-                <img src=""/>
-              </div>
-
-              <div class="blog-body text-left mt-20">
-
-                <h2 class="text-2xl font-bold" >An Unprecedented Recovery</h2>
-
-                <p>
-                  This represents an unprecedented recovery among crypto bankruptcies, as well as bankruptcies in general, and follows our previous announcement that we reached a settlement in principle with Genesis and other creditors in the Genesis Bankruptcy, which will result in all Earn users receiving 100% of their digital assets back in kind.
+            {selectedArticle?
+              
+              <div class="px-5 xl:px-32 dark:bg-slate-900 dark:text-white">
+                <h1 class="text-4xl xl:text-6xl font-slate-900 font-bold text-left ">
+                  {selectedArticle.attributes.title}
+                </h1>
+                <p class="text-md text-left mt-5 text-slate-400 xl:text-xl ">
+                  {selectedArticle.attributes.description}
                 </p>
-
-                <p>
-                  This means, for example, that if you had lent one bitcoin in the Earn program, you will receive one bitcoin back. And it means that you will receive any and all appreciation of your assets since you lent them into the Earn program.
-
-                </p>
-
-                <p>
-                  In order to ensure this successful resolution, Gemini has also contributed $50 million to the Earn users’ recovery.
-                </p>
-
-                <p>
-                  Today’s initial distributions represent approximately 97% of the digital assets in the Earn program. You can expect to receive your remaining asset balance within the next 12 months.
-                </p>
-              </div>
-
-            </div>
-
-            <div class="related-articles">
-
-            </div>
-              <h2>RELATED ARTICLES</h2>
-
-              <div class="articles-container text-left bg-red-500">
-
-                <div class="article-card flex-col sm:flex-col md:flex-row lg:flex-row xl:flex-row">
-                  <div class="image-container"></div>
-                  <div id="article-card-description" class="felx-col ">
-                      <h3> SEC Continues to Target Crypto, Spot Bitcoin ETFs Pick Up Momentum</h3>
-                      <p>Today, Earn users received $2.18 billion of their digital assets in kind. These initial distributions represent:</p>
+                <div class="author flex flex-row mt-5">
+                  <div class="author-image relative rounded-full overflow-hidden w-14 mt-5">
+                      <img src="/go-thumb.jpg"/>
+                  </div>
+                  <div class="text-left flex flex-col justify-center items-start ml-3">
+                    <h3 class="font-bold">GO Global</h3>
+                    <p class="text-slate-500">@goglobal.official</p>
                   </div>
                 </div>
+
+                
+                <div class="blog-body text-left mt-20">
+
+
+                </div>      
+                <Markdown options={{ forceBlock: true }} class="text-left blog-md">
+                {selectedArticle.attributes.blocks.body}
+                </Markdown>
+
               </div>
-            </div>
+              
+          :""}
+
+            
+              <h2 class="text-2xl font-bold mt-20 mb-10 text-left pl-32 text-slate-600 dark:bg-slate-900 dark:text-white">RELATED ARTICLES</h2>
+              <hr class="mb-10 mx-32 " />
+              <div class="articles-container dark:bg-slate-900 text-left px-5 xl:px-32  pb-20 ">
+                <div class="related-articles flex flex-col xl:flex-row lg:flex-row dark:text-white">
+                    { 
+                      articleData?
+                        articleData.map(function (item, index){
+                          return(
+                            <div class="article-card basis-1/3 shrink-0 flex flex-col sm:flex-col md:flex-row lg:flex-col xl:flex-col hover:bg-slate-200 dark:hover:bg-slate-600 rounded-xl duration-500">
+                              <div class="image-container pt-5 px-5 relative">
+
+                                <img class="overflow-hidden rounded-lg " src={"https://cms.goglobal.network/"+item.attributes.cover.data.attributes.url}/>
+                              </div>
+                              <a href={"/blogs/" + item.attributes.slug} id="article-card-description" class="flex flex-col">
+                                  <h3 class="px-10 text-xl font-bold"> {item.attributes.title}</h3>
+                                  <p class="px-10 text-slate-700 dark:text-slate-300 pt-2 pb-10">{item.attributes.description}</p>
+                              </a>
+                            </div>
+                          )
+                        })
+                      :""
+                    }
+                  
+                </div>
+              </div>
+          </div>
 
       </div>
   )

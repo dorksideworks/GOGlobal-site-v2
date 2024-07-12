@@ -81,7 +81,8 @@ function App() {
             <Route exact path="/:currLocale" element={ <Home /> } />
             <Route path="/" element={<Navigate exact from="/" to={`${currLocale}`} /> } />
             {/* <Route path="/:currLocale/home" element={ <Home /> } /> */}
-            <Route path="/blogs" element={ <Blogs sendTheme={handleTheme}/> } />
+            {/* <Route path="/blogs" element={ <Blogs sendTheme={handleTheme}/> } /> */}
+            <Route path="/blogs/:id" element={ <Blogs sendTheme={handleTheme}/> } />
 
 
             <Route path="/:currLocale/downloads" element={ <Downloads2 sendTheme={handleTheme} /> } />

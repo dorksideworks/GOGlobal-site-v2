@@ -471,11 +471,15 @@ html {
 }
 
 .blog-card {
-  max-width: 1200px;
+  max-width: 1200px !important;
   width: 80%;
 
 }
 
 .blog-body p{
   padding-top: 1em;
+}
+
+.blog-md p,h1,h2,h3,h4,ul,ol {
+  margin-top: 1em;
 }
