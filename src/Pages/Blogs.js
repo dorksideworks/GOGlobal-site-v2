@@ -65,7 +65,7 @@ function Blogs({sendTheme}) {
 
   return (
       <div class="w-full dark:bg-slate-900">
-          <div class="w-100 xl:w-2/3 relative bg-slate-100 mx-auto dark:bg-slate-900">
+          <div class="w-100 lg:w-2/3 xl:w-2/3 2xl:w-1/2 relative bg-slate-100 mx-auto dark:bg-slate-900">
           {
             selectedArticle ?
             <div>
@@ -93,7 +93,7 @@ function Blogs({sendTheme}) {
                   <div class="author-image relative rounded-full overflow-hidden w-14 mt-5">
                       <img src="/go-thumb.jpg"/>
                   </div>
-                  <div class="text-left flex flex-col justify-center items-start ml-3">
+                  <div class="text-left flex flex-col justify-center items-start ml-3 " >
                     <h3 class="font-bold">GO Global</h3>
                     <p class="text-slate-500">@goglobal.official</p>
                   </div>
@@ -116,7 +116,7 @@ function Blogs({sendTheme}) {
               <h2 class="text-2xl font-bold mt-20 mb-10 text-left pl-32 text-slate-600 dark:bg-slate-900 dark:text-white">RELATED ARTICLES</h2>
               <hr class="mb-10 mx-32 " />
               <div class="articles-container dark:bg-slate-900 text-left px-5 xl:px-10 2xl:px-32  pb-20 ">
-                <div class="related-articles flex flex-col sm:flex-col md:flex-row xl:flex-row lg:flex-row dark:text-white flex-wrap">
+                <div class="related-articles flex flex-row sm:flex-col md:flex-col xl:flex-row lg:flex-col 2xl:flex-row dark:text-white flex-wrap">
                     { 
                       articleData?
                         articleData.map(function (item, index){

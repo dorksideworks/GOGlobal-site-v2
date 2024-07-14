@@ -56,7 +56,7 @@ function BlogPage({sendTheme}) {
 
                         if(index == 0) {
                             return(
-                                <a href={"/blogs/" + item.attributes.slug} class="bg-slate-100 relative rounded-lg overflow-hidden basis-full flex flex-col md:flex-col lg:flex-col xl:flex-row 2xl:flex-row">
+                                <a href={"/blogs/" + item.attributes.slug} class="bg-slate-100 relative rounded-lg overflow-hidden basis-full flex flex-col md:flex-col lg:flex-col xl:flex-row 2xl:flex-row pb-10">
                                     <div class="image-container basis-7/12 overflow-hidden " >
                                         <img class="rounded-lg overflow-hidden object-cover scale-150 hover:scale-175   duration-500" src={"https://cms.goglobal.network/"+item.attributes.cover.data.attributes.url} />
                                     </div>
