@@ -15,6 +15,7 @@ import Footer from './Components/Footer';
 import Downloads from './Pages/Downloads';
 import Downloads2 from './Pages/Downloads2';
 import Page404 from './Pages/Page404';
+import BlogPage from './Pages/BlogPage';
 
 import {Helmet} from 'react-helmet';
 import TagManager from 'react-gtm-module';
@@ -79,7 +80,7 @@ function App() {
             <Route exact path="/:currLocale" element={ <Home /> } />
             <Route path="/" element={<Navigate exact from="/" to={`${currLocale}`} /> } />
             {/* <Route path="/:currLocale/home" element={ <Home /> } /> */}
-            {/* <Route path="/blogs" element={ <Blogs sendTheme={handleTheme}/> } /> */}
+            <Route path="/blogs" element={ <BlogPage sendTheme={handleTheme}/> } />
             <Route path="/blogs/:id" element={ <Blogs sendTheme={handleTheme}/> } />
 
 

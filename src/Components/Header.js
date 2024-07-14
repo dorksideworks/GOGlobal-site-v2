@@ -85,6 +85,7 @@ function Header(props) {
             <a href={"/"+currLocale+"/#foudnation-container"} class="text-sm font-semibold leading-6 text-white">{t("nav.foundation")}</a>
             <a href={"/"+currLocale+"/#CompensationSection"} class="text-sm font-semibold leading-6 text-white">{t("nav.compensation")}</a>
             <a href={"/"+currLocale+"/#CommunitySection"} class="text-sm font-semibold leading-6 text-white">{t("nav.community")}</a>
+            <a href={"/blogs"} class="text-sm font-semibold leading-6 text-white">BLOGS</a>
           </div>
           
           <div class="flex lg:flex lg:flex-1 lg:justify-end order-3">
@@ -128,6 +129,7 @@ function Header(props) {
               <a class="modalNavInner" onClick={handleClick} href={"/"+currLocale+"/#foudnation-container"}> FOUNDATION </a>
               <a class="modalNavInner" onClick={handleClick} href={"/"+currLocale+"/#CompensationSection"} > COMMUNITY </a>
               <a class="modalNavInner" onClick={handleClick} href={"/"+currLocale+"/#CommunitySection"}> COMPENSATION </a>
+              <a class="modalNavInner" onClick={handleClick} href={"/blogs"}> BLOGS </a>
               <a class="modalNavInner" onClick={handleClick} href="https://dashboard.goglobal.network/users/login">LOG IN</a>
               <div>
                   
