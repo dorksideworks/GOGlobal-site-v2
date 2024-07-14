@@ -483,3 +483,39 @@ html {
 .blog-md p,h1,h2,h3,h4,ul,ol {
   margin-top: 1em;
 }
+
+.article-card .image-container {
+
+}
+
+.blog-body p{
+  font-size: 1.3em;
+}
+
+.blog-body ol, ul {
+  padding-left: 2em;
+}
+
+.blog-body ul {
+  list-style-type: decimal;
+}
+
+.blog-body h2 {
+  font-size: 2em;
+}
+.blog-body h3 {
+  font-size: 1.5em;
+}
+.blog-body h4 {
+  font-size: 1.2em;
+}
+@media only screen and (max-width: 600px) {
+  .blog-body p{
+    font-size: 1em;
+  }
+}
+
+
+.h2.h3 {
+  display: block;
+}

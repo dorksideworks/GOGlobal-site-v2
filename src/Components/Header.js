@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next'
 import {UilMoon, UilSun} from '@iconscout/react-unicons';
 
 
-function Header({th}) {
+function Header(props) {
   
   const [t, i18n] = useTranslation("global");
 
@@ -14,7 +14,7 @@ function Header({th}) {
   const [scrolltopdata, setscrolltopdata] = useState(false);
   const [mobileNav, setMobileNav] = useState(false);
   const [languageDrop, setLanguageDrop] = useState(false);
-  const [theme, setTheme] = useState(th);
+  const [theme, setTheme] = useState();
 
   const [mode, setMode] = useState('light');
 
@@ -29,8 +29,9 @@ function Header({th}) {
 
 
   useEffect(() => {
-    // console.log("header theme is: " + th);
-    // setTheme(th);
+    setMode(props.th);
+    // console.log("mode theme is: " + mode);
+    console.log(props);
     if(theme === "dark") {
       document.documentElement.classList.add("dark");
     } else {
@@ -39,7 +40,7 @@ function Header({th}) {
   
 
     window.addEventListener('scroll', () =>{
-      if(window.scrollY < 15 ) {
+      if(window.scrollY < 15) {
         setscrolltopdata(false);
       } else {
         setscrolltopdata(true);
@@ -49,7 +50,7 @@ function Header({th}) {
     
 
     
-  },[theme, th]);
+  },[theme, mode]);
 
 
   const handleThemeSwitch = () => {
@@ -59,7 +60,7 @@ function Header({th}) {
   return (
       <header class="fixed inset-x-0 top-0 z-50">
         <nav 
-        class={`flex items-center justify-between p-4 duration-500 lg:px-8 ${scrolltopdata || theme=='dark' ? 'bg-slate-900 py-6' : ''}`}
+        class={`flex items-center justify-between p-4 duration-500 lg:px-8 ${scrolltopdata || theme=='dark' || mode=='dark' ? 'bg-slate-900 py-6' : ''}`}
         aria-label="Global">
           
           <div class="flex lg:flex-1 order-first sm:order-2">

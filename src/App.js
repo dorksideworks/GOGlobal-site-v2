@@ -21,10 +21,9 @@ import TagManager from 'react-gtm-module';
 function App() {
 
  
-  const [theme, setTheme] = useState('light');
+  const [theme, setTheme] = useState('dark');
 
   const handleTheme = (t) => {
-    console.log("new theme value " + t) 
     setTheme(t);
   }
 
@@ -51,9 +50,8 @@ function App() {
   const currLocale = i18n.language;
   const loc = useLocation();
   useEffect(()=>{
-    console.log("current language is : " + currLocale)
+    // console.log("current language is : " + currLocale)
     TagManager.initialize({ gtmId: 'GTM-MCB7VQQF' });
-    console.log("themez is: " + theme); 
     
   },[theme])
 

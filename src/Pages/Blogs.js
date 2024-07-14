@@ -42,7 +42,6 @@ function Blogs({sendTheme}) {
     const fetchArticle = async () => {
         const results = await axios({
           method : 'get',
-          // url: `https://cms.goglobal.network/api/articles/${articleID}?populate=blocks&populate=cover`,
           url: `https://cms.goglobal.network/api/articles?filters[slug][$eq]=${articleID}&populate=blocks&populate=cover`,
           withCredentials: false
         }).then((res) => {
@@ -104,11 +103,11 @@ function Blogs({sendTheme}) {
                 <div class="blog-body text-left mt-20">
 
 
-                </div>      
                 <Markdown options={{ forceBlock: true }} class="text-left blog-md">
                 {selectedArticle.attributes.blocks.body}
                 </Markdown>
 
+                </div>      
               </div>
               
           :""}

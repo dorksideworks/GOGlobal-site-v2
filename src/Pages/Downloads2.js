@@ -34,33 +34,11 @@ function Downloads2({sendTheme}) {
 
     useEffect(() => {
         sendTheme('dark');
-
-        // let config = {
-        //     headers : {
-        //         'Authorization': 'Bearer ' + token
-        //     }
-        // }
-
-
-
-        // console.log(config);
         let param = {}
 
        
 
         const fetchData = async () => {
-            // const result = await axios.get('cms.goglobal.network/api/presentations?populate[0]=files&populate[1]=files.file')
-            //     .then((res)=>{
-            //         // console.log(res);
-        
-            //         let data = res.data.data;
-            //         setPresData(data);
-            //         console.log(data)
-                    
-            //     })
-            //     .catch((err) => {
-            //         console.log(err);
-            //     })
             const result = await axios({
                 method: 'get',
                 url: 'https://cms.goglobal.network/api/presentations?populate[0]=files&populate[1]=files.file&populate=cover',
@@ -89,7 +67,6 @@ function Downloads2({sendTheme}) {
 
                 <h1 class="text-6xl font-bold py-5  "> Downlosads Center <br/> 
                 
-                    {/* <span class="text-cyan-500 text-3xl"> Downloads center is being updated</span>   */}
                 </h1>
                 <p class="mb-20"> Download all the resources you need to start your journey with GO Global here. From various presentations, such as the opportunity presentation or the product presentation that you can download in different language to official GO tutorials that’ll walk you through every step you need to start the business.</p>
              
