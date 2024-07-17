@@ -95,8 +95,7 @@ function Header(props) {
                 </div>
             </button>
 
-            <a href="https://dashboard.gogl
-            , obal.network/users/login" target="_blank" class="hidden bg-cyan-500 py-3 px-10 rounded-full md:relative lg:relative lg:block md:block text-sm font-semibold leading-6 text-white">Log in <span aria-hidden="true">&rarr;</span></a>
+            <a href="https://dashboard.goglobal.network/users/login" target="_blank" class="hidden bg-cyan-500 py-3 px-10 rounded-full md:relative lg:relative lg:block md:block text-sm font-semibold leading-6 text-white">Log in <span aria-hidden="true">&rarr;</span></a>
             <div onClick={toggleLanguage} class="hidden md:flex lg:flex text-white cursor-pointer flex flex-col justify-center align-center items-center px-10 rounded-xl ml-5 hover:bg-slate-800 duration-500 font-bold text-sm">
               <div > {i18n.language.toUpperCase()}</div>
               
