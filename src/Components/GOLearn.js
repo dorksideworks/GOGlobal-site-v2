@@ -21,7 +21,7 @@ function GOLearn() {
                         <Timeline
                         target={
                            <div class="relative">
-                                <h1 class="text-slate-900 dark:text-white text-3xl md:text-5xl lg:text-6xl font-bold"> 
+                                <h2 class="text-slate-900 dark:text-white text-3xl md:text-5xl lg:text-6xl font-bold"> 
                                 {/* <span class="text-cyan-500">Unlock your success </span> 
                                 and <br /> learn from industry experts. */}
                                 {t("golearn.title", {returnObjects:true}).map(function(o,i) {
@@ -41,7 +41,7 @@ function GOLearn() {
                                         return <span> {o} </span> 
                                     }
                                 })}
-                                </h1>
+                                </h2>
                                 <p class="text-slate-900 dark:text-gray-300 pt-5 px-5"> {t("golearn.description")}</p>
                            </div>
                     
@@ -150,7 +150,7 @@ function GOLearn() {
 
         <div class="wrapper cta-white bg-white w-3/4 mx-auto mt-16 mb-20 rounded-3xl overflow-hidden flex flex-row justify-center align-center relative overflow-hidden">
             <div class="basis-full md:basis-1/2 lg:basis-1/2 py-3 px-10 text-left flex flex-col justify-center align-center justify-self-start">
-                <h1 class=" text-2xl md:text-4xl lg:text-4xl font-bold"> {t("golearn.cta.title")}</h1>
+                <h2 class=" text-2xl md:text-4xl lg:text-4xl font-bold"> {t("golearn.cta.title")}</h2>
                 <p class="text-sm text-gray-500 mt-2">{t("golearn.cta.description")}</p>
                 <button class="rounded-full bg-cyan-500 py-2 px-5 text-white text-sm font-bold mt-5 cta-btn"> {t("golearn.cta.button")}</button>
             </div>

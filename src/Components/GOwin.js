@@ -56,7 +56,7 @@ function GOwin() {
                         <img src="/ASSETS/logos/color/gowin-logo.png"/>
                     </div>
                     
-                    <h2 class="mt-8 text-5xl text-white font-bold text-left">
+                    <h2 class="mt-8 text-3xl text-white font-bold text-left">
                         {t("gowin.title", {returnObjects:true}).map(function(o,i) {
 
                             if(o.startsWith("/s/br")) {

@@ -109,7 +109,7 @@ function Hero() {
                     </div>
                   </div>
 
-                  <h1 class="scroll-text absolute left-0 right-0 text-white font-bold text-sm"> SCROLL DOWN </h1>
+                  <h2 class="scroll-text absolute left-0 right-0 text-white font-bold text-sm"> SCROLL DOWN </h2>
                 </div>
               }>
                 <Tween from={{ opacity: "1" }} to={{ opacity: "0"}} />
@@ -130,23 +130,23 @@ function Hero() {
 
       {t("Hero.stats", {returnObjects:true}).map(function(o,i) {
             return (<div class="px-5 basis-1/3 justify-center align-center items-center flex flex-col duration-500">
-              <h1 class="text-5xl text-cyan-500">{o.data}{o.suffix}</h1>
+              <h2 class="text-5xl text-cyan-500">{o.data}{o.suffix}</h2>
               <span class="dark:text-white text-gray-700">{o.description}</span>
             </div>)
           })}
         {/* <div class="px-5 basis-1/3 justify-center align-center items-center flex flex-col duration-500 hover:bg-slate-950">
-          <h1 class="text-5xl  text-cyan-500">200k+</h1>
+          <h2 class="text-5xl  text-cyan-500">200k+</h2>
           <span>{t("Hero.stats")}</span>
         </div>
         <div class="breaker hidden md:relative lg:relative "></div>
         <div class="px-5 basis-1/3 justify-center align-center items-center flex flex-col  duration-500 hover:bg-gray-950">
-          <h1 class="text-5xl  text-cyan-500">1,000+</h1>
+          <h2 class="text-5xl  text-cyan-500">1,000+</h2>
           <span>Educational and Entertainment Content</span>
         </div>
 
         <div class="breaker hidden md:relative lg:relative "></div>
         <div class="px-5 basis-1/3 justify-center align-center items-center flex flex-col  duration-500 hover:bg-gray-950" >
-          <h1 class="text-5xl text-cyan-500">140+</h1>
+          <h2 class="text-5xl text-cyan-500">140+</h2>
           <span>Countries Reached</span>
         </div> */}
       </div>

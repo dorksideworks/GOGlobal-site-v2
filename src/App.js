@@ -60,12 +60,7 @@ function App() {
   return (
     <div>
       <div className="App">
-        <Helmet>
-          <title> Empowering Global Community Through Digital Solution - GO Global</title>
-          <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-          <meta name="google-site-verification" content="GOlRpyHKjDGUffTz-xmFsXeUrjXzIi_y7AYUKQFOhYA" />
-          
-        </Helmet>
+        
         <script
             type="application/ld+json"
             dangerouslySetInnerHTML={{

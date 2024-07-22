@@ -19,6 +19,7 @@ import Compensation from '../Components/Compensation';
 import {useLocation, useMatch} from 'react-router-dom';
 
 
+import {Helmet} from 'react-helmet';
 
 import { useTranslation } from 'react-i18next';
 function Home() {
@@ -42,6 +43,14 @@ function Home() {
 
   return (
     <div class="bg-slate-50 dark:bg-slate-900 duration-500">
+        <Helmet>
+          <title> Empowering Global Community Through Digital Solution - GO Global</title>
+          <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+          <meta name="google-site-verification" content="GOlRpyHKjDGUffTz-xmFsXeUrjXzIi_y7AYUKQFOhYA" />
+          <link rel="canonical" href="http://www.goglobal.network" />
+
+        </Helmet>
+
         <Hero/>
         <SayHello />
         <GOLEARN/>

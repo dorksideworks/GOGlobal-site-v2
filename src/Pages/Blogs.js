@@ -4,6 +4,7 @@ import React, {useEffect, useState} from 'react'
 import Markdown from 'markdown-to-jsx'
 
 import axios from 'axios';
+import {Helmet} from 'react-helmet';
 
 function Blogs({sendTheme}) {
 
@@ -65,6 +66,13 @@ function Blogs({sendTheme}) {
 
   return (
       <div class="w-full dark:bg-slate-900">
+        <Helmet>
+          <title> Empowering Global Community Through Digital Solution - GO Global</title>
+          <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+          <meta name="google-site-verification" content="GOlRpyHKjDGUffTz-xmFsXeUrjXzIi_y7AYUKQFOhYA" />
+          <link rel="canonical" href="http://www.goglobal.network/blogs" />
+
+        </Helmet>
           <div class="w-100 lg:w-2/3 xl:w-2/3 2xl:w-1/2 relative bg-slate-100 mx-auto dark:bg-slate-900">
           {
             selectedArticle ?

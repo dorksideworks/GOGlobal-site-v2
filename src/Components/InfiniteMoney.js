@@ -66,7 +66,7 @@ function InfiniteMoney() {
               <img alt="INFIN8 MONEY Crypto Card" src="/ASSETS/logos/color/infin8.png"/>
           </div>
 
-        <h1 class="text-slate-900 z-30 dark:text-white text-4xl md:text-5xl lg:text-6xl font-bold isolate"> 
+        <h2 class="text-slate-900 z-30 dark:text-white text-4xl md:text-5xl lg:text-6xl font-bold isolate"> 
           {/* Ultimate flexibility, <span class="text-cyan-500"> <break /> infinite possibilities. </span>  */}
           {/* {t("infin8.title")} */}
           {t("infin8.title", {returnObjects:true}).map(function(o,i) {
@@ -77,7 +77,7 @@ function InfiniteMoney() {
               return <span><br/> {o} </span> 
             }
           })}
-        </h1>
+        </h2>
         
         <p class="text-slate-900 dark:text-gray-300 pt-5 px-5"> {t("infin8.description")}</p>
 
